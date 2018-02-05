@@ -2993,12 +2993,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/itk-os2display/admin-bundle.git",
-                "reference": "16b955716292cf8d3f30d775777b18b85727d18c"
+                "reference": "d60fb95be52cdefda95548b6b7939c3a61e1c576"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/itk-os2display/admin-bundle/zipball/16b955716292cf8d3f30d775777b18b85727d18c",
-                "reference": "16b955716292cf8d3f30d775777b18b85727d18c",
+                "url": "https://api.github.com/repos/itk-os2display/admin-bundle/zipball/d60fb95be52cdefda95548b6b7939c3a61e1c576",
+                "reference": "d60fb95be52cdefda95548b6b7939c3a61e1c576",
                 "shasum": ""
             },
             "require": {
@@ -3015,7 +3015,7 @@
             "support": {
                 "source": "https://github.com/itk-os2display/admin-bundle/tree/feature/campaign"
             },
-            "time": "2018-02-01T14:22:45+00:00"
+            "time": "2018-02-05T11:15:51+00:00"
         },
         {
             "name": "os2display/core-bundle",
@@ -3086,12 +3086,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/itk-os2display/default-template-bundle.git",
-                "reference": "43b3a1899cc00a0a03e2b9414152ee3605dfd798"
+                "reference": "ca0bff2dba327af40c03ae56fd6523bf087173b4"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/itk-os2display/default-template-bundle/zipball/43b3a1899cc00a0a03e2b9414152ee3605dfd798",
-                "reference": "43b3a1899cc00a0a03e2b9414152ee3605dfd798",
+                "url": "https://api.github.com/repos/itk-os2display/default-template-bundle/zipball/ca0bff2dba327af40c03ae56fd6523bf087173b4",
+                "reference": "ca0bff2dba327af40c03ae56fd6523bf087173b4",
                 "shasum": ""
             },
             "require": {
@@ -3107,7 +3107,7 @@
             "support": {
                 "source": "https://github.com/itk-os2display/default-template-bundle/tree/feature/campaign"
             },
-            "time": "2018-01-30T09:41:04+00:00"
+            "time": "2018-02-05T11:17:07+00:00"
         },
         {
             "name": "os2display/media-bundle",
