@@ -2993,12 +2993,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/itk-os2display/admin-bundle.git",
-                "reference": "f2963d3bab81117fc9a61064a9428c052d50297a"
+                "reference": "ae2741cf0feaa5dd5ebf57ad4512ab418d7e3be8"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/itk-os2display/admin-bundle/zipball/f2963d3bab81117fc9a61064a9428c052d50297a",
-                "reference": "f2963d3bab81117fc9a61064a9428c052d50297a",
+                "url": "https://api.github.com/repos/itk-os2display/admin-bundle/zipball/ae2741cf0feaa5dd5ebf57ad4512ab418d7e3be8",
+                "reference": "ae2741cf0feaa5dd5ebf57ad4512ab418d7e3be8",
                 "shasum": ""
             },
             "require": {
@@ -3015,7 +3015,7 @@
             "support": {
                 "source": "https://github.com/itk-os2display/admin-bundle/tree/feature/campaign"
             },
-            "time": "2018-02-05T11:48:47+00:00"
+            "time": "2018-02-05T11:58:41+00:00"
         },
         {
             "name": "os2display/core-bundle",
