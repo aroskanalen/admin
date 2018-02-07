@@ -12,12 +12,12 @@
             "source": {
                 "type": "git",
                 "url": "git@github.com:aakb/os2display-aarhus-templates.git",
-                "reference": "b2dcc220f85e3d386102c326edff47ed9dc031f6"
+                "reference": "9bc219e8bf13b1845fab9a2fed24e5b5a2403ac2"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/aakb/os2display-aarhus-templates/zipball/b2dcc220f85e3d386102c326edff47ed9dc031f6",
-                "reference": "b2dcc220f85e3d386102c326edff47ed9dc031f6",
+                "url": "https://api.github.com/repos/aakb/os2display-aarhus-templates/zipball/9bc219e8bf13b1845fab9a2fed24e5b5a2403ac2",
+                "reference": "9bc219e8bf13b1845fab9a2fed24e5b5a2403ac2",
                 "shasum": ""
             },
             "require": {
@@ -34,7 +34,7 @@
             "support": {
                 "source": "https://github.com/aakb/os2display-aarhus-templates/tree/feature/campaign"
             },
-            "time": "2018-01-30T08:58:47+00:00"
+            "time": "2018-02-07T08:58:19+00:00"
         },
         {
             "name": "behat/transliterator",
