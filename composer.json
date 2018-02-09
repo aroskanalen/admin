@@ -20,7 +20,8 @@
     "itk-os2display/lokalcenter-template-bundle": "^1.0",
     "itk-os2display/template-extension-bundle": "^1.1",
     "itk-os2display/aarhus-second-template-bundle": "^1.0",
-    "itk-os2display/aarhus-data-bundle": "^1.0"
+    "itk-os2display/aarhus-data-bundle": "^1.0",
+    "itk-os2display/vimeo-bundle": "^1.0"
   },
   "require-dev": {
     "sensio/generator-bundle": "^2.3",
@@ -70,6 +71,10 @@
     "itk-os2display/aarhus-data-bundle": {
       "type": "vcs",
       "url": "https://github.com/itk-os2display/aarhus-data-bundle"
+    },
+    "itk-os2display/vimeo-bundle": {
+      "type": "vcs",
+      "url": "https://github.com/itk-os2display/vimeo-bundle"
     }
   },
   "scripts": {
