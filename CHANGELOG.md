@@ -1,5 +1,9 @@
 # Aroskanalen CHANGELOG
 
+## 5.0.12
+
+* Enabled vimeo bundle.
+
 ## 5.0.11
 
 * aakb/os2display-aarhus-templates: 1.0.12 -> 1.0.18
