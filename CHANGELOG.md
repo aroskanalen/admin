@@ -1,5 +1,10 @@
 # Aroskanalen CHANGELOG
 
+## 5.0.13
+
+* itk-os2display/aarhus-second-template-bundle 1.1.0 -> 1.1.1
+  - Fixed sensor templates.
+
 ## 5.0.12
 
 * Enabled vimeo bundle.
