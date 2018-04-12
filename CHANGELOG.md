@@ -1,5 +1,18 @@
 # Aroskanalen CHANGELOG
 
+## 5.1.0
+
+* Added campaign feature (itk-os2display/campaign-bundle 1.0.0).
+* itk-os2display/core-bundle 1.0.14 -> 1.1.0:
+  - Fixed behat features
+  - Added viewable_groups to apiData.
+* itk-os2display/admin-bundle 1.0.14 -> 1.1.0:
+  - Added itk-header to allow injections into pages for decoupled bundles.
+  - Made datepicker configurable.
+  - Moved BaseApiController to mainModule.
+  - Removed unused call to get all channels in slide create.
+  - Moved shared components from ikApp to the module ikShared, so it can be injected in other apps.
+
 ## 5.0.13
 
 * itk-os2display/aarhus-second-template-bundle 1.1.0 -> 1.1.1
