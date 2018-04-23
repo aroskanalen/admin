@@ -1699,16 +1699,16 @@
         },
         {
             "name": "itk-os2display/aarhus-second-template-bundle",
-            "version": "1.1.1",
+            "version": "1.1.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/itk-os2display/aarhus-second-template-bundle.git",
-                "reference": "ace345908ca7da1b127ab2901b2243161c3326f1"
+                "reference": "c30e7450fa4705ab4109afc5bb6174c1ba77ce22"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/itk-os2display/aarhus-second-template-bundle/zipball/ace345908ca7da1b127ab2901b2243161c3326f1",
-                "reference": "ace345908ca7da1b127ab2901b2243161c3326f1",
+                "url": "https://api.github.com/repos/itk-os2display/aarhus-second-template-bundle/zipball/c30e7450fa4705ab4109afc5bb6174c1ba77ce22",
+                "reference": "c30e7450fa4705ab4109afc5bb6174c1ba77ce22",
                 "shasum": ""
             },
             "require": {
@@ -1724,10 +1724,10 @@
             },
             "description": "Os2Display Aarhus templates",
             "support": {
-                "source": "https://github.com/itk-os2display/aarhus-second-template-bundle/tree/1.1.1",
+                "source": "https://github.com/itk-os2display/aarhus-second-template-bundle/tree/1.1.2",
                 "issues": "https://github.com/itk-os2display/aarhus-second-template-bundle/issues"
             },
-            "time": "2018-04-10T08:56:39+00:00"
+            "time": "2018-04-23T13:33:43+00:00"
         },
         {
             "name": "itk-os2display/campaign-bundle",
