@@ -1,5 +1,10 @@
 # Aroskanalen CHANGELOG
 
+## 5.1.1
+
+* itk-os2display/aarhus-second-template-bundle 1.1.1 -> 1.1.2
+  - Style changes.
+
 ## 5.1.0
 
 * Added campaign feature (itk-os2display/campaign-bundle 1.0.0).
