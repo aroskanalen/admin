@@ -2,6 +2,7 @@
 
 ## 5.1.3
 
+* symfony/symfony -> 2.8.39
 * itk-os2display/vimeo-bundle -> 1.0.3
 * itk-os2display/template-extension-bundle -> 1.1.14
 * itk-os2display/os2display-koba-integration -> 1.0.6
