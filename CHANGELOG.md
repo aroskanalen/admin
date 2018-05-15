@@ -30,6 +30,8 @@
   - Removed os2display requirements.
 * itk-os2display/aarhus-data-bundle -> 1.2.2
   - Removed os2display requirements.
+* aakb/os2display-aarhus-templates -> 1.0.19
+  - Changed 3 text fields in book template to one rich text area.
 
 ## 5.1.2
 
