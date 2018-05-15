@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "2045e58326138e412bcc97edfebdca54",
+    "content-hash": "398e7b9a9235db20686b527747db71f4",
     "packages": [
         {
             "name": "aakb/os2display-aarhus-templates",
@@ -3024,16 +3024,16 @@
         },
         {
             "name": "os2display/core-bundle",
-            "version": "1.1.0",
+            "version": "dev-release/1.1.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/itk-os2display/core-bundle.git",
-                "reference": "c1992d9c1208791eabafb035ae81fea04453c811"
+                "reference": "eb3f71f53f3b76d111a1bc26044f9b7d5397b0c4"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/itk-os2display/core-bundle/zipball/c1992d9c1208791eabafb035ae81fea04453c811",
-                "reference": "c1992d9c1208791eabafb035ae81fea04453c811",
+                "url": "https://api.github.com/repos/itk-os2display/core-bundle/zipball/eb3f71f53f3b76d111a1bc26044f9b7d5397b0c4",
+                "reference": "eb3f71f53f3b76d111a1bc26044f9b7d5397b0c4",
                 "shasum": ""
             },
             "require": {
@@ -3081,9 +3081,9 @@
             },
             "description": "Os2Display core",
             "support": {
-                "source": "https://github.com/itk-os2display/core-bundle/tree/1.1.0"
+                "source": "https://github.com/itk-os2display/core-bundle/tree/release/1.1.1"
             },
-            "time": "2018-04-12T09:16:05+00:00"
+            "time": "2018-05-15T12:43:25+00:00"
         },
         {
             "name": "os2display/default-template-bundle",
@@ -6461,6 +6461,7 @@
     "aliases": [],
     "minimum-stability": "stable",
     "stability-flags": {
+        "os2display/core-bundle": 20,
         "os2display/admin-bundle": 20,
         "os2display/default-template-bundle": 20,
         "aakb/os2display-aarhus-templates": 20,

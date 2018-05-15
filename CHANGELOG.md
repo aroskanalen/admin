@@ -30,6 +30,8 @@
   - Removed os2display requirements.
 * itk-os2display/aarhus-data-bundle -> 1.2.2
   - Removed os2display requirements.
+* itk-os2display/core-bundle -> 1.1.1
+  - Fixed issue where shared channel was not serialized correctly, resulting in a blocked screen-timeline overview.
 * aakb/os2display-aarhus-templates -> 1.0.19
   - Changed 3 text fields in book template to one rich text area.
 
