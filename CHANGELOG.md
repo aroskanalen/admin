@@ -1,6 +1,18 @@
 # Aroskanalen CHANGELOG
 
-## 5.1.1
+## 5.1.3
+
+* itk-os2display/vimeo-bundle -> 1.0.3
+* itk-os2display/template-extension-bundle -> 1.1.14
+* itk-os2display/os2display-koba-integration -> 1.0.6
+* itk-os2display/lokalcenter-template-bundle -> 1.0.6
+* itk-os2display/default-template-bundle -> 1.0.10
+* itk-os2display/campaign-bundle -> 1.0.1
+* itk-os2display/admin-bundle -> 1.1.1
+* itk-os2display/aarhus-second-template-bundle -> 1.1.5
+* itk-os2display/aarhus-data-bundle -> 1.2.2
+
+## 5.1.2
 
 * itk-os2display/aarhus-second-template-bundle 1.1.1 -> 1.1.2
   - Style changes.
