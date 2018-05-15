@@ -1666,12 +1666,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/itk-os2display/aarhus-data-bundle.git",
-                "reference": "72bac0a6e457fcca63e2507b9f9f379b2271af37"
+                "reference": "653e875fc7cc31a0274945eb3ab3ffa3a76a520c"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/itk-os2display/aarhus-data-bundle/zipball/72bac0a6e457fcca63e2507b9f9f379b2271af37",
-                "reference": "72bac0a6e457fcca63e2507b9f9f379b2271af37",
+                "url": "https://api.github.com/repos/itk-os2display/aarhus-data-bundle/zipball/653e875fc7cc31a0274945eb3ab3ffa3a76a520c",
+                "reference": "653e875fc7cc31a0274945eb3ab3ffa3a76a520c",
                 "shasum": ""
             },
             "require": {
@@ -1689,7 +1689,7 @@
                 "source": "https://github.com/itk-os2display/aarhus-data-bundle/tree/release/1.2.2",
                 "issues": "https://github.com/itk-os2display/aarhus-data-bundle/issues"
             },
-            "time": "2018-05-15T06:51:30+00:00"
+            "time": "2018-05-15T09:41:07+00:00"
         },
         {
             "name": "itk-os2display/aarhus-second-template-bundle",
