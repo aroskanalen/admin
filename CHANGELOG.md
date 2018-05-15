@@ -4,14 +4,32 @@
 
 * symfony/symfony -> 2.8.39
 * itk-os2display/vimeo-bundle -> 1.0.3
+  - Changed js code to avoid reinitializing vimeo player.
+  - Removed os2display requirements.
 * itk-os2display/template-extension-bundle -> 1.1.14
+  - Made selected tools configurable.
+  - Removed os2display requirements.
 * itk-os2display/os2display-koba-integration -> 1.0.6
+  - Removed os2display requirements.
 * itk-os2display/lokalcenter-template-bundle -> 1.0.6
+  - Removed os2display requirements.
 * itk-os2display/default-template-bundle -> 1.0.10
+  - Removed os2display requirements.
 * itk-os2display/campaign-bundle -> 1.0.1
+  - Made save button sticky.
+  - Fixed error messages.
+  - Added call to middleware to get which channels are in the middleware to make sure it matches the backend.
+  - Added watch parameter to datetime pickers.
+  - Changed blameable user field from string to reference.
+  - Removed os2display requirements.
 * itk-os2display/admin-bundle -> 1.1.1
+  - Made media upload buttons sticky.
+  - Fixed datetime pickers.
+  - Removed os2display requirements.
 * itk-os2display/aarhus-second-template-bundle -> 1.1.5
+  - Removed os2display requirements.
 * itk-os2display/aarhus-data-bundle -> 1.2.2
+  - Removed os2display requirements.
 
 ## 5.1.2
 
