@@ -13,6 +13,7 @@
     "incenteev/composer-parameter-handler": "^2.0",
     "sonata-project/admin-bundle": "^2.0",
     "sonata-project/doctrine-orm-admin-bundle": "^2.0",
+    "os2display/core-bundle": "^1.0",
     "os2display/admin-bundle": "dev-release/1.1.1",
     "os2display/default-template-bundle": "dev-release/1.0.10",
     "aakb/os2display-aarhus-templates": "dev-release/1.0.19",
