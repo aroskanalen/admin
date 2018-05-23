@@ -12,12 +12,12 @@
             "source": {
                 "type": "git",
                 "url": "git@github.com:aakb/os2display-aarhus-templates.git",
-                "reference": "2d8e371bd507d180b88cc205641c37bfaa9cc5a8"
+                "reference": "c6084427f6f79e8e47b9ef1e999e420e837b91ab"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/aakb/os2display-aarhus-templates/zipball/2d8e371bd507d180b88cc205641c37bfaa9cc5a8",
-                "reference": "2d8e371bd507d180b88cc205641c37bfaa9cc5a8",
+                "url": "https://api.github.com/repos/aakb/os2display-aarhus-templates/zipball/c6084427f6f79e8e47b9ef1e999e420e837b91ab",
+                "reference": "c6084427f6f79e8e47b9ef1e999e420e837b91ab",
                 "shasum": ""
             },
             "type": "symfony-bundle",
@@ -30,7 +30,7 @@
             "support": {
                 "source": "https://github.com/aakb/os2display-aarhus-templates/tree/release/1.0.19"
             },
-            "time": "2018-05-15T06:38:16+00:00"
+            "time": "2018-05-23T08:10:20+00:00"
         },
         {
             "name": "behat/transliterator",
@@ -1724,12 +1724,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/itk-os2display/campaign-bundle.git",
-                "reference": "69ce4ceae6972d8ddcea0028cf18ee0ef9a2f4c4"
+                "reference": "f90b35fa97af152cf07d049f20dd990f7b3a8bba"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/itk-os2display/campaign-bundle/zipball/69ce4ceae6972d8ddcea0028cf18ee0ef9a2f4c4",
-                "reference": "69ce4ceae6972d8ddcea0028cf18ee0ef9a2f4c4",
+                "url": "https://api.github.com/repos/itk-os2display/campaign-bundle/zipball/f90b35fa97af152cf07d049f20dd990f7b3a8bba",
+                "reference": "f90b35fa97af152cf07d049f20dd990f7b3a8bba",
                 "shasum": ""
             },
             "require": {
@@ -1754,7 +1754,7 @@
                 "source": "https://github.com/itk-os2display/campaign-bundle/tree/release/1.0.1",
                 "issues": "https://github.com/itk-os2display/campaign-bundle/issues"
             },
-            "time": "2018-05-15T07:05:33+00:00"
+            "time": "2018-05-23T08:18:05+00:00"
         },
         {
             "name": "itk-os2display/lokalcenter-template-bundle",
@@ -4613,6 +4613,7 @@
                 "compression",
                 "minification"
             ],
+            "abandoned": "symfony/webpack-encore-pack",
             "time": "2017-07-14T07:26:46+00:00"
         },
         {
