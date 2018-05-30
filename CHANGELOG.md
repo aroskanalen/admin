@@ -2,7 +2,7 @@
 
 ## 5.1.3
 
-* symfony/symfony -> 2.8.39
+* symfony/symfony -> 2.8.41
 * itk-os2display/vimeo-bundle -> 1.0.3
   - Changed js code to avoid reinitializing vimeo player.
   - Removed os2display requirements.
