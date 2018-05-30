@@ -4,20 +4,20 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "398e7b9a9235db20686b527747db71f4",
+    "content-hash": "09ce9bfaacf98e3b00d63e5063e1aa65",
     "packages": [
         {
             "name": "aakb/os2display-aarhus-templates",
-            "version": "dev-release/1.0.19",
+            "version": "1.0.19",
             "source": {
                 "type": "git",
                 "url": "git@github.com:aakb/os2display-aarhus-templates.git",
-                "reference": "c6084427f6f79e8e47b9ef1e999e420e837b91ab"
+                "reference": "f90e9330095a68007e5a50235828712ac46f0af7"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/aakb/os2display-aarhus-templates/zipball/c6084427f6f79e8e47b9ef1e999e420e837b91ab",
-                "reference": "c6084427f6f79e8e47b9ef1e999e420e837b91ab",
+                "url": "https://api.github.com/repos/aakb/os2display-aarhus-templates/zipball/f90e9330095a68007e5a50235828712ac46f0af7",
+                "reference": "f90e9330095a68007e5a50235828712ac46f0af7",
                 "shasum": ""
             },
             "type": "symfony-bundle",
@@ -28,9 +28,9 @@
             },
             "description": "Os2Display aarhus templates",
             "support": {
-                "source": "https://github.com/aakb/os2display-aarhus-templates/tree/release/1.0.19"
+                "source": "https://github.com/aakb/os2display-aarhus-templates/tree/1.0.19"
             },
-            "time": "2018-05-23T08:10:20+00:00"
+            "time": "2018-05-30T06:28:35+00:00"
         },
         {
             "name": "behat/transliterator",
@@ -1662,16 +1662,16 @@
         },
         {
             "name": "itk-os2display/aarhus-data-bundle",
-            "version": "dev-release/1.2.2",
+            "version": "1.2.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/itk-os2display/aarhus-data-bundle.git",
-                "reference": "653e875fc7cc31a0274945eb3ab3ffa3a76a520c"
+                "reference": "1f6a584571b0dd055336dbb1ff7fab21ee01ca1b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/itk-os2display/aarhus-data-bundle/zipball/653e875fc7cc31a0274945eb3ab3ffa3a76a520c",
-                "reference": "653e875fc7cc31a0274945eb3ab3ffa3a76a520c",
+                "url": "https://api.github.com/repos/itk-os2display/aarhus-data-bundle/zipball/1f6a584571b0dd055336dbb1ff7fab21ee01ca1b",
+                "reference": "1f6a584571b0dd055336dbb1ff7fab21ee01ca1b",
                 "shasum": ""
             },
             "require": {
@@ -1686,23 +1686,23 @@
             },
             "description": "Os2Display aarhus data",
             "support": {
-                "source": "https://github.com/itk-os2display/aarhus-data-bundle/tree/release/1.2.2",
+                "source": "https://github.com/itk-os2display/aarhus-data-bundle/tree/1.2.2",
                 "issues": "https://github.com/itk-os2display/aarhus-data-bundle/issues"
             },
-            "time": "2018-05-15T09:41:07+00:00"
+            "time": "2018-05-30T06:34:40+00:00"
         },
         {
             "name": "itk-os2display/aarhus-second-template-bundle",
-            "version": "dev-release/1.1.5",
+            "version": "1.1.5",
             "source": {
                 "type": "git",
                 "url": "https://github.com/itk-os2display/aarhus-second-template-bundle.git",
-                "reference": "20a492d116d9d1310a37cff125ac63af5b389418"
+                "reference": "41fa6f661f8c51cbfcdb6fda733bd6cacd9b5f98"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/itk-os2display/aarhus-second-template-bundle/zipball/20a492d116d9d1310a37cff125ac63af5b389418",
-                "reference": "20a492d116d9d1310a37cff125ac63af5b389418",
+                "url": "https://api.github.com/repos/itk-os2display/aarhus-second-template-bundle/zipball/41fa6f661f8c51cbfcdb6fda733bd6cacd9b5f98",
+                "reference": "41fa6f661f8c51cbfcdb6fda733bd6cacd9b5f98",
                 "shasum": ""
             },
             "type": "symfony-bundle",
@@ -1713,23 +1713,23 @@
             },
             "description": "Os2Display Aarhus templates",
             "support": {
-                "source": "https://github.com/itk-os2display/aarhus-second-template-bundle/tree/release/1.1.5",
+                "source": "https://github.com/itk-os2display/aarhus-second-template-bundle/tree/1.1.5",
                 "issues": "https://github.com/itk-os2display/aarhus-second-template-bundle/issues"
             },
-            "time": "2018-05-15T06:52:37+00:00"
+            "time": "2018-05-30T06:33:36+00:00"
         },
         {
             "name": "itk-os2display/campaign-bundle",
-            "version": "dev-release/1.0.1",
+            "version": "1.0.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/itk-os2display/campaign-bundle.git",
-                "reference": "f90b35fa97af152cf07d049f20dd990f7b3a8bba"
+                "reference": "be3804a45cb7a749a36dc881bef0504db741e7b5"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/itk-os2display/campaign-bundle/zipball/f90b35fa97af152cf07d049f20dd990f7b3a8bba",
-                "reference": "f90b35fa97af152cf07d049f20dd990f7b3a8bba",
+                "url": "https://api.github.com/repos/itk-os2display/campaign-bundle/zipball/be3804a45cb7a749a36dc881bef0504db741e7b5",
+                "reference": "be3804a45cb7a749a36dc881bef0504db741e7b5",
                 "shasum": ""
             },
             "require": {
@@ -1751,23 +1751,23 @@
             },
             "description": "Os2Display campaigns",
             "support": {
-                "source": "https://github.com/itk-os2display/campaign-bundle/tree/release/1.0.1",
+                "source": "https://github.com/itk-os2display/campaign-bundle/tree/1.0.1",
                 "issues": "https://github.com/itk-os2display/campaign-bundle/issues"
             },
-            "time": "2018-05-23T08:18:05+00:00"
+            "time": "2018-05-30T06:37:02+00:00"
         },
         {
             "name": "itk-os2display/lokalcenter-template-bundle",
-            "version": "dev-release/1.0.6",
+            "version": "1.0.6",
             "source": {
                 "type": "git",
                 "url": "https://github.com/itk-os2display/lokalcenter-template-bundle.git",
-                "reference": "3aad917f7baf520462ae8be4868804d0cc26540c"
+                "reference": "ed9ddb5f2c3f7bfaae419442da0a95876624ca2e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/itk-os2display/lokalcenter-template-bundle/zipball/3aad917f7baf520462ae8be4868804d0cc26540c",
-                "reference": "3aad917f7baf520462ae8be4868804d0cc26540c",
+                "url": "https://api.github.com/repos/itk-os2display/lokalcenter-template-bundle/zipball/ed9ddb5f2c3f7bfaae419442da0a95876624ca2e",
+                "reference": "ed9ddb5f2c3f7bfaae419442da0a95876624ca2e",
                 "shasum": ""
             },
             "type": "symfony-bundle",
@@ -1778,22 +1778,22 @@
             },
             "description": "Os2Display Lokalcenter templates",
             "support": {
-                "source": "https://github.com/itk-os2display/lokalcenter-template-bundle/tree/release/1.0.6"
+                "source": "https://github.com/itk-os2display/lokalcenter-template-bundle/tree/1.0.6"
             },
-            "time": "2018-05-15T07:12:25+00:00"
+            "time": "2018-05-30T06:30:51+00:00"
         },
         {
             "name": "itk-os2display/os2display-koba-integration",
-            "version": "dev-release/1.0.6",
+            "version": "1.0.6",
             "source": {
                 "type": "git",
                 "url": "https://github.com/itk-os2display/os2display-koba-integration.git",
-                "reference": "73be71872b21b8aa17c43ca6dc7189f9aa4b4628"
+                "reference": "5f55cde1d023d6ac19081be9406a5d17fe132a38"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/itk-os2display/os2display-koba-integration/zipball/73be71872b21b8aa17c43ca6dc7189f9aa4b4628",
-                "reference": "73be71872b21b8aa17c43ca6dc7189f9aa4b4628",
+                "url": "https://api.github.com/repos/itk-os2display/os2display-koba-integration/zipball/5f55cde1d023d6ac19081be9406a5d17fe132a38",
+                "reference": "5f55cde1d023d6ac19081be9406a5d17fe132a38",
                 "shasum": ""
             },
             "type": "symfony-bundle",
@@ -1804,23 +1804,23 @@
             },
             "description": "Os2Display koba integration",
             "support": {
-                "source": "https://github.com/itk-os2display/os2display-koba-integration/tree/release/1.0.6",
+                "source": "https://github.com/itk-os2display/os2display-koba-integration/tree/1.0.6",
                 "issues": "https://github.com/itk-os2display/os2display-koba-integration/issues"
             },
-            "time": "2018-05-15T07:15:39+00:00"
+            "time": "2018-05-30T06:29:48+00:00"
         },
         {
             "name": "itk-os2display/template-extension-bundle",
-            "version": "dev-release/1.1.14",
+            "version": "1.1.14",
             "source": {
                 "type": "git",
                 "url": "https://github.com/itk-os2display/template-extension-bundle.git",
-                "reference": "81e31a5381e02578d1bc9515d5311b3debf4dc2c"
+                "reference": "e53032a41a9a4e931c4a57e8676f8aa50cbdfe71"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/itk-os2display/template-extension-bundle/zipball/81e31a5381e02578d1bc9515d5311b3debf4dc2c",
-                "reference": "81e31a5381e02578d1bc9515d5311b3debf4dc2c",
+                "url": "https://api.github.com/repos/itk-os2display/template-extension-bundle/zipball/e53032a41a9a4e931c4a57e8676f8aa50cbdfe71",
+                "reference": "e53032a41a9a4e931c4a57e8676f8aa50cbdfe71",
                 "shasum": ""
             },
             "type": "symfony-bundle",
@@ -1831,23 +1831,23 @@
             },
             "description": "Os2Display Template Extension Bundle contains tools for templates.",
             "support": {
-                "source": "https://github.com/itk-os2display/template-extension-bundle/tree/release/1.1.14",
+                "source": "https://github.com/itk-os2display/template-extension-bundle/tree/1.1.14",
                 "issues": "https://github.com/itk-os2display/template-extension-bundle/issues"
             },
-            "time": "2018-05-15T07:18:49+00:00"
+            "time": "2018-05-30T06:32:06+00:00"
         },
         {
             "name": "itk-os2display/vimeo-bundle",
-            "version": "dev-release/1.0.3",
+            "version": "1.0.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/itk-os2display/vimeo-bundle.git",
-                "reference": "4f656ed93cd5cb43de93e04aad7af4cc9527dc0c"
+                "reference": "9077a843d721a2cdfd58f2dc72cbe66696d311d9"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/itk-os2display/vimeo-bundle/zipball/4f656ed93cd5cb43de93e04aad7af4cc9527dc0c",
-                "reference": "4f656ed93cd5cb43de93e04aad7af4cc9527dc0c",
+                "url": "https://api.github.com/repos/itk-os2display/vimeo-bundle/zipball/9077a843d721a2cdfd58f2dc72cbe66696d311d9",
+                "reference": "9077a843d721a2cdfd58f2dc72cbe66696d311d9",
                 "shasum": ""
             },
             "type": "symfony-bundle",
@@ -1858,10 +1858,10 @@
             },
             "description": "Os2Display vimeo template.",
             "support": {
-                "source": "https://github.com/itk-os2display/vimeo-bundle/tree/release/1.0.3",
+                "source": "https://github.com/itk-os2display/vimeo-bundle/tree/1.0.3",
                 "issues": "https://github.com/itk-os2display/vimeo-bundle/issues"
             },
-            "time": "2018-05-15T07:21:38+00:00"
+            "time": "2018-05-30T06:35:45+00:00"
         },
         {
             "name": "jdorn/sql-formatter",
@@ -2995,16 +2995,16 @@
         },
         {
             "name": "os2display/admin-bundle",
-            "version": "dev-release/1.1.1",
+            "version": "1.1.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/itk-os2display/admin-bundle.git",
-                "reference": "51f8ac4034cff8656cf8386348646496f452b601"
+                "reference": "490603a98d783f4857a7939e598ca7bcf758d1df"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/itk-os2display/admin-bundle/zipball/51f8ac4034cff8656cf8386348646496f452b601",
-                "reference": "51f8ac4034cff8656cf8386348646496f452b601",
+                "url": "https://api.github.com/repos/itk-os2display/admin-bundle/zipball/490603a98d783f4857a7939e598ca7bcf758d1df",
+                "reference": "490603a98d783f4857a7939e598ca7bcf758d1df",
                 "shasum": ""
             },
             "require": {
@@ -3018,22 +3018,22 @@
             },
             "description": "Os2Display admin",
             "support": {
-                "source": "https://github.com/itk-os2display/admin-bundle/tree/release/1.1.1"
+                "source": "https://github.com/itk-os2display/admin-bundle/tree/1.1.1"
             },
-            "time": "2018-05-15T06:55:34+00:00"
+            "time": "2018-05-30T06:25:36+00:00"
         },
         {
             "name": "os2display/core-bundle",
-            "version": "dev-release/1.1.1",
+            "version": "1.1.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/itk-os2display/core-bundle.git",
-                "reference": "eb3f71f53f3b76d111a1bc26044f9b7d5397b0c4"
+                "reference": "d5c984c152b4469b2de99d775cea1b9b0ae41437"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/itk-os2display/core-bundle/zipball/eb3f71f53f3b76d111a1bc26044f9b7d5397b0c4",
-                "reference": "eb3f71f53f3b76d111a1bc26044f9b7d5397b0c4",
+                "url": "https://api.github.com/repos/itk-os2display/core-bundle/zipball/d5c984c152b4469b2de99d775cea1b9b0ae41437",
+                "reference": "d5c984c152b4469b2de99d775cea1b9b0ae41437",
                 "shasum": ""
             },
             "require": {
@@ -3081,22 +3081,22 @@
             },
             "description": "Os2Display core",
             "support": {
-                "source": "https://github.com/itk-os2display/core-bundle/tree/release/1.1.1"
+                "source": "https://github.com/itk-os2display/core-bundle/tree/1.1.1"
             },
-            "time": "2018-05-15T12:43:25+00:00"
+            "time": "2018-05-30T06:23:59+00:00"
         },
         {
             "name": "os2display/default-template-bundle",
-            "version": "dev-release/1.0.10",
+            "version": "1.0.10",
             "source": {
                 "type": "git",
                 "url": "https://github.com/itk-os2display/default-template-bundle.git",
-                "reference": "761c0a1754ce9b83d45bc1c6bb528c801b883e81"
+                "reference": "8f98f8e447bad73aa478a3decc52499eeeac9f0c"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/itk-os2display/default-template-bundle/zipball/761c0a1754ce9b83d45bc1c6bb528c801b883e81",
-                "reference": "761c0a1754ce9b83d45bc1c6bb528c801b883e81",
+                "url": "https://api.github.com/repos/itk-os2display/default-template-bundle/zipball/8f98f8e447bad73aa478a3decc52499eeeac9f0c",
+                "reference": "8f98f8e447bad73aa478a3decc52499eeeac9f0c",
                 "shasum": ""
             },
             "type": "symfony-bundle",
@@ -3107,9 +3107,9 @@
             },
             "description": "Os2Display default template",
             "support": {
-                "source": "https://github.com/itk-os2display/default-template-bundle/tree/release/1.0.10"
+                "source": "https://github.com/itk-os2display/default-template-bundle/tree/1.0.10"
             },
-            "time": "2018-05-15T07:09:30+00:00"
+            "time": "2018-05-30T06:26:30+00:00"
         },
         {
             "name": "os2display/media-bundle",
@@ -6461,19 +6461,7 @@
     ],
     "aliases": [],
     "minimum-stability": "stable",
-    "stability-flags": {
-        "os2display/core-bundle": 20,
-        "os2display/admin-bundle": 20,
-        "os2display/default-template-bundle": 20,
-        "aakb/os2display-aarhus-templates": 20,
-        "itk-os2display/os2display-koba-integration": 20,
-        "itk-os2display/lokalcenter-template-bundle": 20,
-        "itk-os2display/template-extension-bundle": 20,
-        "itk-os2display/aarhus-second-template-bundle": 20,
-        "itk-os2display/aarhus-data-bundle": 20,
-        "itk-os2display/vimeo-bundle": 20,
-        "itk-os2display/campaign-bundle": 20
-    },
+    "stability-flags": [],
     "prefer-stable": false,
     "prefer-lowest": false,
     "platform": [],
