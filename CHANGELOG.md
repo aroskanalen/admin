@@ -1,5 +1,9 @@
 # Aroskanalen CHANGELOG
 
+## 5.1.5
+
+* symfony/symfony -> 2.8.44.
+
 ## 5.1.4
 
 * itk-os2display/core-bundle -> 1.1.2
