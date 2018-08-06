@@ -3087,16 +3087,16 @@
         },
         {
             "name": "os2display/default-template-bundle",
-            "version": "1.0.10",
+            "version": "1.0.11",
             "source": {
                 "type": "git",
                 "url": "https://github.com/itk-os2display/default-template-bundle.git",
-                "reference": "8f98f8e447bad73aa478a3decc52499eeeac9f0c"
+                "reference": "b0a1fff0a6035f7425e77a29d50c9c69cf639ecd"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/itk-os2display/default-template-bundle/zipball/8f98f8e447bad73aa478a3decc52499eeeac9f0c",
-                "reference": "8f98f8e447bad73aa478a3decc52499eeeac9f0c",
+                "url": "https://api.github.com/repos/itk-os2display/default-template-bundle/zipball/b0a1fff0a6035f7425e77a29d50c9c69cf639ecd",
+                "reference": "b0a1fff0a6035f7425e77a29d50c9c69cf639ecd",
                 "shasum": ""
             },
             "type": "symfony-bundle",
@@ -3107,9 +3107,9 @@
             },
             "description": "Os2Display default template",
             "support": {
-                "source": "https://github.com/itk-os2display/default-template-bundle/tree/1.0.10"
+                "source": "https://github.com/itk-os2display/default-template-bundle/tree/1.0.11"
             },
-            "time": "2018-05-30T06:26:30+00:00"
+            "time": "2018-08-06T07:32:30+00:00"
         },
         {
             "name": "os2display/media-bundle",
