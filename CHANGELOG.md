@@ -1,5 +1,9 @@
 # Aroskanalen CHANGELOG
 
+## 5.1.6
+
+* os2display/default-template-bundle -> 1.0.11.
+
 ## 5.1.5
 
 * symfony/symfony -> 2.8.44.
