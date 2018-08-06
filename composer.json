@@ -15,7 +15,7 @@
     "sonata-project/doctrine-orm-admin-bundle": "^2.0",
     "os2display/core-bundle": "^1.1",
     "os2display/admin-bundle": "^1.1",
-    "os2display/default-template-bundle": "^1.0",
+    "os2display/default-template-bundle": "dev-hotfix/support-1676-manual-calender-filters",
     "aakb/os2display-aarhus-templates": "^1.0",
     "itk-os2display/os2display-koba-integration": "^1.0",
     "itk-os2display/lokalcenter-template-bundle": "^1.0",
