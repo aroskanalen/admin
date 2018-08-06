@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "b3944e2b67fd1e7579070d6dde423d53",
+    "content-hash": "09ce9bfaacf98e3b00d63e5063e1aa65",
     "packages": [
         {
             "name": "aakb/os2display-aarhus-templates",
@@ -3087,16 +3087,16 @@
         },
         {
             "name": "os2display/default-template-bundle",
-            "version": "dev-hotfix/support-1676-manual-calender-filters",
+            "version": "1.0.11",
             "source": {
                 "type": "git",
                 "url": "https://github.com/itk-os2display/default-template-bundle.git",
-                "reference": "97ac14226f733490b4b3bcaa255c91f60cfd0a62"
+                "reference": "b0a1fff0a6035f7425e77a29d50c9c69cf639ecd"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/itk-os2display/default-template-bundle/zipball/97ac14226f733490b4b3bcaa255c91f60cfd0a62",
-                "reference": "97ac14226f733490b4b3bcaa255c91f60cfd0a62",
+                "url": "https://api.github.com/repos/itk-os2display/default-template-bundle/zipball/b0a1fff0a6035f7425e77a29d50c9c69cf639ecd",
+                "reference": "b0a1fff0a6035f7425e77a29d50c9c69cf639ecd",
                 "shasum": ""
             },
             "type": "symfony-bundle",
@@ -3107,9 +3107,9 @@
             },
             "description": "Os2Display default template",
             "support": {
-                "source": "https://github.com/itk-os2display/default-template-bundle/tree/hotfix/support-1676-manual-calender-filters"
+                "source": "https://github.com/itk-os2display/default-template-bundle/tree/1.0.11"
             },
-            "time": "2018-08-06T07:03:03+00:00"
+            "time": "2018-08-06T07:32:30+00:00"
         },
         {
             "name": "os2display/media-bundle",
@@ -6517,9 +6517,7 @@
     ],
     "aliases": [],
     "minimum-stability": "stable",
-    "stability-flags": {
-        "os2display/default-template-bundle": 20
-    },
+    "stability-flags": [],
     "prefer-stable": false,
     "prefer-lowest": false,
     "platform": [],
