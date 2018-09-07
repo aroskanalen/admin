@@ -1,5 +1,12 @@
 # Aroskanalen CHANGELOG
 
+## 5.1.7
+
+* itk-os2display/aarhus-second-template-bundle -> 1.1.6
+* os2display/admin-bundle -> 1.1.2
+* symfony/symfony -> v2.8.45
+* os2display/core-bundle -> 1.1.3
+
 ## 5.1.6
 
 * os2display/default-template-bundle -> 1.0.11.
