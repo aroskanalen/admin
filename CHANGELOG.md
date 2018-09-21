@@ -1,5 +1,11 @@
 # Aroskanalen CHANGELOG
 
+## 5.1.8
+
+* os2display/admin-bundle -> 1.1.3
+* os2display/core-bundle -> 1.1.4
+* os2display/default-template-bundle -> 1.0.12
+
 ## 5.1.7
 
 * itk-os2display/aarhus-second-template-bundle -> 1.1.6
