@@ -3024,16 +3024,16 @@
         },
         {
             "name": "os2display/core-bundle",
-            "version": "1.1.4",
+            "version": "1.1.5",
             "source": {
                 "type": "git",
                 "url": "https://github.com/itk-os2display/core-bundle.git",
-                "reference": "6207c320c32a59d3b97525d036ef6edbe74dd674"
+                "reference": "1bf46d51fd446124811f8bbd0794c46cf2f2f3c1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/itk-os2display/core-bundle/zipball/6207c320c32a59d3b97525d036ef6edbe74dd674",
-                "reference": "6207c320c32a59d3b97525d036ef6edbe74dd674",
+                "url": "https://api.github.com/repos/itk-os2display/core-bundle/zipball/1bf46d51fd446124811f8bbd0794c46cf2f2f3c1",
+                "reference": "1bf46d51fd446124811f8bbd0794c46cf2f2f3c1",
                 "shasum": ""
             },
             "require": {
@@ -3081,9 +3081,9 @@
             },
             "description": "Os2Display core",
             "support": {
-                "source": "https://github.com/itk-os2display/core-bundle/tree/1.1.4"
+                "source": "https://github.com/itk-os2display/core-bundle/tree/1.1.5"
             },
-            "time": "2018-09-21T12:43:25+00:00"
+            "time": "2018-10-04T09:17:10+00:00"
         },
         {
             "name": "os2display/default-template-bundle",
@@ -5304,16 +5304,16 @@
         },
         {
             "name": "symfony/symfony",
-            "version": "v2.8.45",
+            "version": "v2.8.46",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/symfony.git",
-                "reference": "289dc238c533476d0101d736816b408b02e51751"
+                "reference": "a7f5ade1f8b3eb74a130cf681c45bfa991c330d1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/symfony/zipball/289dc238c533476d0101d736816b408b02e51751",
-                "reference": "289dc238c533476d0101d736816b408b02e51751",
+                "url": "https://api.github.com/repos/symfony/symfony/zipball/a7f5ade1f8b3eb74a130cf681c45bfa991c330d1",
+                "reference": "a7f5ade1f8b3eb74a130cf681c45bfa991c330d1",
                 "shasum": ""
             },
             "require": {
@@ -5440,7 +5440,7 @@
             "keywords": [
                 "framework"
             ],
-            "time": "2018-08-27T17:33:57+00:00"
+            "time": "2018-09-30T03:53:41+00:00"
         },
         {
             "name": "twig/extensions",
