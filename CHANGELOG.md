@@ -1,5 +1,10 @@
 # Aroskanalen CHANGELOG
 
+## 5.1.9
+
+* symfony/symfony -> v2.8.46
+* os2display/core-bundle -> 1.1.5
+
 ## 5.1.8
 
 * os2display/admin-bundle -> 1.1.3
