@@ -1838,16 +1838,16 @@
         },
         {
             "name": "itk-os2display/vimeo-bundle",
-            "version": "1.0.4",
+            "version": "1.0.5",
             "source": {
                 "type": "git",
                 "url": "https://github.com/itk-os2display/vimeo-bundle.git",
-                "reference": "e80dac0f4b69c558142e84063554b74a2e6846fb"
+                "reference": "55bc1811266cc3b599a2fbd52897d6ea6ef5ed3d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/itk-os2display/vimeo-bundle/zipball/e80dac0f4b69c558142e84063554b74a2e6846fb",
-                "reference": "e80dac0f4b69c558142e84063554b74a2e6846fb",
+                "url": "https://api.github.com/repos/itk-os2display/vimeo-bundle/zipball/55bc1811266cc3b599a2fbd52897d6ea6ef5ed3d",
+                "reference": "55bc1811266cc3b599a2fbd52897d6ea6ef5ed3d",
                 "shasum": ""
             },
             "type": "symfony-bundle",
@@ -1858,10 +1858,10 @@
             },
             "description": "Os2Display vimeo template.",
             "support": {
-                "source": "https://github.com/itk-os2display/vimeo-bundle/tree/1.0.4",
+                "source": "https://github.com/itk-os2display/vimeo-bundle/tree/1.0.5",
                 "issues": "https://github.com/itk-os2display/vimeo-bundle/issues"
             },
-            "time": "2018-10-26T12:48:29+00:00"
+            "time": "2018-10-29T08:16:45+00:00"
         },
         {
             "name": "jdorn/sql-formatter",

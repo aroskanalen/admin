@@ -1,5 +1,9 @@
 # Aroskanalen CHANGELOG
 
+## 5.1.11
+
+* itk-os2display/vimeo-bundle -> 1.0.5
+
 ## 5.1.10
 
 * itk-os2display/vimeo-bundle -> 1.0.4
