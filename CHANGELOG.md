@@ -1,5 +1,10 @@
 # Aroskanalen CHANGELOG
 
+## 5.1.12
+
+* itk-os2display/lokalcenter-template-bundle -> 1.0.7
+* symfony/symfony -> v2.8.47
+
 ## 5.1.11
 
 * itk-os2display/vimeo-bundle -> 1.0.5

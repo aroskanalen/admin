@@ -1758,16 +1758,16 @@
         },
         {
             "name": "itk-os2display/lokalcenter-template-bundle",
-            "version": "1.0.6",
+            "version": "1.0.7",
             "source": {
                 "type": "git",
                 "url": "https://github.com/itk-os2display/lokalcenter-template-bundle.git",
-                "reference": "ed9ddb5f2c3f7bfaae419442da0a95876624ca2e"
+                "reference": "cc89ac3e294aa412b12455244dfb03081eb67734"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/itk-os2display/lokalcenter-template-bundle/zipball/ed9ddb5f2c3f7bfaae419442da0a95876624ca2e",
-                "reference": "ed9ddb5f2c3f7bfaae419442da0a95876624ca2e",
+                "url": "https://api.github.com/repos/itk-os2display/lokalcenter-template-bundle/zipball/cc89ac3e294aa412b12455244dfb03081eb67734",
+                "reference": "cc89ac3e294aa412b12455244dfb03081eb67734",
                 "shasum": ""
             },
             "type": "symfony-bundle",
@@ -1778,9 +1778,9 @@
             },
             "description": "Os2Display Lokalcenter templates",
             "support": {
-                "source": "https://github.com/itk-os2display/lokalcenter-template-bundle/tree/1.0.6"
+                "source": "https://github.com/itk-os2display/lokalcenter-template-bundle/tree/1.0.7"
             },
-            "time": "2018-05-30T06:30:51+00:00"
+            "time": "2018-11-05T11:20:34+00:00"
         },
         {
             "name": "itk-os2display/os2display-koba-integration",
@@ -5304,16 +5304,16 @@
         },
         {
             "name": "symfony/symfony",
-            "version": "v2.8.46",
+            "version": "v2.8.47",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/symfony.git",
-                "reference": "a7f5ade1f8b3eb74a130cf681c45bfa991c330d1"
+                "reference": "0a7bd0db8682f51ea63c34ac0be31bd7f715344a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/symfony/zipball/a7f5ade1f8b3eb74a130cf681c45bfa991c330d1",
-                "reference": "a7f5ade1f8b3eb74a130cf681c45bfa991c330d1",
+                "url": "https://api.github.com/repos/symfony/symfony/zipball/0a7bd0db8682f51ea63c34ac0be31bd7f715344a",
+                "reference": "0a7bd0db8682f51ea63c34ac0be31bd7f715344a",
                 "shasum": ""
             },
             "require": {
@@ -5440,7 +5440,7 @@
             "keywords": [
                 "framework"
             ],
-            "time": "2018-09-30T03:53:41+00:00"
+            "time": "2018-11-03T09:54:14+00:00"
         },
         {
             "name": "twig/extensions",
