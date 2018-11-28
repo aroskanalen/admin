@@ -1720,16 +1720,16 @@
         },
         {
             "name": "itk-os2display/campaign-bundle",
-            "version": "1.0.1",
+            "version": "1.1.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/itk-os2display/campaign-bundle.git",
-                "reference": "be3804a45cb7a749a36dc881bef0504db741e7b5"
+                "reference": "dcdb941a1c7bea1a9ddf1f77f100d5b2ed2861e3"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/itk-os2display/campaign-bundle/zipball/be3804a45cb7a749a36dc881bef0504db741e7b5",
-                "reference": "be3804a45cb7a749a36dc881bef0504db741e7b5",
+                "url": "https://api.github.com/repos/itk-os2display/campaign-bundle/zipball/dcdb941a1c7bea1a9ddf1f77f100d5b2ed2861e3",
+                "reference": "dcdb941a1c7bea1a9ddf1f77f100d5b2ed2861e3",
                 "shasum": ""
             },
             "require": {
@@ -1751,10 +1751,10 @@
             },
             "description": "Os2Display campaigns",
             "support": {
-                "source": "https://github.com/itk-os2display/campaign-bundle/tree/1.0.1",
+                "source": "https://github.com/itk-os2display/campaign-bundle/tree/1.1.0",
                 "issues": "https://github.com/itk-os2display/campaign-bundle/issues"
             },
-            "time": "2018-05-30T06:37:02+00:00"
+            "time": "2018-11-28T10:14:42+00:00"
         },
         {
             "name": "itk-os2display/lokalcenter-template-bundle",
@@ -3024,16 +3024,16 @@
         },
         {
             "name": "os2display/core-bundle",
-            "version": "1.1.5",
+            "version": "1.2.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/itk-os2display/core-bundle.git",
-                "reference": "1bf46d51fd446124811f8bbd0794c46cf2f2f3c1"
+                "reference": "a3ae32ea5488d51e2058c1066c4dbe4d9a7ef52f"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/itk-os2display/core-bundle/zipball/1bf46d51fd446124811f8bbd0794c46cf2f2f3c1",
-                "reference": "1bf46d51fd446124811f8bbd0794c46cf2f2f3c1",
+                "url": "https://api.github.com/repos/itk-os2display/core-bundle/zipball/a3ae32ea5488d51e2058c1066c4dbe4d9a7ef52f",
+                "reference": "a3ae32ea5488d51e2058c1066c4dbe4d9a7ef52f",
                 "shasum": ""
             },
             "require": {
@@ -3081,9 +3081,9 @@
             },
             "description": "Os2Display core",
             "support": {
-                "source": "https://github.com/itk-os2display/core-bundle/tree/1.1.5"
+                "source": "https://github.com/itk-os2display/core-bundle/tree/1.2.0"
             },
-            "time": "2018-10-04T09:17:10+00:00"
+            "time": "2018-11-28T10:10:35+00:00"
         },
         {
             "name": "os2display/default-template-bundle",
@@ -5304,16 +5304,16 @@
         },
         {
             "name": "symfony/symfony",
-            "version": "v2.8.47",
+            "version": "v2.8.48",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/symfony.git",
-                "reference": "0a7bd0db8682f51ea63c34ac0be31bd7f715344a"
+                "reference": "6d1b296403b56046e991e22ce936d391030aacb2"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/symfony/zipball/0a7bd0db8682f51ea63c34ac0be31bd7f715344a",
-                "reference": "0a7bd0db8682f51ea63c34ac0be31bd7f715344a",
+                "url": "https://api.github.com/repos/symfony/symfony/zipball/6d1b296403b56046e991e22ce936d391030aacb2",
+                "reference": "6d1b296403b56046e991e22ce936d391030aacb2",
                 "shasum": ""
             },
             "require": {
@@ -5440,7 +5440,7 @@
             "keywords": [
                 "framework"
             ],
-            "time": "2018-11-03T09:54:14+00:00"
+            "time": "2018-11-26T13:21:00+00:00"
         },
         {
             "name": "twig/extensions",
