@@ -1,5 +1,11 @@
 # Aroskanalen CHANGELOG
 
+## 5.1.14
+
+* os2display/core-bundle -> 1.2.0
+* itk-os2display/campaign-bundle -> 1.1.0
+* symfony/symfony -> v2.8.48
+
 ## 5.1.13
 
 * itk-os2display/vimeo-bundle -> 1.0.6
