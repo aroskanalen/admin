@@ -1724,12 +1724,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/itk-os2display/campaign-bundle.git",
-                "reference": "973a1bf2ce88083a4a390a37cff7a804975ef758"
+                "reference": "6f11dcb99a81bb8b99fa44cde1f85e429a5b0de2"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/itk-os2display/campaign-bundle/zipball/973a1bf2ce88083a4a390a37cff7a804975ef758",
-                "reference": "973a1bf2ce88083a4a390a37cff7a804975ef758",
+                "url": "https://api.github.com/repos/itk-os2display/campaign-bundle/zipball/6f11dcb99a81bb8b99fa44cde1f85e429a5b0de2",
+                "reference": "6f11dcb99a81bb8b99fa44cde1f85e429a5b0de2",
                 "shasum": ""
             },
             "require": {
@@ -1754,7 +1754,7 @@
                 "source": "https://github.com/itk-os2display/campaign-bundle/tree/feature/campaign-tests",
                 "issues": "https://github.com/itk-os2display/campaign-bundle/issues"
             },
-            "time": "2019-01-11T12:41:48+00:00"
+            "time": "2019-01-11T13:05:34+00:00"
         },
         {
             "name": "itk-os2display/lokalcenter-template-bundle",
