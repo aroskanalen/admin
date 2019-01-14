@@ -23,7 +23,8 @@
     "itk-os2display/aarhus-second-template-bundle": "^1.1",
     "itk-os2display/aarhus-data-bundle": "^1.2",
     "itk-os2display/vimeo-bundle": "^1.0",
-    "itk-os2display/campaign-bundle": "^1.0"
+    "itk-os2display/campaign-bundle": "^1.0",
+    "itk-os2display/youtube-bundle": "^1.0"
   },
   "require-dev": {
     "sensio/generator-bundle": "^2.3",
@@ -81,6 +82,10 @@
     "itk-os2display/vimeo-bundle": {
       "type": "vcs",
       "url": "https://github.com/itk-os2display/vimeo-bundle"
+    },
+    "itk-os2display/youtube-bundle": {
+      "type": "vcs",
+      "url": "https://github.com/itk-os2display/youtube-bundle"
     }
   },
   "scripts": {

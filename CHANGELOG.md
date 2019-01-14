@@ -1,5 +1,9 @@
 # Aroskanalen CHANGELOG
 
+## 5.1.15
+
+* Added youtube bundle.
+
 ## 5.1.14
 
 * os2display/core-bundle -> 1.2.0
