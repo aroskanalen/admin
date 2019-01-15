@@ -1724,12 +1724,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/itk-os2display/campaign-bundle.git",
-                "reference": "a8a5cfc22978669e06d38c61511db5ab110c7b02"
+                "reference": "e188f2e74e0f1be4c144cd18ad2eb203242deb90"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/itk-os2display/campaign-bundle/zipball/a8a5cfc22978669e06d38c61511db5ab110c7b02",
-                "reference": "a8a5cfc22978669e06d38c61511db5ab110c7b02",
+                "url": "https://api.github.com/repos/itk-os2display/campaign-bundle/zipball/e188f2e74e0f1be4c144cd18ad2eb203242deb90",
+                "reference": "e188f2e74e0f1be4c144cd18ad2eb203242deb90",
                 "shasum": ""
             },
             "require": {
@@ -1754,7 +1754,7 @@
                 "source": "https://github.com/itk-os2display/campaign-bundle/tree/feature/campaign-tests",
                 "issues": "https://github.com/itk-os2display/campaign-bundle/issues"
             },
-            "time": "2019-01-11T13:29:20+00:00"
+            "time": "2019-01-15T13:16:56+00:00"
         },
         {
             "name": "itk-os2display/lokalcenter-template-bundle",
@@ -3028,12 +3028,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/itk-os2display/core-bundle.git",
-                "reference": "fcb876c4c4388b4ab0cf6331b0389e2433757d58"
+                "reference": "d2002a6d3c46e933f8bd01b9b44b5bad4ec3e3c1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/itk-os2display/core-bundle/zipball/fcb876c4c4388b4ab0cf6331b0389e2433757d58",
-                "reference": "fcb876c4c4388b4ab0cf6331b0389e2433757d58",
+                "url": "https://api.github.com/repos/itk-os2display/core-bundle/zipball/d2002a6d3c46e933f8bd01b9b44b5bad4ec3e3c1",
+                "reference": "d2002a6d3c46e933f8bd01b9b44b5bad4ec3e3c1",
                 "shasum": ""
             },
             "require": {
@@ -3083,7 +3083,7 @@
             "support": {
                 "source": "https://github.com/itk-os2display/core-bundle/tree/feature/campaign-tests"
             },
-            "time": "2019-01-11T12:27:01+00:00"
+            "time": "2019-01-15T13:19:06+00:00"
         },
         {
             "name": "os2display/default-template-bundle",
