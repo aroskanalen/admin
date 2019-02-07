@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "ad20447433608f61c1844d0ea8006d0f",
+    "content-hash": "bff46df32de3c01b964d5daa9b7ad8fb",
     "packages": [
         {
             "name": "aakb/os2display-aarhus-templates",
@@ -2989,16 +2989,16 @@
         },
         {
             "name": "os2display/campaign-bundle",
-            "version": "dev-develop",
+            "version": "1.3.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/itk-os2display/campaign-bundle.git",
-                "reference": "863bbe567ea052b6bc1fd8ad20419f5306736c73"
+                "reference": "8a463b38a1aebc09b3402fe8bfc8e67158f919a1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/itk-os2display/campaign-bundle/zipball/863bbe567ea052b6bc1fd8ad20419f5306736c73",
-                "reference": "863bbe567ea052b6bc1fd8ad20419f5306736c73",
+                "url": "https://api.github.com/repos/itk-os2display/campaign-bundle/zipball/8a463b38a1aebc09b3402fe8bfc8e67158f919a1",
+                "reference": "8a463b38a1aebc09b3402fe8bfc8e67158f919a1",
                 "shasum": ""
             },
             "require": {
@@ -3020,9 +3020,9 @@
             },
             "description": "Os2Display campaigns",
             "support": {
-                "source": "https://github.com/itk-os2display/campaign-bundle/tree/develop"
+                "source": "https://github.com/itk-os2display/campaign-bundle/tree/1.3.0"
             },
-            "time": "2019-02-07T11:59:10+00:00"
+            "time": "2019-02-07T12:48:06+00:00"
         },
         {
             "name": "os2display/core-bundle",
@@ -6527,9 +6527,7 @@
     ],
     "aliases": [],
     "minimum-stability": "stable",
-    "stability-flags": {
-        "os2display/campaign-bundle": 20
-    },
+    "stability-flags": [],
     "prefer-stable": false,
     "prefer-lowest": false,
     "platform": [],
