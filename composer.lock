@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "c336bcaa403d488b32038de167378b69",
+    "content-hash": "929bc54d1517401a65639da95ef4c2cc",
     "packages": [
         {
             "name": "aakb/os2display-aarhus-templates",
@@ -1720,16 +1720,16 @@
         },
         {
             "name": "itk-os2display/campaign-bundle",
-            "version": "1.2.1",
+            "version": "dev-renaming",
             "source": {
                 "type": "git",
                 "url": "https://github.com/itk-os2display/campaign-bundle.git",
-                "reference": "4ec4ac6f1955d0425ec0eafd1dada8e3c7a5f8b4"
+                "reference": "15de9024f84968bd83d8f6809e97bc91bcd29a6f"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/itk-os2display/campaign-bundle/zipball/4ec4ac6f1955d0425ec0eafd1dada8e3c7a5f8b4",
-                "reference": "4ec4ac6f1955d0425ec0eafd1dada8e3c7a5f8b4",
+                "url": "https://api.github.com/repos/itk-os2display/campaign-bundle/zipball/15de9024f84968bd83d8f6809e97bc91bcd29a6f",
+                "reference": "15de9024f84968bd83d8f6809e97bc91bcd29a6f",
                 "shasum": ""
             },
             "require": {
@@ -1746,15 +1746,15 @@
             "type": "symfony-bundle",
             "autoload": {
                 "psr-4": {
-                    "Itk\\CampaignBundle\\": ""
+                    "Os2Display\\CampaignBundle\\": ""
                 }
             },
             "description": "Os2Display campaigns",
             "support": {
-                "source": "https://github.com/itk-os2display/campaign-bundle/tree/1.2.1",
+                "source": "https://github.com/itk-os2display/campaign-bundle/tree/feature/renaming",
                 "issues": "https://github.com/itk-os2display/campaign-bundle/issues"
             },
-            "time": "2019-02-07T09:00:12+00:00"
+            "time": "2019-02-07T10:06:36+00:00"
         },
         {
             "name": "itk-os2display/lokalcenter-template-bundle",
@@ -6517,7 +6517,9 @@
     ],
     "aliases": [],
     "minimum-stability": "stable",
-    "stability-flags": [],
+    "stability-flags": {
+        "itk-os2display/campaign-bundle": 20
+    },
     "prefer-stable": false,
     "prefer-lowest": false,
     "platform": [],
