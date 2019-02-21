@@ -48,6 +48,7 @@ class AppKernel extends Kernel
             new Itk\LokalcenterTemplateBundle\ItkLokalcenterTemplateBundle(),
             new Itk\AarhusSecondTemplateBundle\ItkAarhusSecondTemplateBundle(),
             new Itk\VimeoBundle\ItkVimeoBundle(),
+            new Itk\YoutubeBundle\ItkYoutubeBundle(),
         );
 
         if (in_array($this->getEnvironment(), array('dev', 'test', 'acceptance'))) {
