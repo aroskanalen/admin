@@ -38,8 +38,7 @@ class AppKernel extends Kernel
             new Os2Display\CoreBundle\Os2DisplayCoreBundle(),
             new Os2Display\AdminBundle\Os2DisplayAdminBundle(),
             new Os2Display\DefaultTemplateBundle\Os2DisplayDefaultTemplateBundle(),
-
-            new Itk\CampaignBundle\ItkCampaignBundle(),
+            new Os2Display\CampaignBundle\Os2DisplayCampaignBundle(),
 
             new Itk\AarhusDataBundle\ItkAarhusDataBundle(),
             new Itk\KobaIntegrationBundle\ItkKobaIntegrationBundle(),
@@ -49,7 +48,6 @@ class AppKernel extends Kernel
             new Itk\LokalcenterTemplateBundle\ItkLokalcenterTemplateBundle(),
             new Itk\AarhusSecondTemplateBundle\ItkAarhusSecondTemplateBundle(),
             new Itk\VimeoBundle\ItkVimeoBundle(),
-            new Itk\YoutubeBundle\ItkYoutubeBundle(),
         );
 
         if (in_array($this->getEnvironment(), array('dev', 'test', 'acceptance'))) {

@@ -1,5 +1,10 @@
 # Aroskanalen CHANGELOG
 
+## 5.2.0
+
+* itk-os2display/campaign-bundle -> os2display/campaign-bundle
+* os2display/campaign-bundle: 1.3
+
 ## 5.1.15
 
 * Added youtube bundle.
