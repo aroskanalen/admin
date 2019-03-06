@@ -1,3 +1,7 @@
+os2_display_poster:
+    resource: "@Os2DisplayPosterBundle/Resources/config/routing.yml"
+    prefix:   /
+
 itk_koba_integration:
   resource: "@ItkKobaIntegrationBundle/Resources/config/routing.yml"
   prefix:   /

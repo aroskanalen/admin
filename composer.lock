@@ -4,20 +4,20 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "bff46df32de3c01b964d5daa9b7ad8fb",
+    "content-hash": "1e32e487432624793b0a15bfb63e2ac6",
     "packages": [
         {
             "name": "aakb/os2display-aarhus-templates",
-            "version": "1.0.19",
+            "version": "dev-feature/aakb-digital-poster-template",
             "source": {
                 "type": "git",
                 "url": "git@github.com:aakb/os2display-aarhus-templates.git",
-                "reference": "f90e9330095a68007e5a50235828712ac46f0af7"
+                "reference": "612a951de52b03d3055e5905b513c7f8f016e7fd"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/aakb/os2display-aarhus-templates/zipball/f90e9330095a68007e5a50235828712ac46f0af7",
-                "reference": "f90e9330095a68007e5a50235828712ac46f0af7",
+                "url": "https://api.github.com/repos/aakb/os2display-aarhus-templates/zipball/612a951de52b03d3055e5905b513c7f8f016e7fd",
+                "reference": "612a951de52b03d3055e5905b513c7f8f016e7fd",
                 "shasum": ""
             },
             "type": "symfony-bundle",
@@ -28,9 +28,9 @@
             },
             "description": "Os2Display aarhus templates",
             "support": {
-                "source": "https://github.com/aakb/os2display-aarhus-templates/tree/1.0.19"
+                "source": "https://github.com/aakb/os2display-aarhus-templates/tree/feature/aakb-digital-poster-template"
             },
-            "time": "2018-05-30T06:28:35+00:00"
+            "time": "2019-03-05T13:23:58+00:00"
         },
         {
             "name": "behat/transliterator",
@@ -1773,6 +1773,33 @@
                 "issues": "https://github.com/itk-os2display/os2display-koba-integration/issues"
             },
             "time": "2018-05-30T06:29:48+00:00"
+        },
+        {
+            "name": "itk-os2display/poster-bundle",
+            "version": "dev-develop",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/itk-os2display/poster-bundle.git",
+                "reference": "730686aa7cb8994feac916a093f7fb80a71c3547"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/itk-os2display/poster-bundle/zipball/730686aa7cb8994feac916a093f7fb80a71c3547",
+                "reference": "730686aa7cb8994feac916a093f7fb80a71c3547",
+                "shasum": ""
+            },
+            "type": "symfony-bundle",
+            "autoload": {
+                "psr-4": {
+                    "Os2Display\\PosterBundle\\": ""
+                }
+            },
+            "description": "Os2Display posters",
+            "support": {
+                "source": "https://github.com/itk-os2display/poster-bundle/tree/develop",
+                "issues": "https://github.com/itk-os2display/poster-bundle/issues"
+            },
+            "time": "2019-03-05T09:15:21+00:00"
         },
         {
             "name": "itk-os2display/template-extension-bundle",
@@ -6527,7 +6554,10 @@
     ],
     "aliases": [],
     "minimum-stability": "stable",
-    "stability-flags": [],
+    "stability-flags": {
+        "aakb/os2display-aarhus-templates": 20,
+        "itk-os2display/poster-bundle": 20
+    },
     "prefer-stable": false,
     "prefer-lowest": false,
     "platform": [],

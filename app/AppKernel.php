@@ -40,6 +40,8 @@ class AppKernel extends Kernel
             new Os2Display\DefaultTemplateBundle\Os2DisplayDefaultTemplateBundle(),
             new Os2Display\CampaignBundle\Os2DisplayCampaignBundle(),
 
+            new Os2Display\PosterBundle\Os2DisplayPosterBundle(),
+
             new Itk\AarhusDataBundle\ItkAarhusDataBundle(),
             new Itk\KobaIntegrationBundle\ItkKobaIntegrationBundle(),
 
