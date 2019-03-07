@@ -150,6 +150,7 @@ stof_doctrine_extensions:
             blameable: true
 
 os2_display_poster:
+  cron_interval: 900
   providers:
     eventdatabasen:
       name: Eventdatabasen
