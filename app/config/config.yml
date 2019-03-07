@@ -148,3 +148,9 @@ stof_doctrine_extensions:
         default:
             timestampable: true
             blameable: true
+
+os2_display_poster:
+  providers:
+    eventdatabasen:
+      name: Eventdatabasen
+      url: 'https://api.detskeriaarhus.dk'
