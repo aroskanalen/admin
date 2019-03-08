@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "1e32e487432624793b0a15bfb63e2ac6",
+    "content-hash": "d941c44f8181b15e9fccabdad273beef",
     "packages": [
         {
             "name": "aakb/os2display-aarhus-templates",
@@ -2987,16 +2987,16 @@
         },
         {
             "name": "os2display/admin-bundle",
-            "version": "1.1.3",
+            "version": "dev-feature/poster-bundle",
             "source": {
                 "type": "git",
                 "url": "https://github.com/itk-os2display/admin-bundle.git",
-                "reference": "9877d6cf86e47c25a5d19fb11870500cb95e7354"
+                "reference": "0ce2bffde853b81b7fbf9bfe7904bd6ee08e5a38"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/itk-os2display/admin-bundle/zipball/9877d6cf86e47c25a5d19fb11870500cb95e7354",
-                "reference": "9877d6cf86e47c25a5d19fb11870500cb95e7354",
+                "url": "https://api.github.com/repos/itk-os2display/admin-bundle/zipball/0ce2bffde853b81b7fbf9bfe7904bd6ee08e5a38",
+                "reference": "0ce2bffde853b81b7fbf9bfe7904bd6ee08e5a38",
                 "shasum": ""
             },
             "require": {
@@ -3010,9 +3010,9 @@
             },
             "description": "Os2Display admin",
             "support": {
-                "source": "https://github.com/itk-os2display/admin-bundle/tree/1.1.3"
+                "source": "https://github.com/itk-os2display/admin-bundle/tree/feature/poster-bundle"
             },
-            "time": "2018-09-21T12:46:49+00:00"
+            "time": "2019-03-08T10:02:09+00:00"
         },
         {
             "name": "os2display/campaign-bundle",
@@ -6555,6 +6555,7 @@
     "aliases": [],
     "minimum-stability": "stable",
     "stability-flags": {
+        "os2display/admin-bundle": 20,
         "aakb/os2display-aarhus-templates": 20,
         "itk-os2display/poster-bundle": 20
     },
