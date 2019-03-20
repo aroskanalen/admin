@@ -1,5 +1,9 @@
 # Aroskanalen CHANGELOG
 
+## 5.2.1
+
+* aakb/os2display-aarhus-templates: 1.0.20
+
 ## 5.2.0
 
 * itk-os2display/campaign-bundle -> os2display/campaign-bundle
