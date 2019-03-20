@@ -8,16 +8,16 @@
     "packages": [
         {
             "name": "aakb/os2display-aarhus-templates",
-            "version": "1.0.19",
+            "version": "1.0.20",
             "source": {
                 "type": "git",
                 "url": "git@github.com:aakb/os2display-aarhus-templates.git",
-                "reference": "f90e9330095a68007e5a50235828712ac46f0af7"
+                "reference": "4fa3a635d391bdeaa5e10c896968061d73128376"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/aakb/os2display-aarhus-templates/zipball/f90e9330095a68007e5a50235828712ac46f0af7",
-                "reference": "f90e9330095a68007e5a50235828712ac46f0af7",
+                "url": "https://api.github.com/repos/aakb/os2display-aarhus-templates/zipball/4fa3a635d391bdeaa5e10c896968061d73128376",
+                "reference": "4fa3a635d391bdeaa5e10c896968061d73128376",
                 "shasum": ""
             },
             "type": "symfony-bundle",
@@ -28,9 +28,9 @@
             },
             "description": "Os2Display aarhus templates",
             "support": {
-                "source": "https://github.com/aakb/os2display-aarhus-templates/tree/1.0.19"
+                "source": "https://github.com/aakb/os2display-aarhus-templates/tree/1.0.20"
             },
-            "time": "2018-05-30T06:28:35+00:00"
+            "time": "2019-03-20T12:20:25+00:00"
         },
         {
             "name": "behat/transliterator",
