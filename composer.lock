@@ -1780,12 +1780,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/itk-os2display/poster-bundle.git",
-                "reference": "16dd8a8cfffbf7ec9cc8b8b9c2b97df3ff59d344"
+                "reference": "8a9c6ec6d687b2f9ed694558f1fc03358a2ac08c"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/itk-os2display/poster-bundle/zipball/16dd8a8cfffbf7ec9cc8b8b9c2b97df3ff59d344",
-                "reference": "16dd8a8cfffbf7ec9cc8b8b9c2b97df3ff59d344",
+                "url": "https://api.github.com/repos/itk-os2display/poster-bundle/zipball/8a9c6ec6d687b2f9ed694558f1fc03358a2ac08c",
+                "reference": "8a9c6ec6d687b2f9ed694558f1fc03358a2ac08c",
                 "shasum": ""
             },
             "require": {
@@ -1803,7 +1803,7 @@
                 "source": "https://github.com/itk-os2display/poster-bundle/tree/develop",
                 "issues": "https://github.com/itk-os2display/poster-bundle/issues"
             },
-            "time": "2019-03-22T12:23:26+00:00"
+            "time": "2019-03-22T12:54:20+00:00"
         },
         {
             "name": "itk-os2display/template-extension-bundle",
