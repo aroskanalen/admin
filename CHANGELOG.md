@@ -1,5 +1,9 @@
 # Aroskanalen CHANGELOG
 
+## 5.2.2
+
+* itk-os2display/aarhus-second-template-bundle -> 1.1.7
+
 ## 5.2.1
 
 * aakb/os2display-aarhus-templates: 1.0.20
