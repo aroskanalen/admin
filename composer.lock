@@ -12,12 +12,12 @@
             "source": {
                 "type": "git",
                 "url": "git@github.com:aakb/os2display-aarhus-templates.git",
-                "reference": "553b3541c4b73684506a8b7afef87dd497b74cb6"
+                "reference": "c499b27e4c88875dfba20d8dc811b39f25b5ee54"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/aakb/os2display-aarhus-templates/zipball/553b3541c4b73684506a8b7afef87dd497b74cb6",
-                "reference": "553b3541c4b73684506a8b7afef87dd497b74cb6",
+                "url": "https://api.github.com/repos/aakb/os2display-aarhus-templates/zipball/c499b27e4c88875dfba20d8dc811b39f25b5ee54",
+                "reference": "c499b27e4c88875dfba20d8dc811b39f25b5ee54",
                 "shasum": ""
             },
             "type": "symfony-bundle",
@@ -30,7 +30,7 @@
             "support": {
                 "source": "https://github.com/aakb/os2display-aarhus-templates/tree/feature/aakb-digital-poster-template"
             },
-            "time": "2019-03-19T13:05:39+00:00"
+            "time": "2019-04-01T12:24:47+00:00"
         },
         {
             "name": "behat/transliterator",
@@ -1696,16 +1696,16 @@
         },
         {
             "name": "itk-os2display/aarhus-second-template-bundle",
-            "version": "1.1.6",
+            "version": "1.1.8",
             "source": {
                 "type": "git",
                 "url": "https://github.com/itk-os2display/aarhus-second-template-bundle.git",
-                "reference": "c9547cffd2c02fa73a096341155da56b5c83acaa"
+                "reference": "3d2bfde666876024e99f512696267c0778a726c4"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/itk-os2display/aarhus-second-template-bundle/zipball/c9547cffd2c02fa73a096341155da56b5c83acaa",
-                "reference": "c9547cffd2c02fa73a096341155da56b5c83acaa",
+                "url": "https://api.github.com/repos/itk-os2display/aarhus-second-template-bundle/zipball/3d2bfde666876024e99f512696267c0778a726c4",
+                "reference": "3d2bfde666876024e99f512696267c0778a726c4",
                 "shasum": ""
             },
             "type": "symfony-bundle",
@@ -1716,10 +1716,10 @@
             },
             "description": "Os2Display Aarhus templates",
             "support": {
-                "source": "https://github.com/itk-os2display/aarhus-second-template-bundle/tree/1.1.6",
+                "source": "https://github.com/itk-os2display/aarhus-second-template-bundle/tree/1.1.8",
                 "issues": "https://github.com/itk-os2display/aarhus-second-template-bundle/issues"
             },
-            "time": "2018-06-22T09:00:16+00:00"
+            "time": "2019-04-01T07:11:15+00:00"
         },
         {
             "name": "itk-os2display/lokalcenter-template-bundle",
@@ -1780,12 +1780,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/itk-os2display/poster-bundle.git",
-                "reference": "8a9c6ec6d687b2f9ed694558f1fc03358a2ac08c"
+                "reference": "c8ccf758c79f71953562fee8d1612cd870b9a146"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/itk-os2display/poster-bundle/zipball/8a9c6ec6d687b2f9ed694558f1fc03358a2ac08c",
-                "reference": "8a9c6ec6d687b2f9ed694558f1fc03358a2ac08c",
+                "url": "https://api.github.com/repos/itk-os2display/poster-bundle/zipball/c8ccf758c79f71953562fee8d1612cd870b9a146",
+                "reference": "c8ccf758c79f71953562fee8d1612cd870b9a146",
                 "shasum": ""
             },
             "require": {
@@ -1803,7 +1803,7 @@
                 "source": "https://github.com/itk-os2display/poster-bundle/tree/develop",
                 "issues": "https://github.com/itk-os2display/poster-bundle/issues"
             },
-            "time": "2019-03-22T12:54:20+00:00"
+            "time": "2019-04-01T12:26:24+00:00"
         },
         {
             "name": "itk-os2display/template-extension-bundle",
