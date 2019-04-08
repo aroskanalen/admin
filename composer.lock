@@ -12,12 +12,12 @@
             "source": {
                 "type": "git",
                 "url": "git@github.com:aakb/os2display-aarhus-templates.git",
-                "reference": "c499b27e4c88875dfba20d8dc811b39f25b5ee54"
+                "reference": "c6bff5e716d939fdf543ece53b2ca25b38e63df2"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/aakb/os2display-aarhus-templates/zipball/c499b27e4c88875dfba20d8dc811b39f25b5ee54",
-                "reference": "c499b27e4c88875dfba20d8dc811b39f25b5ee54",
+                "url": "https://api.github.com/repos/aakb/os2display-aarhus-templates/zipball/c6bff5e716d939fdf543ece53b2ca25b38e63df2",
+                "reference": "c6bff5e716d939fdf543ece53b2ca25b38e63df2",
                 "shasum": ""
             },
             "type": "symfony-bundle",
@@ -30,7 +30,7 @@
             "support": {
                 "source": "https://github.com/aakb/os2display-aarhus-templates/tree/feature/aakb-digital-poster-template"
             },
-            "time": "2019-04-01T12:24:47+00:00"
+            "time": "2019-04-08T13:19:29+00:00"
         },
         {
             "name": "behat/transliterator",
@@ -1780,12 +1780,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/itk-os2display/poster-bundle.git",
-                "reference": "c8ccf758c79f71953562fee8d1612cd870b9a146"
+                "reference": "0d336c5f1c25b143d7d265f2f4f278dbd4f8a61f"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/itk-os2display/poster-bundle/zipball/c8ccf758c79f71953562fee8d1612cd870b9a146",
-                "reference": "c8ccf758c79f71953562fee8d1612cd870b9a146",
+                "url": "https://api.github.com/repos/itk-os2display/poster-bundle/zipball/0d336c5f1c25b143d7d265f2f4f278dbd4f8a61f",
+                "reference": "0d336c5f1c25b143d7d265f2f4f278dbd4f8a61f",
                 "shasum": ""
             },
             "require": {
@@ -1803,7 +1803,7 @@
                 "source": "https://github.com/itk-os2display/poster-bundle/tree/develop",
                 "issues": "https://github.com/itk-os2display/poster-bundle/issues"
             },
-            "time": "2019-04-01T12:26:24+00:00"
+            "time": "2019-04-08T13:19:51+00:00"
         },
         {
             "name": "itk-os2display/template-extension-bundle",
