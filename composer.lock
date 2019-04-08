@@ -12,12 +12,12 @@
             "source": {
                 "type": "git",
                 "url": "git@github.com:aakb/os2display-aarhus-templates.git",
-                "reference": "c6bff5e716d939fdf543ece53b2ca25b38e63df2"
+                "reference": "188918fb18dad469b0d95120e2de668b5f2fc9cf"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/aakb/os2display-aarhus-templates/zipball/c6bff5e716d939fdf543ece53b2ca25b38e63df2",
-                "reference": "c6bff5e716d939fdf543ece53b2ca25b38e63df2",
+                "url": "https://api.github.com/repos/aakb/os2display-aarhus-templates/zipball/188918fb18dad469b0d95120e2de668b5f2fc9cf",
+                "reference": "188918fb18dad469b0d95120e2de668b5f2fc9cf",
                 "shasum": ""
             },
             "type": "symfony-bundle",
@@ -30,7 +30,7 @@
             "support": {
                 "source": "https://github.com/aakb/os2display-aarhus-templates/tree/feature/aakb-digital-poster-template"
             },
-            "time": "2019-04-08T13:19:29+00:00"
+            "time": "2019-04-08T13:24:55+00:00"
         },
         {
             "name": "behat/transliterator",
