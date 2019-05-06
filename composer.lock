@@ -1696,16 +1696,16 @@
         },
         {
             "name": "itk-os2display/aarhus-second-template-bundle",
-            "version": "1.1.8",
+            "version": "1.1.9",
             "source": {
                 "type": "git",
                 "url": "https://github.com/itk-os2display/aarhus-second-template-bundle.git",
-                "reference": "3d2bfde666876024e99f512696267c0778a726c4"
+                "reference": "85961717b43d698b60e9c1eafe5d76206ad36ed4"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/itk-os2display/aarhus-second-template-bundle/zipball/3d2bfde666876024e99f512696267c0778a726c4",
-                "reference": "3d2bfde666876024e99f512696267c0778a726c4",
+                "url": "https://api.github.com/repos/itk-os2display/aarhus-second-template-bundle/zipball/85961717b43d698b60e9c1eafe5d76206ad36ed4",
+                "reference": "85961717b43d698b60e9c1eafe5d76206ad36ed4",
                 "shasum": ""
             },
             "type": "symfony-bundle",
@@ -1716,10 +1716,10 @@
             },
             "description": "Os2Display Aarhus templates",
             "support": {
-                "source": "https://github.com/itk-os2display/aarhus-second-template-bundle/tree/1.1.8",
+                "source": "https://github.com/itk-os2display/aarhus-second-template-bundle/tree/1.1.9",
                 "issues": "https://github.com/itk-os2display/aarhus-second-template-bundle/issues"
             },
-            "time": "2019-04-01T07:11:15+00:00"
+            "time": "2019-05-03T06:36:02+00:00"
         },
         {
             "name": "itk-os2display/lokalcenter-template-bundle",
@@ -1780,12 +1780,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/itk-os2display/poster-bundle.git",
-                "reference": "0d336c5f1c25b143d7d265f2f4f278dbd4f8a61f"
+                "reference": "646db6bfa8bf4619795ddd46a887e3c75a42fd96"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/itk-os2display/poster-bundle/zipball/0d336c5f1c25b143d7d265f2f4f278dbd4f8a61f",
-                "reference": "0d336c5f1c25b143d7d265f2f4f278dbd4f8a61f",
+                "url": "https://api.github.com/repos/itk-os2display/poster-bundle/zipball/646db6bfa8bf4619795ddd46a887e3c75a42fd96",
+                "reference": "646db6bfa8bf4619795ddd46a887e3c75a42fd96",
                 "shasum": ""
             },
             "require": {
@@ -1803,7 +1803,7 @@
                 "source": "https://github.com/itk-os2display/poster-bundle/tree/develop",
                 "issues": "https://github.com/itk-os2display/poster-bundle/issues"
             },
-            "time": "2019-04-08T13:19:51+00:00"
+            "time": "2019-05-06T07:23:26+00:00"
         },
         {
             "name": "itk-os2display/template-extension-bundle",
@@ -5344,16 +5344,16 @@
         },
         {
             "name": "symfony/symfony",
-            "version": "v2.8.49",
+            "version": "v2.8.51",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/symfony.git",
-                "reference": "f8ac64c075a36bedd0de43192d9601c20b99716e"
+                "reference": "78d86f8516ea82fa809c0289a01d04f5aa3c0cd0"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/symfony/zipball/f8ac64c075a36bedd0de43192d9601c20b99716e",
-                "reference": "f8ac64c075a36bedd0de43192d9601c20b99716e",
+                "url": "https://api.github.com/repos/symfony/symfony/zipball/78d86f8516ea82fa809c0289a01d04f5aa3c0cd0",
+                "reference": "78d86f8516ea82fa809c0289a01d04f5aa3c0cd0",
                 "shasum": ""
             },
             "require": {
@@ -5480,7 +5480,7 @@
             "keywords": [
                 "framework"
             ],
-            "time": "2018-12-06T14:45:26+00:00"
+            "time": "2019-04-17T16:42:28+00:00"
         },
         {
             "name": "twig/extensions",
