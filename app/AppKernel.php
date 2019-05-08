@@ -30,12 +30,15 @@ class AppKernel extends Kernel
             new Doctrine\Bundle\MigrationsBundle\DoctrineMigrationsBundle(),
             new Stof\DoctrineExtensionsBundle\StofDoctrineExtensionsBundle(),
             new Nelmio\ApiDocBundle\NelmioApiDocBundle(),
+
             new Os2Display\MediaBundle\Os2DisplayMediaBundle(),
             new Os2Display\CoreBundle\Os2DisplayCoreBundle(),
             new Os2Display\AdminBundle\Os2DisplayAdminBundle(),
             new Os2Display\DefaultTemplateBundle\Os2DisplayDefaultTemplateBundle(),
             new Os2Display\CampaignBundle\Os2DisplayCampaignBundle(),
+            new Os2Display\ScreenBundle\Os2DisplayScreenBundle(),
 
+            new Os2Display\PosterBundle\Os2DisplayPosterBundle(),
             new Itk\AarhusDataBundle\ItkAarhusDataBundle(),
             new Itk\KobaIntegrationBundle\ItkKobaIntegrationBundle(),
             new Itk\TemplateExtensionBundle\ItkTemplateExtensionBundle(),
