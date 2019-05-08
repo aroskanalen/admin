@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "719f65bff7bf50a91f20938cb9f594ef",
+    "content-hash": "f00a54cb60352bf5011e469903fae7c5",
     "packages": [
         {
             "name": "aakb/os2display-aarhus-templates",
@@ -2199,16 +2199,16 @@
         },
         {
             "name": "itk-os2display/poster-bundle",
-            "version": "dev-develop",
+            "version": "1.0.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/itk-os2display/poster-bundle.git",
-                "reference": "646db6bfa8bf4619795ddd46a887e3c75a42fd96"
+                "reference": "febb508f46cb4877d83d0e8a1a2340651b95183d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/itk-os2display/poster-bundle/zipball/646db6bfa8bf4619795ddd46a887e3c75a42fd96",
-                "reference": "646db6bfa8bf4619795ddd46a887e3c75a42fd96",
+                "url": "https://api.github.com/repos/itk-os2display/poster-bundle/zipball/febb508f46cb4877d83d0e8a1a2340651b95183d",
+                "reference": "febb508f46cb4877d83d0e8a1a2340651b95183d",
                 "shasum": ""
             },
             "require": {
@@ -2223,10 +2223,10 @@
             },
             "description": "Os2Display posters",
             "support": {
-                "source": "https://github.com/itk-os2display/poster-bundle/tree/develop",
+                "source": "https://github.com/itk-os2display/poster-bundle/tree/1.0.0",
                 "issues": "https://github.com/itk-os2display/poster-bundle/issues"
             },
-            "time": "2019-05-06T07:23:26+00:00"
+            "time": "2019-05-08T07:02:16+00:00"
         },
         {
             "name": "itk-os2display/template-extension-bundle",
@@ -3466,6 +3466,36 @@
             "transport-options": {
                 "symlink": true
             }
+        },
+        {
+            "name": "os2display/screen-bundle",
+            "version": "1.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/itk-os2display/screen-bundle.git",
+                "reference": "f00fc219b1daf443bb64670acd71aab9935c86ef"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/itk-os2display/screen-bundle/zipball/f00fc219b1daf443bb64670acd71aab9935c86ef",
+                "reference": "f00fc219b1daf443bb64670acd71aab9935c86ef",
+                "shasum": ""
+            },
+            "type": "symfony-bundle",
+            "autoload": {
+                "psr-4": {
+                    "Os2Display\\ScreenBundle\\": ""
+                }
+            },
+            "license": [
+                "GNU General Public License v3.0"
+            ],
+            "description": "Os2Display screen",
+            "support": {
+                "source": "https://github.com/itk-os2display/screen-bundle/tree/1.0.0",
+                "issues": "https://github.com/itk-os2display/screen-bundle/issues"
+            },
+            "time": "2019-05-08T06:59:23+00:00"
         },
         {
             "name": "paragonie/random_compat",
@@ -5872,9 +5902,7 @@
     ],
     "aliases": [],
     "minimum-stability": "stable",
-    "stability-flags": {
-        "itk-os2display/poster-bundle": 20
-    },
+    "stability-flags": [],
     "prefer-stable": false,
     "prefer-lowest": false,
     "platform": {

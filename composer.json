@@ -40,6 +40,10 @@
             "type": "vcs",
             "url": "https://github.com/os2display/campaign-bundle"
         },
+        "os2display/screen-bundle": {
+            "type": "vcs",
+            "url": "https://github.com/itk-os2display/screen-bundle"
+        },
         "itk-os2display/os2display-koba-integration": {
             "type": "vcs",
             "url": "https://github.com/itk-os2display/os2display-koba-integration"
@@ -83,7 +87,7 @@
         "itk-os2display/aarhus-second-template-bundle": "^1.1",
         "itk-os2display/lokalcenter-template-bundle": "^1.0",
         "itk-os2display/os2display-koba-integration": "^1.0",
-        "itk-os2display/poster-bundle": "dev-develop",
+        "itk-os2display/poster-bundle": "^1.0",
         "itk-os2display/template-extension-bundle": "^1.1",
         "itk-os2display/vimeo-bundle": "^1.0",
         "os2display/admin-bundle": "^2.0",
@@ -91,6 +95,7 @@
         "os2display/core-bundle": "^2.0",
         "os2display/default-template-bundle": "^1.1",
         "os2display/media-bundle": "^2.0",
+        "os2display/screen-bundle": "^1.0",
         "paragonie/random_compat": "~2",
         "sensio/distribution-bundle": "^5.0.19",
         "sensio/framework-extra-bundle": "^5.0.0",
