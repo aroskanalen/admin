@@ -26,11 +26,11 @@
         },
         "os2display/core-bundle": {
             "type": "vcs",
-            "url": "https://github.com/os2display/core-bundle"
+            "url": "https://github.com/itk-os2display/core-bundle"
         },
         "os2display/admin-bundle": {
             "type": "vcs",
-            "url": "https://github.com/os2display/admin-bundle"
+            "url": "https://github.com/itk-os2display/admin-bundle"
         },
         "os2display/default-template-bundle": {
             "type": "vcs",
@@ -90,9 +90,9 @@
         "itk-os2display/poster-bundle": "^1.0",
         "itk-os2display/template-extension-bundle": "^1.1",
         "itk-os2display/vimeo-bundle": "^1.0",
-        "os2display/admin-bundle": "^2.0",
+        "os2display/admin-bundle": "dev-os2display2",
         "os2display/campaign-bundle": "^1.3",
-        "os2display/core-bundle": "^2.0",
+        "os2display/core-bundle": "dev-os2display2",
         "os2display/default-template-bundle": "^1.1",
         "os2display/media-bundle": "^2.0",
         "os2display/screen-bundle": "^1.0",
