@@ -155,3 +155,10 @@ os2_display_core:
 
 os2_display_campaign:
   cache_ttl: 30
+
+os2_display_poster:
+  cron_interval: 1800
+  providers:
+    eventdatabasen:
+      name: Eventdatabasen
+      url: 'https://api.detskeriaarhus.dk'
