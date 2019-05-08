@@ -73,7 +73,7 @@ security:
       logout:       true
       anonymous:    true
       remember_me:
-        key:      "%secret%"
+        secret:      "%secret%"
         lifetime: 604800 # a week
         path:     /
         domain:   ~

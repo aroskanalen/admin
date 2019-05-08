@@ -21,52 +21,82 @@
     },
     "repositories": {
         "os2display/media-bundle": {
-            "type": "vcs",
-            "url": "https://github.com/itk-os2display/media-bundle"
+            "type": "path",
+            "url": "../../packages/os2display/media-bundle",
+            "options": {
+                "symlink": true
+            }
         },
         "os2display/core-bundle": {
-            "type": "vcs",
-            "url": "https://github.com/itk-os2display/core-bundle"
+            "type": "path",
+            "url": "../../packages/os2display/core-bundle",
+            "options": {
+                "symlink": true
+            }
         },
         "os2display/admin-bundle": {
-            "type": "vcs",
-            "url": "https://github.com/itk-os2display/admin-bundle"
+            "type": "path",
+            "url": "../../packages/os2display/admin-bundle",
+            "options": {
+                "symlink": true
+            }
         },
         "os2display/default-template-bundle": {
-            "type": "vcs",
-            "url": "https://github.com/itk-os2display/default-template-bundle"
+            "type": "path",
+            "url": "../../packages/os2display/default-template-bundle",
+            "options": {
+                "symlink": true
+            }
         },
         "os2display/campaign-bundle": {
             "type": "vcs",
             "url": "https://github.com/itk-os2display/campaign-bundle"
         },
         "itk-os2display/os2display-koba-integration": {
-            "type": "vcs",
-            "url": "https://github.com/itk-os2display/os2display-koba-integration"
+            "type": "path",
+            "url": "../../packages/itk-os2display/os2display-koba-integration",
+            "options": {
+                "symlink": true
+            }
         },
         "itk-os2display/template-extension-bundle": {
-            "type": "vcs",
-            "url": "https://github.com/itk-os2display/template-extension-bundle"
+            "type": "path",
+            "url": "../../packages/itk-os2display/template-extension-bundle",
+            "options": {
+                "symlink": true
+            }
         },
         "itk-os2display/lokalcenter-template-bundle": {
-            "type": "vcs",
-            "url": "https://github.com/itk-os2display/lokalcenter-template-bundle"
+            "type": "path",
+            "url": "../../packages/itk-os2display/lokalcenter-template-bundle",
+            "options": {
+                "symlink": true
+            }
         },
         "aakb/os2display-aarhus-templates": {
             "type": "vcs",
             "url": "https://github.com/aakb/os2display-aarhus-templates"
         },
         "itk-os2display/aarhus-second-template-bundle": {
-            "type": "vcs",
-            "url": "https://github.com/itk-os2display/aarhus-second-template-bundle"
+            "type": "path",
+            "url": "../../packages/itk-os2display/aarhus-second-template-bundle",
+            "options": {
+                "symlink": true
+            }
         },
         "itk-os2display/aarhus-data-bundle": {
-            "type": "vcs",
-            "url": "https://github.com/itk-os2display/aarhus-data-bundle"
+            "type": "path",
+            "url": "../../packages/itk-os2display/aarhus-data-bundle",
+            "options": {
+                "symlink": true
+            }
         },
         "itk-os2display/vimeo-bundle": {
-            "type": "vcs",
-            "url": "https://github.com/itk-os2display/vimeo-bundle"
+            "type": "path",
+            "url": "../../packages/itk-os2display/vimeo-bundle",
+            "options": {
+                "symlink": true
+            }
         },
         "itk-os2display/poster-bundle": {
             "type": "vcs",
