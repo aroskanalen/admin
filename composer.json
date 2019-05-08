@@ -79,7 +79,7 @@
     },
     "require": {
         "php": ">=7.2.0",
-        "aakb/os2display-aarhus-templates": "^1.0",
+        "aakb/os2display-aarhus-templates": "dev-feature/aakb-digital-poster-template",
         "doctrine/doctrine-bundle": "^1.6",
         "doctrine/orm": "^2.5",
         "incenteev/composer-parameter-handler": "^2.0",
