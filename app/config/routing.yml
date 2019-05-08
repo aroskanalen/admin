@@ -22,6 +22,10 @@ os2display_admin:
   resource: "@Os2DisplayAdminBundle/Resources/config/routing.yml"
   prefix:   /
 
+os2display_screen:
+  resource: "@Os2DisplayScreenBundle/Resources/config/routing.yml"
+  prefix:   /
+
 JMSJobQueueBundle:
     resource: "@JMSJobQueueBundle/Controller/"
     type: annotation
