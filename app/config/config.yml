@@ -1,7 +1,7 @@
 imports:
-- { resource: parameters.yml }
-- { resource: security.yml }
-- { resource: services.yml }
+  - { resource: parameters.yml }
+  - { resource: security.yml }
+  - { resource: services.yml }
 
 # Put parameters here that don't need to change on each machine where the app is deployed
 # https://symfony.com/doc/current/best_practices/configuration.html#application-related-configuration
@@ -97,8 +97,8 @@ sonata_media:
   contexts:
     default:
       providers:
-      - sonata.media.provider.image
-      - sonata.media.provider.file
+        - sonata.media.provider.image
+        - sonata.media.provider.file
       formats:
         landscape: { width: 960 }
         portrait: { height: 540 }
@@ -139,8 +139,8 @@ fos_rest:
       # xml: true
   format_listener:
     rules:
-    - { path: '^/api', priorities: ['json'], fallback_format: json, prefer_extension: true }
-    - { path: '^/', stop: true } # Available for version >= 1.5
+      - { path: '^/api', priorities: ['json'], fallback_format: json, prefer_extension: true }
+      - { path: '^/', stop: true } # Available for version >= 1.5
 
 nelmio_api_doc: ~
 
