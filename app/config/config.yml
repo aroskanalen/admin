@@ -101,9 +101,9 @@ sonata_media:
         - sonata.media.provider.file
       formats:
         landscape: { width: 960 }
-        portrait: { height: 540 }
+        portrait: { width: 540 }
         landscape_small: { width: 300 }
-        portrait_small: { height: 150 }
+        portrait_small: { width: 168.75 }
   cdn:
     server:
       path: '%absolute_path_to_server%/uploads/media'
