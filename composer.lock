@@ -2106,10 +2106,9 @@
                 "reference": "1f6a584571b0dd055336dbb1ff7fab21ee01ca1b"
             },
             "dist": {
-                "type": "zip",
+                "type": "path",
                 "url": "https://api.github.com/repos/itk-os2display/aarhus-data-bundle/zipball/1f6a584571b0dd055336dbb1ff7fab21ee01ca1b",
-                "reference": "1f6a584571b0dd055336dbb1ff7fab21ee01ca1b",
-                "shasum": ""
+                "reference": "1f6a584571b0dd055336dbb1ff7fab21ee01ca1b"
             },
             "require": {
                 "doctrine/cache": "^1.0",
@@ -2122,11 +2121,9 @@
                 }
             },
             "description": "Os2Display aarhus data",
-            "support": {
-                "source": "https://github.com/itk-os2display/aarhus-data-bundle/tree/1.2.2",
-                "issues": "https://github.com/itk-os2display/aarhus-data-bundle/issues"
-            },
-            "time": "2018-05-30T06:34:40+00:00"
+            "transport-options": {
+                "symlink": true
+            }
         },
         {
             "name": "itk-os2display/aarhus-second-template-bundle",
@@ -2137,10 +2134,9 @@
                 "reference": "85961717b43d698b60e9c1eafe5d76206ad36ed4"
             },
             "dist": {
-                "type": "zip",
+                "type": "path",
                 "url": "https://api.github.com/repos/itk-os2display/aarhus-second-template-bundle/zipball/85961717b43d698b60e9c1eafe5d76206ad36ed4",
-                "reference": "85961717b43d698b60e9c1eafe5d76206ad36ed4",
-                "shasum": ""
+                "reference": "85961717b43d698b60e9c1eafe5d76206ad36ed4"
             },
             "type": "symfony-bundle",
             "autoload": {
@@ -2149,11 +2145,9 @@
                 }
             },
             "description": "Os2Display Aarhus templates",
-            "support": {
-                "source": "https://github.com/itk-os2display/aarhus-second-template-bundle/tree/1.1.9",
-                "issues": "https://github.com/itk-os2display/aarhus-second-template-bundle/issues"
-            },
-            "time": "2019-05-03T06:36:02+00:00"
+            "transport-options": {
+                "symlink": true
+            }
         },
         {
             "name": "itk-os2display/lokalcenter-template-bundle",
@@ -2164,10 +2158,9 @@
                 "reference": "cc89ac3e294aa412b12455244dfb03081eb67734"
             },
             "dist": {
-                "type": "zip",
+                "type": "path",
                 "url": "https://api.github.com/repos/itk-os2display/lokalcenter-template-bundle/zipball/cc89ac3e294aa412b12455244dfb03081eb67734",
-                "reference": "cc89ac3e294aa412b12455244dfb03081eb67734",
-                "shasum": ""
+                "reference": "cc89ac3e294aa412b12455244dfb03081eb67734"
             },
             "type": "symfony-bundle",
             "autoload": {
@@ -2176,10 +2169,9 @@
                 }
             },
             "description": "Os2Display Lokalcenter templates",
-            "support": {
-                "source": "https://github.com/itk-os2display/lokalcenter-template-bundle/tree/1.0.7"
-            },
-            "time": "2018-11-05T11:20:34+00:00"
+            "transport-options": {
+                "symlink": true
+            }
         },
         {
             "name": "itk-os2display/os2display-koba-integration",
@@ -2190,10 +2182,9 @@
                 "reference": "5f55cde1d023d6ac19081be9406a5d17fe132a38"
             },
             "dist": {
-                "type": "zip",
+                "type": "path",
                 "url": "https://api.github.com/repos/itk-os2display/os2display-koba-integration/zipball/5f55cde1d023d6ac19081be9406a5d17fe132a38",
-                "reference": "5f55cde1d023d6ac19081be9406a5d17fe132a38",
-                "shasum": ""
+                "reference": "5f55cde1d023d6ac19081be9406a5d17fe132a38"
             },
             "type": "symfony-bundle",
             "autoload": {
@@ -2202,11 +2193,9 @@
                 }
             },
             "description": "Os2Display koba integration",
-            "support": {
-                "source": "https://github.com/itk-os2display/os2display-koba-integration/tree/1.0.6",
-                "issues": "https://github.com/itk-os2display/os2display-koba-integration/issues"
-            },
-            "time": "2018-05-30T06:29:48+00:00"
+            "transport-options": {
+                "symlink": true
+            }
         },
         {
             "name": "itk-os2display/poster-bundle",
@@ -2248,10 +2237,9 @@
                 "reference": "e53032a41a9a4e931c4a57e8676f8aa50cbdfe71"
             },
             "dist": {
-                "type": "zip",
+                "type": "path",
                 "url": "https://api.github.com/repos/itk-os2display/template-extension-bundle/zipball/e53032a41a9a4e931c4a57e8676f8aa50cbdfe71",
-                "reference": "e53032a41a9a4e931c4a57e8676f8aa50cbdfe71",
-                "shasum": ""
+                "reference": "e53032a41a9a4e931c4a57e8676f8aa50cbdfe71"
             },
             "type": "symfony-bundle",
             "autoload": {
@@ -2260,11 +2248,9 @@
                 }
             },
             "description": "Os2Display Template Extension Bundle contains tools for templates.",
-            "support": {
-                "source": "https://github.com/itk-os2display/template-extension-bundle/tree/1.1.14",
-                "issues": "https://github.com/itk-os2display/template-extension-bundle/issues"
-            },
-            "time": "2018-05-30T06:32:06+00:00"
+            "transport-options": {
+                "symlink": true
+            }
         },
         {
             "name": "itk-os2display/vimeo-bundle",
@@ -2275,10 +2261,9 @@
                 "reference": "db6cee81e4ba48368a6188a23ab9f7a4ad075832"
             },
             "dist": {
-                "type": "zip",
+                "type": "path",
                 "url": "https://api.github.com/repos/itk-os2display/vimeo-bundle/zipball/db6cee81e4ba48368a6188a23ab9f7a4ad075832",
-                "reference": "db6cee81e4ba48368a6188a23ab9f7a4ad075832",
-                "shasum": ""
+                "reference": "db6cee81e4ba48368a6188a23ab9f7a4ad075832"
             },
             "type": "symfony-bundle",
             "autoload": {
@@ -2287,11 +2272,9 @@
                 }
             },
             "description": "Os2Display vimeo template.",
-            "support": {
-                "source": "https://github.com/itk-os2display/vimeo-bundle/tree/1.0.6",
-                "issues": "https://github.com/itk-os2display/vimeo-bundle/issues"
-            },
-            "time": "2018-11-26T09:14:06+00:00"
+            "transport-options": {
+                "symlink": true
+            }
         },
         {
             "name": "jdorn/sql-formatter",
@@ -3311,10 +3294,9 @@
                 "reference": "6832ce64a81021f61ae35b809196ca8ddb978514"
             },
             "dist": {
-                "type": "zip",
+                "type": "path",
                 "url": "https://api.github.com/repos/os2display/admin-bundle/zipball/6832ce64a81021f61ae35b809196ca8ddb978514",
-                "reference": "6832ce64a81021f61ae35b809196ca8ddb978514",
-                "shasum": ""
+                "reference": "6832ce64a81021f61ae35b809196ca8ddb978514"
             },
             "require": {
                 "php": ">=7.2",
@@ -3326,9 +3308,10 @@
                     "Os2Display\\AdminBundle\\": ""
                 }
             },
-            "notification-url": "https://packagist.org/downloads/",
             "description": "Os2Display admin",
-            "time": "2019-02-21T08:59:34+00:00"
+            "transport-options": {
+                "symlink": true
+            }
         },
         {
             "name": "os2display/campaign-bundle",
@@ -3376,10 +3359,9 @@
                 "reference": "aa08fe99e745d245d64726f5535b9901e43da1e8"
             },
             "dist": {
-                "type": "zip",
+                "type": "path",
                 "url": "https://api.github.com/repos/os2display/core-bundle/zipball/aa08fe99e745d245d64726f5535b9901e43da1e8",
-                "reference": "aa08fe99e745d245d64726f5535b9901e43da1e8",
-                "shasum": ""
+                "reference": "aa08fe99e745d245d64726f5535b9901e43da1e8"
             },
             "require": {
                 "debril/rss-atom-bundle": "^4.2",
@@ -3428,9 +3410,10 @@
                     "Os2Display\\CoreBundle\\": ""
                 }
             },
-            "notification-url": "https://packagist.org/downloads/",
             "description": "Os2Display core",
-            "time": "2019-02-21T09:09:20+00:00"
+            "transport-options": {
+                "symlink": true
+            }
         },
         {
             "name": "os2display/default-template-bundle",
@@ -3441,10 +3424,9 @@
                 "reference": "bee59b69cb9fc26b7783408ecba508ec48b52484"
             },
             "dist": {
-                "type": "zip",
+                "type": "path",
                 "url": "https://api.github.com/repos/os2display/default-template-bundle/zipball/bee59b69cb9fc26b7783408ecba508ec48b52484",
-                "reference": "bee59b69cb9fc26b7783408ecba508ec48b52484",
-                "shasum": ""
+                "reference": "bee59b69cb9fc26b7783408ecba508ec48b52484"
             },
             "type": "symfony-bundle",
             "autoload": {
@@ -3452,9 +3434,10 @@
                     "Os2Display\\DefaultTemplateBundle\\": ""
                 }
             },
-            "notification-url": "https://packagist.org/downloads/",
             "description": "Os2Display default template",
-            "time": "2019-02-19T12:02:39+00:00"
+            "transport-options": {
+                "symlink": true
+            }
         },
         {
             "name": "os2display/media-bundle",
@@ -3465,10 +3448,9 @@
                 "reference": "4dd393ac1435ec67cc8945f27fbb49372f711cf7"
             },
             "dist": {
-                "type": "zip",
+                "type": "path",
                 "url": "https://api.github.com/repos/os2display/media-bundle/zipball/4dd393ac1435ec67cc8945f27fbb49372f711cf7",
-                "reference": "4dd393ac1435ec67cc8945f27fbb49372f711cf7",
-                "shasum": ""
+                "reference": "4dd393ac1435ec67cc8945f27fbb49372f711cf7"
             },
             "require": {
                 "php": ">=7.2",
@@ -3480,9 +3462,10 @@
                     "Os2Display\\MediaBundle\\": ""
                 }
             },
-            "notification-url": "https://packagist.org/downloads/",
             "description": "Os2Display media",
-            "time": "2019-02-21T09:06:08+00:00"
+            "transport-options": {
+                "symlink": true
+            }
         },
         {
             "name": "paragonie/random_compat",
