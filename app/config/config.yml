@@ -157,12 +157,14 @@ os2_display_campaign:
   cache_ttl: 30
 
 os2_display_screen:
-  strategies:
-    pull:
-      enabled: true
-      update_interval: 60
-    push:
-      enabled: true
-      debug: false
-      log_to_console: false
-      log_level: error
+    strategies:
+       pull:
+            enabled: true
+            update_interval: 60
+       push:
+            enabled: true
+            resource:
+                server: '%absolute_path_to_server%/'
+                uri: 'middleware'
+            ws:
+                server: '%middleware_host%'
