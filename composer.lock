@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "7afe5c556a43a5194c5771c037888208",
+    "content-hash": "237a48407a4299f882c836dbbefc6e16",
     "packages": [
         {
             "name": "aakb/os2display-aarhus-templates",
@@ -3459,16 +3459,16 @@
         },
         {
             "name": "os2display/screen-bundle",
-            "version": "1.0.3",
+            "version": "1.0.4",
             "source": {
                 "type": "git",
-                "url": "https://github.com/itk-os2display/screen-bundle.git",
-                "reference": "4379f80c22a32d2524bb8af098a912c17ef3441c"
+                "url": "https://github.com/os2display/screen-bundle.git",
+                "reference": "ddc2dc0622b87a52fe58ccb38d58bf7d52b5c442"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/itk-os2display/screen-bundle/zipball/4379f80c22a32d2524bb8af098a912c17ef3441c",
-                "reference": "4379f80c22a32d2524bb8af098a912c17ef3441c",
+                "url": "https://api.github.com/repos/os2display/screen-bundle/zipball/ddc2dc0622b87a52fe58ccb38d58bf7d52b5c442",
+                "reference": "ddc2dc0622b87a52fe58ccb38d58bf7d52b5c442",
                 "shasum": ""
             },
             "type": "symfony-bundle",
@@ -3482,10 +3482,10 @@
             ],
             "description": "Os2Display screen",
             "support": {
-                "source": "https://github.com/itk-os2display/screen-bundle/tree/1.0.3",
-                "issues": "https://github.com/itk-os2display/screen-bundle/issues"
+                "source": "https://github.com/os2display/screen-bundle/tree/1.0.4",
+                "issues": "https://github.com/os2display/screen-bundle/issues"
             },
-            "time": "2019-05-09T08:39:00+00:00"
+            "time": "2019-05-09T08:53:50+00:00"
         },
         {
             "name": "paragonie/random_compat",

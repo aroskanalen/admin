@@ -42,7 +42,7 @@
         },
         "os2display/screen-bundle": {
             "type": "vcs",
-            "url": "https://github.com/itk-os2display/screen-bundle"
+            "url": "https://github.com/os2display/screen-bundle"
         },
         "itk-os2display/os2display-koba-integration": {
             "type": "vcs",
