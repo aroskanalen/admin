@@ -3459,16 +3459,16 @@
         },
         {
             "name": "os2display/screen-bundle",
-            "version": "1.0.1",
+            "version": "1.0.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/itk-os2display/screen-bundle.git",
-                "reference": "68a1d282c8883ea99c7d14da0c5dcb457e3eadc4"
+                "reference": "17c0aeaae16f141834544d434b3b199188d4e002"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/itk-os2display/screen-bundle/zipball/68a1d282c8883ea99c7d14da0c5dcb457e3eadc4",
-                "reference": "68a1d282c8883ea99c7d14da0c5dcb457e3eadc4",
+                "url": "https://api.github.com/repos/itk-os2display/screen-bundle/zipball/17c0aeaae16f141834544d434b3b199188d4e002",
+                "reference": "17c0aeaae16f141834544d434b3b199188d4e002",
                 "shasum": ""
             },
             "type": "symfony-bundle",
@@ -3482,10 +3482,10 @@
             ],
             "description": "Os2Display screen",
             "support": {
-                "source": "https://github.com/itk-os2display/screen-bundle/tree/1.0.1",
+                "source": "https://github.com/itk-os2display/screen-bundle/tree/1.0.2",
                 "issues": "https://github.com/itk-os2display/screen-bundle/issues"
             },
-            "time": "2019-05-08T10:54:23+00:00"
+            "time": "2019-05-09T07:44:47+00:00"
         },
         {
             "name": "paragonie/random_compat",
