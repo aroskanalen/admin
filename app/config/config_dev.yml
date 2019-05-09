@@ -40,3 +40,15 @@ swiftmailer:
     password:  null
     port: 1025
     spool:     { type: memory }
+
+os2_display_screen:
+    strategies:
+        pull:
+            debug: true
+            log_to_console: true
+            log_level: all
+            update_interval: 60
+        push:
+            debug: true
+            log_to_console: true
+            log_level: all
