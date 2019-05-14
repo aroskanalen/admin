@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "237a48407a4299f882c836dbbefc6e16",
+    "content-hash": "4001bb5e5b1fff96a75275452024a957",
     "packages": [
         {
             "name": "aakb/os2display-aarhus-templates",
@@ -692,41 +692,45 @@
         },
         {
             "name": "doctrine/doctrine-bundle",
-            "version": "1.10.2",
+            "version": "1.11.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/doctrine/DoctrineBundle.git",
-                "reference": "1f99e6645030542079c57d4680601a4a8778a1bd"
+                "reference": "09a38417339dc93849d051b914aae3947eb231a7"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/doctrine/DoctrineBundle/zipball/1f99e6645030542079c57d4680601a4a8778a1bd",
-                "reference": "1f99e6645030542079c57d4680601a4a8778a1bd",
+                "url": "https://api.github.com/repos/doctrine/DoctrineBundle/zipball/09a38417339dc93849d051b914aae3947eb231a7",
+                "reference": "09a38417339dc93849d051b914aae3947eb231a7",
                 "shasum": ""
             },
             "require": {
                 "doctrine/dbal": "^2.5.12",
                 "doctrine/doctrine-cache-bundle": "~1.2",
                 "jdorn/sql-formatter": "^1.2.16",
-                "php": "^5.5.9|^7.0",
-                "symfony/console": "~2.7|~3.0|~4.0",
-                "symfony/dependency-injection": "~2.7|~3.0|~4.0",
-                "symfony/doctrine-bridge": "~2.7|~3.0|~4.0",
-                "symfony/framework-bundle": "^2.7.22|~3.0|~4.0"
+                "php": "^7.1",
+                "symfony/config": "^3.4|^4.1",
+                "symfony/console": "^3.4|^4.1",
+                "symfony/dependency-injection": "^3.4|^4.1",
+                "symfony/doctrine-bridge": "^3.4|^4.1",
+                "symfony/framework-bundle": "^3.4|^4.1"
             },
             "conflict": {
-                "symfony/http-foundation": "<2.6"
+                "doctrine/orm": "<2.6",
+                "twig/twig": "<1.34|>=2.0,<2.4"
             },
             "require-dev": {
-                "doctrine/orm": "~2.4",
+                "doctrine/coding-standard": "^6.0",
+                "doctrine/orm": "^2.6",
                 "php-coveralls/php-coveralls": "^2.1",
-                "phpunit/phpunit": "^4.8.36|^5.7|^6.4",
-                "symfony/phpunit-bridge": "~2.7|~3.0|~4.0",
-                "symfony/property-info": "~2.8|~3.0|~4.0",
-                "symfony/validator": "~2.7|~3.0|~4.0",
-                "symfony/web-profiler-bundle": "~2.7|~3.0|~4.0",
-                "symfony/yaml": "~2.7|~3.0|~4.0",
-                "twig/twig": "~1.26|~2.0"
+                "phpunit/phpunit": "7.0",
+                "symfony/cache": "^3.4|^4.1",
+                "symfony/phpunit-bridge": "^4.2",
+                "symfony/property-info": "^3.4|^4.1",
+                "symfony/validator": "^3.4|^4.1",
+                "symfony/web-profiler-bundle": "^3.4|^4.1",
+                "symfony/yaml": "^3.4|^4.1",
+                "twig/twig": "^1.34|^2.4"
             },
             "suggest": {
                 "doctrine/orm": "The Doctrine ORM integration is optional in the bundle.",
@@ -735,7 +739,7 @@
             "type": "symfony-bundle",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "1.9.x-dev"
+                    "dev-master": "1.11.x-dev"
                 }
             },
             "autoload": {
@@ -773,7 +777,7 @@
                 "orm",
                 "persistence"
             ],
-            "time": "2019-02-06T13:18:04+00:00"
+            "time": "2019-05-13T14:30:38+00:00"
         },
         {
             "name": "doctrine/doctrine-cache-bundle",
@@ -2106,9 +2110,10 @@
                 "reference": "1f6a584571b0dd055336dbb1ff7fab21ee01ca1b"
             },
             "dist": {
-                "type": "path",
+                "type": "zip",
                 "url": "https://api.github.com/repos/itk-os2display/aarhus-data-bundle/zipball/1f6a584571b0dd055336dbb1ff7fab21ee01ca1b",
-                "reference": "1f6a584571b0dd055336dbb1ff7fab21ee01ca1b"
+                "reference": "1f6a584571b0dd055336dbb1ff7fab21ee01ca1b",
+                "shasum": ""
             },
             "require": {
                 "doctrine/cache": "^1.0",
@@ -2121,9 +2126,11 @@
                 }
             },
             "description": "Os2Display aarhus data",
-            "transport-options": {
-                "symlink": true
-            }
+            "support": {
+                "source": "https://github.com/itk-os2display/aarhus-data-bundle/tree/1.2.2",
+                "issues": "https://github.com/itk-os2display/aarhus-data-bundle/issues"
+            },
+            "time": "2018-05-30T06:34:40+00:00"
         },
         {
             "name": "itk-os2display/aarhus-second-template-bundle",
@@ -2134,9 +2141,10 @@
                 "reference": "85961717b43d698b60e9c1eafe5d76206ad36ed4"
             },
             "dist": {
-                "type": "path",
+                "type": "zip",
                 "url": "https://api.github.com/repos/itk-os2display/aarhus-second-template-bundle/zipball/85961717b43d698b60e9c1eafe5d76206ad36ed4",
-                "reference": "85961717b43d698b60e9c1eafe5d76206ad36ed4"
+                "reference": "85961717b43d698b60e9c1eafe5d76206ad36ed4",
+                "shasum": ""
             },
             "type": "symfony-bundle",
             "autoload": {
@@ -2145,9 +2153,11 @@
                 }
             },
             "description": "Os2Display Aarhus templates",
-            "transport-options": {
-                "symlink": true
-            }
+            "support": {
+                "source": "https://github.com/itk-os2display/aarhus-second-template-bundle/tree/1.1.9",
+                "issues": "https://github.com/itk-os2display/aarhus-second-template-bundle/issues"
+            },
+            "time": "2019-05-03T06:36:02+00:00"
         },
         {
             "name": "itk-os2display/lokalcenter-template-bundle",
@@ -2158,9 +2168,10 @@
                 "reference": "cc89ac3e294aa412b12455244dfb03081eb67734"
             },
             "dist": {
-                "type": "path",
+                "type": "zip",
                 "url": "https://api.github.com/repos/itk-os2display/lokalcenter-template-bundle/zipball/cc89ac3e294aa412b12455244dfb03081eb67734",
-                "reference": "cc89ac3e294aa412b12455244dfb03081eb67734"
+                "reference": "cc89ac3e294aa412b12455244dfb03081eb67734",
+                "shasum": ""
             },
             "type": "symfony-bundle",
             "autoload": {
@@ -2169,22 +2180,23 @@
                 }
             },
             "description": "Os2Display Lokalcenter templates",
-            "transport-options": {
-                "symlink": true
-            }
+            "support": {
+                "source": "https://github.com/itk-os2display/lokalcenter-template-bundle/tree/1.0.7"
+            },
+            "time": "2018-11-05T11:20:34+00:00"
         },
         {
             "name": "itk-os2display/os2display-koba-integration",
-            "version": "1.0.6",
+            "version": "1.0.7",
             "source": {
                 "type": "git",
                 "url": "https://github.com/itk-os2display/os2display-koba-integration.git",
-                "reference": "5f55cde1d023d6ac19081be9406a5d17fe132a38"
+                "reference": "4ae853ed137765305ecf1f1faa9a95d4266cfff1"
             },
             "dist": {
                 "type": "path",
-                "url": "https://api.github.com/repos/itk-os2display/os2display-koba-integration/zipball/5f55cde1d023d6ac19081be9406a5d17fe132a38",
-                "reference": "5f55cde1d023d6ac19081be9406a5d17fe132a38"
+                "url": "https://api.github.com/repos/itk-os2display/os2display-koba-integration/zipball/4ae853ed137765305ecf1f1faa9a95d4266cfff1",
+                "reference": "4ae853ed137765305ecf1f1faa9a95d4266cfff1"
             },
             "type": "symfony-bundle",
             "autoload": {
@@ -2237,9 +2249,10 @@
                 "reference": "e53032a41a9a4e931c4a57e8676f8aa50cbdfe71"
             },
             "dist": {
-                "type": "path",
+                "type": "zip",
                 "url": "https://api.github.com/repos/itk-os2display/template-extension-bundle/zipball/e53032a41a9a4e931c4a57e8676f8aa50cbdfe71",
-                "reference": "e53032a41a9a4e931c4a57e8676f8aa50cbdfe71"
+                "reference": "e53032a41a9a4e931c4a57e8676f8aa50cbdfe71",
+                "shasum": ""
             },
             "type": "symfony-bundle",
             "autoload": {
@@ -2248,33 +2261,11 @@
                 }
             },
             "description": "Os2Display Template Extension Bundle contains tools for templates.",
-            "transport-options": {
-                "symlink": true
-            }
-        },
-        {
-            "name": "itk-os2display/vimeo-bundle",
-            "version": "1.0.6",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/itk-os2display/vimeo-bundle.git",
-                "reference": "db6cee81e4ba48368a6188a23ab9f7a4ad075832"
+            "support": {
+                "source": "https://github.com/itk-os2display/template-extension-bundle/tree/1.1.14",
+                "issues": "https://github.com/itk-os2display/template-extension-bundle/issues"
             },
-            "dist": {
-                "type": "path",
-                "url": "https://api.github.com/repos/itk-os2display/vimeo-bundle/zipball/db6cee81e4ba48368a6188a23ab9f7a4ad075832",
-                "reference": "db6cee81e4ba48368a6188a23ab9f7a4ad075832"
-            },
-            "type": "symfony-bundle",
-            "autoload": {
-                "psr-4": {
-                    "Itk\\VimeoBundle\\": ""
-                }
-            },
-            "description": "Os2Display vimeo template.",
-            "transport-options": {
-                "symlink": true
-            }
+            "time": "2018-05-30T06:32:06+00:00"
         },
         {
             "name": "jdorn/sql-formatter",
@@ -3348,9 +3339,10 @@
             },
             "description": "Os2Display campaigns",
             "support": {
-                "source": "https://github.com/itk-os2display/campaign-bundle/tree/1.3.0"
+                "source": "https://github.com/os2display/campaign-bundle/tree/1.3.0",
+                "issues": "https://github.com/os2display/campaign-bundle/issues"
             },
-            "time": "2019-02-07T12:48:06+00:00"
+            "time": "2019-02-07T13:02:24+00:00"
         },
         {
             "name": "os2display/core-bundle",
@@ -3428,9 +3420,10 @@
                 "reference": "bee59b69cb9fc26b7783408ecba508ec48b52484"
             },
             "dist": {
-                "type": "path",
+                "type": "zip",
                 "url": "https://api.github.com/repos/os2display/default-template-bundle/zipball/bee59b69cb9fc26b7783408ecba508ec48b52484",
-                "reference": "bee59b69cb9fc26b7783408ecba508ec48b52484"
+                "reference": "bee59b69cb9fc26b7783408ecba508ec48b52484",
+                "shasum": ""
             },
             "type": "symfony-bundle",
             "autoload": {
@@ -3439,9 +3432,11 @@
                 }
             },
             "description": "Os2Display default template",
-            "transport-options": {
-                "symlink": true
-            }
+            "support": {
+                "source": "https://github.com/os2display/default-template-bundle/tree/1.1.2",
+                "issues": "https://github.com/os2display/default-template-bundle/issues"
+            },
+            "time": "2019-02-19T12:02:39+00:00"
         },
         {
             "name": "os2display/media-bundle",
@@ -3452,9 +3447,10 @@
                 "reference": "4dd393ac1435ec67cc8945f27fbb49372f711cf7"
             },
             "dist": {
-                "type": "path",
+                "type": "zip",
                 "url": "https://api.github.com/repos/os2display/media-bundle/zipball/4dd393ac1435ec67cc8945f27fbb49372f711cf7",
-                "reference": "4dd393ac1435ec67cc8945f27fbb49372f711cf7"
+                "reference": "4dd393ac1435ec67cc8945f27fbb49372f711cf7",
+                "shasum": ""
             },
             "require": {
                 "php": ">=7.2",
@@ -3467,9 +3463,11 @@
                 }
             },
             "description": "Os2Display media",
-            "transport-options": {
-                "symlink": true
-            }
+            "support": {
+                "source": "https://github.com/os2display/media-bundle/tree/2.0.0",
+                "issues": "https://github.com/os2display/media-bundle/issues"
+            },
+            "time": "2019-02-21T09:06:08+00:00"
         },
         {
             "name": "os2display/screen-bundle",
@@ -3500,6 +3498,33 @@
                 "issues": "https://github.com/os2display/screen-bundle/issues"
             },
             "time": "2019-05-09T08:53:50+00:00"
+        },
+        {
+            "name": "os2display/vimeo-bundle",
+            "version": "2.0.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/os2display/vimeo-bundle.git",
+                "reference": "a6d74409468cf57d03b406102c1331308a9d7200"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/os2display/vimeo-bundle/zipball/a6d74409468cf57d03b406102c1331308a9d7200",
+                "reference": "a6d74409468cf57d03b406102c1331308a9d7200",
+                "shasum": ""
+            },
+            "type": "symfony-bundle",
+            "autoload": {
+                "psr-4": {
+                    "Os2Display\\VimeoBundle\\": ""
+                }
+            },
+            "description": "Os2Display vimeo template.",
+            "support": {
+                "source": "https://github.com/os2display/vimeo-bundle/tree/2.0.1",
+                "issues": "https://github.com/os2display/vimeo-bundle/issues"
+            },
+            "time": "2019-05-14T11:03:57+00:00"
         },
         {
             "name": "paragonie/random_compat",
