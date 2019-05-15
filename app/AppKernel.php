@@ -38,11 +38,11 @@ class AppKernel extends Kernel
             new Os2Display\CampaignBundle\Os2DisplayCampaignBundle(),
             new Os2Display\ScreenBundle\Os2DisplayScreenBundle(),
             new Os2Display\VimeoBundle\Os2DisplayVimeoBundle(),
+            new Os2Display\TemplateExtensionBundle\Os2DisplayTemplateExtensionBundle(),
 
             new Os2Display\PosterBundle\Os2DisplayPosterBundle(),
             new Itk\AarhusDataBundle\ItkAarhusDataBundle(),
             new Itk\KobaIntegrationBundle\ItkKobaIntegrationBundle(),
-            new Itk\TemplateExtensionBundle\ItkTemplateExtensionBundle(),
             new Itk\AarhusTemplateBundle\ItkAarhusTemplateBundle(),
             new Itk\LokalcenterTemplateBundle\ItkLokalcenterTemplateBundle(),
             new Itk\AarhusSecondTemplateBundle\ItkAarhusSecondTemplateBundle(),

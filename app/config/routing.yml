@@ -6,8 +6,8 @@ itk_aarhus_data:
     resource: "@ItkAarhusDataBundle/Resources/config/routing.yml"
     prefix:   /api
 
-itk_template_extension:
-    resource: "@ItkTemplateExtensionBundle/Resources/config/routing.yml"
+os2display_template_extension:
+    resource: "@Os2DisplayTemplateExtensionBundle/Resources/config/routing.yml"
     prefix:   /
 
 os2display_campaign:
