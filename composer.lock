@@ -3447,16 +3447,16 @@
         },
         {
             "name": "os2display/screen-bundle",
-            "version": "1.0.4",
+            "version": "1.0.5",
             "source": {
                 "type": "git",
                 "url": "https://github.com/os2display/screen-bundle.git",
-                "reference": "ddc2dc0622b87a52fe58ccb38d58bf7d52b5c442"
+                "reference": "de0e1bcf9e114b8f456f41581c6b000442b52317"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/os2display/screen-bundle/zipball/ddc2dc0622b87a52fe58ccb38d58bf7d52b5c442",
-                "reference": "ddc2dc0622b87a52fe58ccb38d58bf7d52b5c442",
+                "url": "https://api.github.com/repos/os2display/screen-bundle/zipball/de0e1bcf9e114b8f456f41581c6b000442b52317",
+                "reference": "de0e1bcf9e114b8f456f41581c6b000442b52317",
                 "shasum": ""
             },
             "type": "symfony-bundle",
@@ -3466,14 +3466,14 @@
                 }
             },
             "license": [
-                "GNU General Public License v3.0"
+                "MPL-2.0"
             ],
             "description": "Os2Display screen",
             "support": {
-                "source": "https://github.com/os2display/screen-bundle/tree/1.0.4",
+                "source": "https://github.com/os2display/screen-bundle/tree/1.0.5",
                 "issues": "https://github.com/os2display/screen-bundle/issues"
             },
-            "time": "2019-05-09T08:53:50+00:00"
+            "time": "2019-05-16T10:25:09+00:00"
         },
         {
             "name": "os2display/template-extension-bundle",
