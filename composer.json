@@ -26,11 +26,11 @@
         },
         "os2display/core-bundle": {
             "type": "vcs",
-            "url": "https://github.com/itk-os2display/core-bundle"
+            "url": "https://github.com/os2display/core-bundle"
         },
         "os2display/admin-bundle": {
             "type": "vcs",
-            "url": "https://github.com/itk-os2display/admin-bundle"
+            "url": "https://github.com/os2display/admin-bundle"
         },
         "os2display/default-template-bundle": {
             "type": "vcs",
@@ -88,12 +88,12 @@
         "itk-os2display/lokalcenter-template-bundle": "dev-symf34",
         "itk-os2display/os2display-koba-integration": "dev-feature/tool",
         "itk-os2display/poster-bundle": "^1.0",
-        "os2display/admin-bundle": "dev-os2display2",
-        "os2display/campaign-bundle": "^2.0",
-        "os2display/core-bundle": "dev-os2display2",
-        "os2display/default-template-bundle": "^1.1",
-        "os2display/media-bundle": "^2.0",
-        "os2display/screen-bundle": "^1.0",
+        "os2display/admin-bundle": "~2.0",
+        "os2display/campaign-bundle": "~2.0",
+        "os2display/core-bundle": "~2.0",
+        "os2display/default-template-bundle": "~1.1",
+        "os2display/media-bundle": "~2.0",
+        "os2display/screen-bundle": "~1.0",
         "os2display/template-extension-bundle": "^2.0",
         "os2display/vimeo-bundle": "~2.0",
         "paragonie/random_compat": "~2",
