@@ -4,20 +4,20 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "2fe234df1b2e89212122890f61410572",
+    "content-hash": "e72868bb524fb046b17f986cfd391db9",
     "packages": [
         {
             "name": "aakb/os2display-aarhus-templates",
-            "version": "dev-feature/aakb-digital-poster-template",
+            "version": "dev-feature/dokkway-290-optional-texts",
             "source": {
                 "type": "git",
                 "url": "git@github.com:aakb/os2display-aarhus-templates.git",
-                "reference": "9d0c481cc582cbe11db1e7b9d1f6170678241a3d"
+                "reference": "ed3e345f9962e8ef3ae4ca679127192b36b5dc07"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/aakb/os2display-aarhus-templates/zipball/9d0c481cc582cbe11db1e7b9d1f6170678241a3d",
-                "reference": "9d0c481cc582cbe11db1e7b9d1f6170678241a3d",
+                "url": "https://api.github.com/repos/aakb/os2display-aarhus-templates/zipball/ed3e345f9962e8ef3ae4ca679127192b36b5dc07",
+                "reference": "ed3e345f9962e8ef3ae4ca679127192b36b5dc07",
                 "shasum": ""
             },
             "type": "symfony-bundle",
@@ -28,9 +28,9 @@
             },
             "description": "Os2Display aarhus templates",
             "support": {
-                "source": "https://github.com/aakb/os2display-aarhus-templates/tree/feature/aakb-digital-poster-template"
+                "source": "https://github.com/aakb/os2display-aarhus-templates/tree/feature/dokkway-290-optional-texts"
             },
-            "time": "2019-06-24T10:44:25+00:00"
+            "time": "2019-06-24T12:54:25+00:00"
         },
         {
             "name": "behat/transliterator",
