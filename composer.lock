@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "e72868bb524fb046b17f986cfd391db9",
+    "content-hash": "4e49dca28ce9f14c725912310784b9ee",
     "packages": [
         {
             "name": "aakb/os2display-aarhus-templates",
@@ -3392,16 +3392,16 @@
         },
         {
             "name": "os2display/default-template-bundle",
-            "version": "1.1.2",
+            "version": "dev-feature/iframe-sizes",
             "source": {
                 "type": "git",
-                "url": "https://github.com/os2display/default-template-bundle.git",
-                "reference": "bee59b69cb9fc26b7783408ecba508ec48b52484"
+                "url": "https://github.com/aroskanalen/default-template-bundle.git",
+                "reference": "e7f5005736c46c43137d390dd433a433745818da"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/os2display/default-template-bundle/zipball/bee59b69cb9fc26b7783408ecba508ec48b52484",
-                "reference": "bee59b69cb9fc26b7783408ecba508ec48b52484",
+                "url": "https://api.github.com/repos/aroskanalen/default-template-bundle/zipball/e7f5005736c46c43137d390dd433a433745818da",
+                "reference": "e7f5005736c46c43137d390dd433a433745818da",
                 "shasum": ""
             },
             "type": "symfony-bundle",
@@ -3412,10 +3412,9 @@
             },
             "description": "Os2Display default template",
             "support": {
-                "source": "https://github.com/os2display/default-template-bundle/tree/1.1.2",
-                "issues": "https://github.com/os2display/default-template-bundle/issues"
+                "source": "https://github.com/aroskanalen/default-template-bundle/tree/feature/iframe-sizes"
             },
-            "time": "2019-02-19T12:02:39+00:00"
+            "time": "2019-06-25T06:41:33+00:00"
         },
         {
             "name": "os2display/media-bundle",
@@ -5941,7 +5940,8 @@
         "aakb/os2display-aarhus-templates": 20,
         "itk-os2display/aarhus-second-template-bundle": 20,
         "itk-os2display/lokalcenter-template-bundle": 20,
-        "itk-os2display/os2display-koba-integration": 20
+        "itk-os2display/os2display-koba-integration": 20,
+        "os2display/default-template-bundle": 20
     },
     "prefer-stable": false,
     "prefer-lowest": false,
