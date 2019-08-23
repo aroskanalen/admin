@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "3b640611bd0be81662e297fdfa9021d2",
+    "content-hash": "c8322aa3a1a96b4538c99b8e251fc9a8",
     "packages": [
         {
             "name": "aakb/os2display-aarhus-templates",
@@ -3324,16 +3324,16 @@
         },
         {
             "name": "os2display/core-bundle",
-            "version": "dev-pull-12",
+            "version": "2.1.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/os2display/core-bundle.git",
-                "reference": "772419080cbd8842a7ee02bc28f7d9002c37bc77"
+                "reference": "1930c5fd4bce4033e8e6bda6bdbe05c293210a2e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/os2display/core-bundle/zipball/772419080cbd8842a7ee02bc28f7d9002c37bc77",
-                "reference": "772419080cbd8842a7ee02bc28f7d9002c37bc77",
+                "url": "https://api.github.com/repos/os2display/core-bundle/zipball/1930c5fd4bce4033e8e6bda6bdbe05c293210a2e",
+                "reference": "1930c5fd4bce4033e8e6bda6bdbe05c293210a2e",
                 "shasum": ""
             },
             "require": {
@@ -3385,10 +3385,10 @@
             },
             "description": "Os2Display core",
             "support": {
-                "source": "https://github.com/os2display/core-bundle/tree/pull-12",
+                "source": "https://github.com/os2display/core-bundle/tree/2.1.1",
                 "issues": "https://github.com/os2display/core-bundle/issues"
             },
-            "time": "2019-08-16T08:07:51+00:00"
+            "time": "2019-08-23T12:30:13+00:00"
         },
         {
             "name": "os2display/default-template-bundle",
@@ -5942,7 +5942,6 @@
         "itk-os2display/lokalcenter-template-bundle": 20,
         "itk-os2display/os2display-koba-integration": 20,
         "itk-os2display/poster-bundle": 20,
-        "os2display/core-bundle": 20,
         "os2display/default-template-bundle": 20
     },
     "prefer-stable": false,
