@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "4e49dca28ce9f14c725912310784b9ee",
+    "content-hash": "3b640611bd0be81662e297fdfa9021d2",
     "packages": [
         {
             "name": "aakb/os2display-aarhus-templates",
@@ -2214,16 +2214,16 @@
         },
         {
             "name": "itk-os2display/poster-bundle",
-            "version": "1.0.0",
+            "version": "dev-hotfix/dokkway-288-fix-updating",
             "source": {
                 "type": "git",
                 "url": "https://github.com/itk-os2display/poster-bundle.git",
-                "reference": "febb508f46cb4877d83d0e8a1a2340651b95183d"
+                "reference": "f6572df3e4cccc36e98e23c87f632199ae07c362"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/itk-os2display/poster-bundle/zipball/febb508f46cb4877d83d0e8a1a2340651b95183d",
-                "reference": "febb508f46cb4877d83d0e8a1a2340651b95183d",
+                "url": "https://api.github.com/repos/itk-os2display/poster-bundle/zipball/f6572df3e4cccc36e98e23c87f632199ae07c362",
+                "reference": "f6572df3e4cccc36e98e23c87f632199ae07c362",
                 "shasum": ""
             },
             "require": {
@@ -2238,10 +2238,10 @@
             },
             "description": "Os2Display posters",
             "support": {
-                "source": "https://github.com/itk-os2display/poster-bundle/tree/1.0.0",
+                "source": "https://github.com/itk-os2display/poster-bundle/tree/hotfix/dokkway-288-fix-updating",
                 "issues": "https://github.com/itk-os2display/poster-bundle/issues"
             },
-            "time": "2019-05-08T07:02:16+00:00"
+            "time": "2019-08-23T11:56:11+00:00"
         },
         {
             "name": "jdorn/sql-formatter",
@@ -3324,16 +3324,16 @@
         },
         {
             "name": "os2display/core-bundle",
-            "version": "2.1.0",
+            "version": "dev-pull-12",
             "source": {
                 "type": "git",
                 "url": "https://github.com/os2display/core-bundle.git",
-                "reference": "e445ceb9bb86a66a30187111185e86b0dada14ad"
+                "reference": "772419080cbd8842a7ee02bc28f7d9002c37bc77"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/os2display/core-bundle/zipball/e445ceb9bb86a66a30187111185e86b0dada14ad",
-                "reference": "e445ceb9bb86a66a30187111185e86b0dada14ad",
+                "url": "https://api.github.com/repos/os2display/core-bundle/zipball/772419080cbd8842a7ee02bc28f7d9002c37bc77",
+                "reference": "772419080cbd8842a7ee02bc28f7d9002c37bc77",
                 "shasum": ""
             },
             "require": {
@@ -3385,10 +3385,10 @@
             },
             "description": "Os2Display core",
             "support": {
-                "source": "https://github.com/os2display/core-bundle/tree/2.1.0",
+                "source": "https://github.com/os2display/core-bundle/tree/pull-12",
                 "issues": "https://github.com/os2display/core-bundle/issues"
             },
-            "time": "2019-05-20T11:25:05+00:00"
+            "time": "2019-08-16T08:07:51+00:00"
         },
         {
             "name": "os2display/default-template-bundle",
@@ -5392,16 +5392,16 @@
         },
         {
             "name": "symfony/symfony",
-            "version": "v3.4.28",
+            "version": "v3.4.30",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/symfony.git",
-                "reference": "5e05ffeb1c2e538127e5a33b419edb8b2904b99e"
+                "reference": "4d911e98e1f70538edcca4576c65395ef0fbfa84"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/symfony/zipball/5e05ffeb1c2e538127e5a33b419edb8b2904b99e",
-                "reference": "5e05ffeb1c2e538127e5a33b419edb8b2904b99e",
+                "url": "https://api.github.com/repos/symfony/symfony/zipball/4d911e98e1f70538edcca4576c65395ef0fbfa84",
+                "reference": "4d911e98e1f70538edcca4576c65395ef0fbfa84",
                 "shasum": ""
             },
             "require": {
@@ -5499,7 +5499,7 @@
                 "ocramius/proxy-manager": "~0.4|~1.0|~2.0",
                 "phpdocumentor/reflection-docblock": "^3.0|^4.0",
                 "predis/predis": "~1.0",
-                "symfony/phpunit-bridge": "~3.4|~4.0",
+                "symfony/phpunit-bridge": "^3.4.19|^4.1.8|~5.0",
                 "symfony/security-acl": "~2.8|~3.0"
             },
             "type": "library",
@@ -5543,7 +5543,7 @@
             "keywords": [
                 "framework"
             ],
-            "time": "2019-05-28T09:24:58+00:00"
+            "time": "2019-07-27T17:14:21+00:00"
         },
         {
             "name": "twig/extensions",
@@ -5941,6 +5941,8 @@
         "itk-os2display/aarhus-second-template-bundle": 20,
         "itk-os2display/lokalcenter-template-bundle": 20,
         "itk-os2display/os2display-koba-integration": 20,
+        "itk-os2display/poster-bundle": 20,
+        "os2display/core-bundle": 20,
         "os2display/default-template-bundle": 20
     },
     "prefer-stable": false,
