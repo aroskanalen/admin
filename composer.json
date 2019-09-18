@@ -42,7 +42,7 @@
         },
         "os2display/screen-bundle": {
             "type": "vcs",
-            "url": "https://github.com/os2display/screen-bundle"
+            "url": "https://github.com/tuj/screen-bundle"
         },
         "os2display/vimeo-bundle": {
             "type": "vcs",
@@ -93,7 +93,7 @@
         "os2display/core-bundle": "^2.1",
         "os2display/default-template-bundle": "dev-feature/iframe-sizes",
         "os2display/media-bundle": "~2.0",
-        "os2display/screen-bundle": "~1.0",
+        "os2display/screen-bundle": "dev-hotfix-preview",
         "os2display/template-extension-bundle": "^2.0",
         "os2display/vimeo-bundle": "~2.0",
         "paragonie/random_compat": "~2",

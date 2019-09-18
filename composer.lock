@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "c8322aa3a1a96b4538c99b8e251fc9a8",
+    "content-hash": "3857cbc98aa9d20000b14f6b9cf43573",
     "packages": [
         {
             "name": "aakb/os2display-aarhus-templates",
@@ -3449,16 +3449,16 @@
         },
         {
             "name": "os2display/screen-bundle",
-            "version": "1.0.6",
+            "version": "dev-hotfix-preview",
             "source": {
                 "type": "git",
-                "url": "https://github.com/os2display/screen-bundle.git",
-                "reference": "bfb76b709ee6374b8b3a64db2b32e2f1bee79a9e"
+                "url": "https://github.com/tuj/screen-bundle.git",
+                "reference": "8c10d3220f173bdaae1803ea21d7b183b7afe825"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/os2display/screen-bundle/zipball/bfb76b709ee6374b8b3a64db2b32e2f1bee79a9e",
-                "reference": "bfb76b709ee6374b8b3a64db2b32e2f1bee79a9e",
+                "url": "https://api.github.com/repos/tuj/screen-bundle/zipball/8c10d3220f173bdaae1803ea21d7b183b7afe825",
+                "reference": "8c10d3220f173bdaae1803ea21d7b183b7afe825",
                 "shasum": ""
             },
             "type": "symfony-bundle",
@@ -3472,10 +3472,9 @@
             ],
             "description": "Os2Display screen",
             "support": {
-                "source": "https://github.com/os2display/screen-bundle/tree/1.0.6",
-                "issues": "https://github.com/os2display/screen-bundle/issues"
+                "source": "https://github.com/tuj/screen-bundle/tree/hotfix-preview"
             },
-            "time": "2019-05-20T11:18:14+00:00"
+            "time": "2019-09-07T13:32:33+00:00"
         },
         {
             "name": "os2display/template-extension-bundle",
@@ -5942,7 +5941,8 @@
         "itk-os2display/lokalcenter-template-bundle": 20,
         "itk-os2display/os2display-koba-integration": 20,
         "itk-os2display/poster-bundle": 20,
-        "os2display/default-template-bundle": 20
+        "os2display/default-template-bundle": 20,
+        "os2display/screen-bundle": 20
     },
     "prefer-stable": false,
     "prefer-lowest": false,
