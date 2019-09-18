@@ -3453,12 +3453,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/tuj/screen-bundle.git",
-                "reference": "8c10d3220f173bdaae1803ea21d7b183b7afe825"
+                "reference": "df4e7a750e85a4b9c81de18f8f96f17870f8e512"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/tuj/screen-bundle/zipball/8c10d3220f173bdaae1803ea21d7b183b7afe825",
-                "reference": "8c10d3220f173bdaae1803ea21d7b183b7afe825",
+                "url": "https://api.github.com/repos/tuj/screen-bundle/zipball/df4e7a750e85a4b9c81de18f8f96f17870f8e512",
+                "reference": "df4e7a750e85a4b9c81de18f8f96f17870f8e512",
                 "shasum": ""
             },
             "type": "symfony-bundle",
@@ -3474,7 +3474,7 @@
             "support": {
                 "source": "https://github.com/tuj/screen-bundle/tree/hotfix-preview"
             },
-            "time": "2019-09-07T13:32:33+00:00"
+            "time": "2019-09-18T11:37:31+00:00"
         },
         {
             "name": "os2display/template-extension-bundle",
