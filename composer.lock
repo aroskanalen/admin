@@ -3396,12 +3396,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/aroskanalen/default-template-bundle.git",
-                "reference": "101ac155389817f5f9fa23a2ce223021bd4d263d"
+                "reference": "d6cb4e1ff6b668a23561db01e4ca09ec522019b0"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/aroskanalen/default-template-bundle/zipball/101ac155389817f5f9fa23a2ce223021bd4d263d",
-                "reference": "101ac155389817f5f9fa23a2ce223021bd4d263d",
+                "url": "https://api.github.com/repos/aroskanalen/default-template-bundle/zipball/d6cb4e1ff6b668a23561db01e4ca09ec522019b0",
+                "reference": "d6cb4e1ff6b668a23561db01e4ca09ec522019b0",
                 "shasum": ""
             },
             "type": "symfony-bundle",
@@ -3414,7 +3414,7 @@
             "support": {
                 "source": "https://github.com/aroskanalen/default-template-bundle/tree/feature/iframe-sizes"
             },
-            "time": "2019-06-25T06:49:30+00:00"
+            "time": "2019-09-19T08:14:48+00:00"
         },
         {
             "name": "os2display/media-bundle",
