@@ -1,121 +1,143 @@
 {
-  "name": "os2display/admin",
-  "license": "GNU General Public License v3.0",
-  "type": "project",
-  "description": "The Os2Display distribution",
-  "autoload": {
-    "psr-0": {
-      "": "src/",
-      "SymfonyStandard": "app/"
+    "name": "aroskanalen/admin",
+    "license": "proprietary",
+    "type": "project",
+    "autoload": {
+        "psr-4": {
+            "AppBundle\\": "src/AppBundle"
+        },
+        "classmap": [
+            "app/AppKernel.php",
+            "app/AppCache.php"
+        ]
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Tests\\": "tests/"
+        },
+        "files": [
+            "vendor/symfony/symfony/src/Symfony/Component/VarDumper/Resources/functions/dump.php"
+        ]
+    },
+    "repositories": {
+        "os2display/media-bundle": {
+            "type": "vcs",
+            "url": "https://github.com/os2display/media-bundle"
+        },
+        "os2display/core-bundle": {
+            "type": "vcs",
+            "url": "https://github.com/os2display/core-bundle"
+        },
+        "os2display/admin-bundle": {
+            "type": "vcs",
+            "url": "https://github.com/os2display/admin-bundle"
+        },
+        "os2display/default-template-bundle": {
+            "type": "vcs",
+            "url": "https://github.com/os2display/default-template-bundle"
+        },
+        "os2display/campaign-bundle": {
+            "type": "vcs",
+            "url": "https://github.com/os2display/campaign-bundle"
+        },
+        "os2display/screen-bundle": {
+            "type": "vcs",
+            "url": "https://github.com/os2display/screen-bundle"
+        },
+        "os2display/vimeo-bundle": {
+            "type": "vcs",
+            "url": "https://github.com/os2display/vimeo-bundle"
+        },
+        "os2display/template-extension-bundle": {
+            "type": "vcs",
+            "url": "https://github.com/os2display/template-extension-bundle"
+        },
+        "aakb/os2display-aarhus-templates": {
+            "type": "vcs",
+            "url": "https://github.com/aakb/os2display-aarhus-templates"
+        },
+        "itk-os2display/os2display-koba-integration": {
+            "type": "vcs",
+            "url": "https://github.com/itk-os2display/os2display-koba-integration"
+        },
+        "itk-os2display/lokalcenter-template-bundle": {
+            "type": "vcs",
+            "url": "https://github.com/itk-os2display/lokalcenter-template-bundle"
+        },
+        "itk-os2display/aarhus-second-template-bundle": {
+            "type": "vcs",
+            "url": "https://github.com/itk-os2display/aarhus-second-template-bundle"
+        },
+        "itk-os2display/aarhus-data-bundle": {
+            "type": "vcs",
+            "url": "https://github.com/itk-os2display/aarhus-data-bundle"
+        },
+        "itk-os2display/poster-bundle": {
+            "type": "vcs",
+            "url": "https://github.com/itk-os2display/poster-bundle"
+        }
+    },
+    "require": {
+        "php": ">=7.2.0",
+        "aakb/os2display-aarhus-templates": "~1.1",
+        "doctrine/doctrine-bundle": "^1.6",
+        "doctrine/orm": "^2.5",
+        "incenteev/composer-parameter-handler": "^2.0",
+        "itk-os2display/aarhus-data-bundle": "^1.2",
+        "itk-os2display/aarhus-second-template-bundle": "~1.2",
+        "itk-os2display/lokalcenter-template-bundle": "~1.1",
+        "itk-os2display/os2display-koba-integration": "~1.1",
+        "itk-os2display/poster-bundle": "~1.1",
+        "os2display/admin-bundle": "~2.0",
+        "os2display/campaign-bundle": "~2.0",
+        "os2display/core-bundle": "^2.1",
+        "os2display/default-template-bundle": "^1.2",
+        "os2display/media-bundle": "~2.0",
+        "os2display/screen-bundle": "^1.1",
+        "os2display/template-extension-bundle": "^2.0",
+        "os2display/vimeo-bundle": "~2.0",
+        "paragonie/random_compat": "~2",
+        "sensio/distribution-bundle": "^5.0.19",
+        "sensio/framework-extra-bundle": "^5.0.0",
+        "symfony/monolog-bundle": "^3.1.0",
+        "symfony/polyfill-apcu": "^1.0",
+        "symfony/swiftmailer-bundle": "^2.6.4",
+        "symfony/symfony": "3.4.*",
+        "twig/twig": "^1.0||^2.0"
+    },
+    "require-dev": {
+        "sensio/generator-bundle": "^3.0",
+        "symfony/phpunit-bridge": "^3.0"
+    },
+    "scripts": {
+        "symfony-scripts": [
+            "Incenteev\\ParameterHandler\\ScriptHandler::buildParameters",
+            "Sensio\\Bundle\\DistributionBundle\\Composer\\ScriptHandler::buildBootstrap",
+            "Sensio\\Bundle\\DistributionBundle\\Composer\\ScriptHandler::clearCache",
+            "Sensio\\Bundle\\DistributionBundle\\Composer\\ScriptHandler::installAssets",
+            "Sensio\\Bundle\\DistributionBundle\\Composer\\ScriptHandler::installRequirementsFile",
+            "Sensio\\Bundle\\DistributionBundle\\Composer\\ScriptHandler::prepareDeploymentTarget"
+        ],
+        "post-install-cmd": [
+            "@symfony-scripts"
+        ],
+        "post-update-cmd": [
+            "@symfony-scripts"
+        ]
+    },
+    "config": {
+        "sort-packages": true
+    },
+    "extra": {
+        "symfony-app-dir": "app",
+        "symfony-bin-dir": "bin",
+        "symfony-var-dir": "var",
+        "symfony-web-dir": "web",
+        "symfony-tests-dir": "tests",
+        "symfony-assets-install": "relative",
+        "incenteev-parameters": {
+            "file": "app/config/parameters.yml"
+        },
+        "branch-alias": null
     }
-  },
-  "require": {
-    "incenteev/composer-parameter-handler": "^2.0",
-    "sonata-project/admin-bundle": "^2.0",
-    "sonata-project/doctrine-orm-admin-bundle": "^2.0",
-    "os2display/core-bundle": "~1.3",
-    "os2display/admin-bundle": "^1.1",
-    "os2display/default-template-bundle": "^1.0",
-    "os2display/campaign-bundle": "~1.3",
-    "aakb/os2display-aarhus-templates": "^1.0",
-    "itk-os2display/os2display-koba-integration": "^1.0",
-    "itk-os2display/lokalcenter-template-bundle": "^1.0",
-    "itk-os2display/template-extension-bundle": "^1.1",
-    "itk-os2display/aarhus-second-template-bundle": "^1.1",
-    "itk-os2display/aarhus-data-bundle": "^1.2",
-    "itk-os2display/vimeo-bundle": "^1.0"
-  },
-  "require-dev": {
-    "sensio/generator-bundle": "^2.3",
-    "behat/mink-extension": "^2.2",
-    "behat/symfony2-extension": "^2.1",
-    "behat/mink-selenium2-driver": "^1.3",
-    "behat/mink-browserkit-driver": "^1.3",
-    "behatch/contexts": "^2.6"
-  },
-  "repositories": {
-    "os2display/core-bundle": {
-      "type": "vcs",
-      "url": "https://github.com/itk-os2display/core-bundle"
-    },
-    "os2display/admin-bundle": {
-      "type": "vcs",
-      "url": "https://github.com/itk-os2display/admin-bundle"
-    },
-    "os2display/media-bundle": {
-      "type": "vcs",
-      "url": "https://github.com/itk-os2display/media-bundle"
-    },
-    "os2display/default-template-bundle": {
-      "type": "vcs",
-      "url": "https://github.com/itk-os2display/default-template-bundle"
-    },
-    "os2display/campaign-bundle": {
-      "type": "vcs",
-      "url": "https://github.com/itk-os2display/campaign-bundle"
-    },
-    "itk-os2display/os2display-koba-integration": {
-      "type": "vcs",
-      "url": "https://github.com/itk-os2display/os2display-koba-integration"
-    },
-    "itk-os2display/template-extension-bundle": {
-      "type": "vcs",
-      "url": "https://github.com/itk-os2display/template-extension-bundle"
-    },
-    "itk-os2display/lokalcenter-template-bundle": {
-      "type": "vcs",
-      "url": "https://github.com/itk-os2display/lokalcenter-template-bundle"
-    },
-    "aakb/os2display-aarhus-templates": {
-      "type": "vcs",
-      "url": "https://github.com/aakb/os2display-aarhus-templates"
-    },
-    "itk-os2display/aarhus-second-template-bundle": {
-      "type": "vcs",
-      "url": "https://github.com/itk-os2display/aarhus-second-template-bundle"
-    },
-    "itk-os2display/aarhus-data-bundle": {
-      "type": "vcs",
-      "url": "https://github.com/itk-os2display/aarhus-data-bundle"
-    },
-    "itk-os2display/vimeo-bundle": {
-      "type": "vcs",
-      "url": "https://github.com/itk-os2display/vimeo-bundle"
-    }
-  },
-  "scripts": {
-    "post-root-package-install": [
-      "SymfonyStandard\\Composer::hookRootPackageInstall"
-    ],
-    "post-install-cmd": [
-      "Incenteev\\ParameterHandler\\ScriptHandler::buildParameters",
-      "Sensio\\Bundle\\DistributionBundle\\Composer\\ScriptHandler::buildBootstrap",
-      "Sensio\\Bundle\\DistributionBundle\\Composer\\ScriptHandler::clearCache",
-      "Sensio\\Bundle\\DistributionBundle\\Composer\\ScriptHandler::installAssets",
-      "Sensio\\Bundle\\DistributionBundle\\Composer\\ScriptHandler::installRequirementsFile",
-      "Sensio\\Bundle\\DistributionBundle\\Composer\\ScriptHandler::removeSymfonyStandardFiles"
-    ],
-    "post-update-cmd": [
-      "Incenteev\\ParameterHandler\\ScriptHandler::buildParameters",
-      "Sensio\\Bundle\\DistributionBundle\\Composer\\ScriptHandler::buildBootstrap",
-      "Sensio\\Bundle\\DistributionBundle\\Composer\\ScriptHandler::clearCache",
-      "Sensio\\Bundle\\DistributionBundle\\Composer\\ScriptHandler::installAssets",
-      "Sensio\\Bundle\\DistributionBundle\\Composer\\ScriptHandler::installRequirementsFile",
-      "Sensio\\Bundle\\DistributionBundle\\Composer\\ScriptHandler::removeSymfonyStandardFiles"
-    ]
-  },
-  "config": {
-    "bin-dir": "bin"
-  },
-  "extra": {
-    "symfony-app-dir": "app",
-    "symfony-web-dir": "web",
-    "symfony-assets-install": "symlink",
-    "incenteev-parameters": {
-      "file": "app/config/parameters.yml"
-    },
-    "branch-alias": {
-      "dev-master": "2.5-dev"
-    }
-  }
 }

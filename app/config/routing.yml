@@ -6,8 +6,8 @@ itk_aarhus_data:
     resource: "@ItkAarhusDataBundle/Resources/config/routing.yml"
     prefix:   /api
 
-itk_template_extension:
-    resource: "@ItkTemplateExtensionBundle/Resources/config/routing.yml"
+os2display_template_extension:
+    resource: "@Os2DisplayTemplateExtensionBundle/Resources/config/routing.yml"
     prefix:   /
 
 os2display_campaign:
@@ -20,6 +20,14 @@ os2display_main:
 
 os2display_admin:
   resource: "@Os2DisplayAdminBundle/Resources/config/routing.yml"
+  prefix:   /
+
+os2display_screen:
+  resource: "@Os2DisplayScreenBundle/Resources/config/routing.yml"
+  prefix:   /
+
+os2_display_poster:
+  resource: "@Os2DisplayPosterBundle/Resources/config/routing.yml"
   prefix:   /
 
 JMSJobQueueBundle:

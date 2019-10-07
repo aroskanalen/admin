@@ -1,5 +1,9 @@
 # Aroskanalen CHANGELOG
 
+## 6.0.0
+
+* Upgraded to Symfony 3.4.
+
 ## 5.2.4
 
 * symfony/symfony -> v2.8.51.
