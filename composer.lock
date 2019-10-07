@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "3857cbc98aa9d20000b14f6b9cf43573",
+    "content-hash": "324b77e10c6d3400cb1fe1641aefd3fc",
     "packages": [
         {
             "name": "aakb/os2display-aarhus-templates",
@@ -3392,16 +3392,16 @@
         },
         {
             "name": "os2display/default-template-bundle",
-            "version": "dev-feature/iframe-sizes",
+            "version": "1.2.0",
             "source": {
                 "type": "git",
-                "url": "https://github.com/aroskanalen/default-template-bundle.git",
-                "reference": "d6cb4e1ff6b668a23561db01e4ca09ec522019b0"
+                "url": "https://github.com/os2display/default-template-bundle.git",
+                "reference": "aeb4e3de9c9f2d486b1b43eefd3b5b37c0ddcbfc"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/aroskanalen/default-template-bundle/zipball/d6cb4e1ff6b668a23561db01e4ca09ec522019b0",
-                "reference": "d6cb4e1ff6b668a23561db01e4ca09ec522019b0",
+                "url": "https://api.github.com/repos/os2display/default-template-bundle/zipball/aeb4e3de9c9f2d486b1b43eefd3b5b37c0ddcbfc",
+                "reference": "aeb4e3de9c9f2d486b1b43eefd3b5b37c0ddcbfc",
                 "shasum": ""
             },
             "type": "symfony-bundle",
@@ -3410,11 +3410,9 @@
                     "Os2Display\\DefaultTemplateBundle\\": ""
                 }
             },
+            "notification-url": "https://packagist.org/downloads/",
             "description": "Os2Display default template",
-            "support": {
-                "source": "https://github.com/aroskanalen/default-template-bundle/tree/feature/iframe-sizes"
-            },
-            "time": "2019-09-19T08:14:48+00:00"
+            "time": "2019-10-07T07:48:54+00:00"
         },
         {
             "name": "os2display/media-bundle",
@@ -3449,16 +3447,16 @@
         },
         {
             "name": "os2display/screen-bundle",
-            "version": "dev-hotfix-preview",
+            "version": "1.1.0",
             "source": {
                 "type": "git",
-                "url": "https://github.com/tuj/screen-bundle.git",
-                "reference": "df4e7a750e85a4b9c81de18f8f96f17870f8e512"
+                "url": "https://github.com/os2display/screen-bundle.git",
+                "reference": "eb8c9ac53480a1b6ce9332b9b4817c57c0f7d271"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/tuj/screen-bundle/zipball/df4e7a750e85a4b9c81de18f8f96f17870f8e512",
-                "reference": "df4e7a750e85a4b9c81de18f8f96f17870f8e512",
+                "url": "https://api.github.com/repos/os2display/screen-bundle/zipball/eb8c9ac53480a1b6ce9332b9b4817c57c0f7d271",
+                "reference": "eb8c9ac53480a1b6ce9332b9b4817c57c0f7d271",
                 "shasum": ""
             },
             "type": "symfony-bundle",
@@ -3467,14 +3465,12 @@
                     "Os2Display\\ScreenBundle\\": ""
                 }
             },
+            "notification-url": "https://packagist.org/downloads/",
             "license": [
                 "MPL-2.0"
             ],
             "description": "Os2Display screen",
-            "support": {
-                "source": "https://github.com/tuj/screen-bundle/tree/hotfix-preview"
-            },
-            "time": "2019-09-18T11:37:31+00:00"
+            "time": "2019-10-07T08:01:52+00:00"
         },
         {
             "name": "os2display/template-extension-bundle",
@@ -5940,9 +5936,7 @@
         "itk-os2display/aarhus-second-template-bundle": 20,
         "itk-os2display/lokalcenter-template-bundle": 20,
         "itk-os2display/os2display-koba-integration": 20,
-        "itk-os2display/poster-bundle": 20,
-        "os2display/default-template-bundle": 20,
-        "os2display/screen-bundle": 20
+        "itk-os2display/poster-bundle": 20
     },
     "prefer-stable": false,
     "prefer-lowest": false,
