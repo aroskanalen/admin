@@ -162,3 +162,10 @@ os2_display_poster:
     eventdatabasen:
       name: Eventdatabasen
       url: 'https://api.detskeriaarhus.dk'
+
+os2_display_screen:
+  strategies:
+    push:
+      fallback_image: '%fallback_image%'
+    pull:
+      fallback_image: '%fallback_image%'
