@@ -1,5 +1,9 @@
 # Aroskanalen CHANGELOG
 
+## 6.0.3
+
+* Updated bundle.
+
 ## 6.0.2
 
 * Updated bundles.
