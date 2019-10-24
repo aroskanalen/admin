@@ -1,6 +1,10 @@
+os2display_sparkle_feed:
+    resource: "@Os2DisplaySparkleFeedBundle/Resources/config/routing.yml"
+    prefix:   /
+
 itk_koba_integration:
-  resource: "@ItkKobaIntegrationBundle/Resources/config/routing.yml"
-  prefix:   /
+    resource: "@ItkKobaIntegrationBundle/Resources/config/routing.yml"
+    prefix:   /
 
 itk_aarhus_data:
     resource: "@ItkAarhusDataBundle/Resources/config/routing.yml"
@@ -11,24 +15,24 @@ os2display_template_extension:
     prefix:   /
 
 os2display_campaign:
-  resource: "@Os2DisplayCampaignBundle/Resources/config/routing.yml"
-  prefix:   /
+    resource: "@Os2DisplayCampaignBundle/Resources/config/routing.yml"
+    prefix:   /
 
 os2display_main:
-  resource: "@Os2DisplayCoreBundle/Resources/config/routing.yml"
-  prefix:   /
+    resource: "@Os2DisplayCoreBundle/Resources/config/routing.yml"
+    prefix:   /
 
 os2display_admin:
-  resource: "@Os2DisplayAdminBundle/Resources/config/routing.yml"
-  prefix:   /
+    resource: "@Os2DisplayAdminBundle/Resources/config/routing.yml"
+    prefix:   /
 
 os2display_screen:
-  resource: "@Os2DisplayScreenBundle/Resources/config/routing.yml"
-  prefix:   /
+    resource: "@Os2DisplayScreenBundle/Resources/config/routing.yml"
+    prefix:   /
 
 os2_display_poster:
-  resource: "@Os2DisplayPosterBundle/Resources/config/routing.yml"
-  prefix:   /
+    resource: "@Os2DisplayPosterBundle/Resources/config/routing.yml"
+    prefix:   /
 
 JMSJobQueueBundle:
     resource: "@JMSJobQueueBundle/Controller/"
