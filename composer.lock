@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "29942f42bae87e264c5e39db8225b30b",
+    "content-hash": "895e0daf432e898450a732251eb29f19",
     "packages": [
         {
             "name": "aakb/os2display-aarhus-templates",
@@ -3392,16 +3392,16 @@
         },
         {
             "name": "os2display/default-template-bundle",
-            "version": "1.2.0",
+            "version": "2.0.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/os2display/default-template-bundle.git",
-                "reference": "aeb4e3de9c9f2d486b1b43eefd3b5b37c0ddcbfc"
+                "reference": "d2ca5602974df10fd23b56fa0155241cc427c5a4"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/os2display/default-template-bundle/zipball/aeb4e3de9c9f2d486b1b43eefd3b5b37c0ddcbfc",
-                "reference": "aeb4e3de9c9f2d486b1b43eefd3b5b37c0ddcbfc",
+                "url": "https://api.github.com/repos/os2display/default-template-bundle/zipball/d2ca5602974df10fd23b56fa0155241cc427c5a4",
+                "reference": "d2ca5602974df10fd23b56fa0155241cc427c5a4",
                 "shasum": ""
             },
             "type": "symfony-bundle",
@@ -3410,9 +3410,12 @@
                     "Os2Display\\DefaultTemplateBundle\\": ""
                 }
             },
-            "notification-url": "https://packagist.org/downloads/",
             "description": "Os2Display default template",
-            "time": "2019-10-07T07:48:54+00:00"
+            "support": {
+                "source": "https://github.com/os2display/default-template-bundle/tree/2.0.0",
+                "issues": "https://github.com/os2display/default-template-bundle/issues"
+            },
+            "time": "2019-10-24T11:49:15+00:00"
         },
         {
             "name": "os2display/media-bundle",
@@ -3447,16 +3450,16 @@
         },
         {
             "name": "os2display/screen-bundle",
-            "version": "1.1.1",
+            "version": "1.1.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/os2display/screen-bundle.git",
-                "reference": "77098ef975605309e3b55200e6a5cd17583353f4"
+                "reference": "38ca0b5a4c09a001416ba0e209fea55b4eddb3db"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/os2display/screen-bundle/zipball/77098ef975605309e3b55200e6a5cd17583353f4",
-                "reference": "77098ef975605309e3b55200e6a5cd17583353f4",
+                "url": "https://api.github.com/repos/os2display/screen-bundle/zipball/38ca0b5a4c09a001416ba0e209fea55b4eddb3db",
+                "reference": "38ca0b5a4c09a001416ba0e209fea55b4eddb3db",
                 "shasum": ""
             },
             "type": "symfony-bundle",
@@ -3470,10 +3473,10 @@
             ],
             "description": "Os2Display screen",
             "support": {
-                "source": "https://github.com/os2display/screen-bundle/tree/1.1.1",
+                "source": "https://github.com/os2display/screen-bundle/tree/1.1.2",
                 "issues": "https://github.com/os2display/screen-bundle/issues"
             },
-            "time": "2019-10-24T07:42:44+00:00"
+            "time": "2019-10-24T11:40:58+00:00"
         },
         {
             "name": "os2display/template-extension-bundle",
