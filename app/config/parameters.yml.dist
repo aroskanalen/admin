@@ -53,3 +53,5 @@ parameters:
 
     koba_apikey: SomeApiKey
     koba_path: 'http://127.0.0.1'
+
+    fallback_image: ~
