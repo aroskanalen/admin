@@ -1,5 +1,9 @@
 # Aroskanalen CHANGELOG
 
+## 6.0.4
+
+* Added UTC fix to AppKernel.
+
 ## 6.0.3
 
 * Updated bundle.
