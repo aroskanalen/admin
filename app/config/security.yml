@@ -29,6 +29,14 @@ security:
       pattern:  ^/(_(profiler|wdt)|css|images|js)/
       security: false
 
+    screen:
+      pattern: ^/screen/?$
+      security: false
+
+    screen_bundle_public:
+      pattern: ^/screen/public/(.*)
+      security: false
+
     api_screen_activate:
       pattern: ^/api/screen/activate
       security: false
@@ -73,7 +81,7 @@ security:
       logout:       true
       anonymous:    true
       remember_me:
-        key:      "%secret%"
+        secret:      "%secret%"
         lifetime: 604800 # a week
         path:     /
         domain:   ~
