@@ -1,5 +1,22 @@
 # Aroskanalen CHANGELOG
 
+## 6.0.4
+
+* Added UTC fix to AppKernel.
+
+## 6.0.3
+
+* Updated bundle.
+
+## 6.0.2
+
+* Updated bundles.
+
+## 6.0.1
+
+* Updated bundles.
+* Fixed issues with fallback_image and screen-bundle.
+
 ## 6.0.0
 
 * Upgraded to Symfony 3.4.
