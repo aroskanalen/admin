@@ -17,7 +17,7 @@ monolog:
         main:
             type:   stream
             path:   "%kernel.logs_dir%/%kernel.environment%.log"
-            level:  debug
+            level:  warning
         zencoder:
             type:   stream
             path:   "%kernel.logs_dir%/%kernel.environment%.zencoder.log"
@@ -60,3 +60,7 @@ os2_display_core:
 # Disable cache in dev.
 os2_display_campaign:
     cache_ttl: 0
+
+# Set cron interval to 0 in dev.
+os2_display_sparkle_feed:
+    cron_interval: 0
