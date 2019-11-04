@@ -1,5 +1,9 @@
 # Aroskanalen CHANGELOG
 
+## 6.0.5
+
+* Fixed job queue issue.
+
 ## 6.0.4
 
 * Added UTC fix to AppKernel.
