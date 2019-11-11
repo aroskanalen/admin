@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "f2c3e8087c18b96ffdf84feb597a2be6",
+    "content-hash": "9617cc4a004814a9097f52ab349f0de2",
     "packages": [
         {
             "name": "aakb/os2display-aarhus-templates",
@@ -3477,16 +3477,16 @@
         },
         {
             "name": "os2display/sparkle-feed-bundle",
-            "version": "0.1.0",
+            "version": "dev-develop",
             "source": {
                 "type": "git",
                 "url": "https://github.com/itk-os2display/sparkle-feed-bundle.git",
-                "reference": "4364b4ccea44b4aec749c7b230adfe2c9d497186"
+                "reference": "55d82affa6d76e67d6029b13ed0adf05b996518d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/itk-os2display/sparkle-feed-bundle/zipball/4364b4ccea44b4aec749c7b230adfe2c9d497186",
-                "reference": "4364b4ccea44b4aec749c7b230adfe2c9d497186",
+                "url": "https://api.github.com/repos/itk-os2display/sparkle-feed-bundle/zipball/55d82affa6d76e67d6029b13ed0adf05b996518d",
+                "reference": "55d82affa6d76e67d6029b13ed0adf05b996518d",
                 "shasum": ""
             },
             "require": {
@@ -3501,10 +3501,10 @@
             },
             "description": "Os2Display Sparkle feed bundle.",
             "support": {
-                "source": "https://github.com/itk-os2display/sparkle-feed-bundle/tree/0.1.0",
+                "source": "https://github.com/itk-os2display/sparkle-feed-bundle/tree/develop",
                 "issues": "https://github.com/itk-os2display/sparkle-feed-bundle/issues"
             },
-            "time": "2019-11-11T11:51:29+00:00"
+            "time": "2019-11-11T13:41:48+00:00"
         },
         {
             "name": "os2display/template-extension-bundle",
@@ -5965,7 +5965,9 @@
     ],
     "aliases": [],
     "minimum-stability": "stable",
-    "stability-flags": [],
+    "stability-flags": {
+        "os2display/sparkle-feed-bundle": 20
+    },
     "prefer-stable": false,
     "prefer-lowest": false,
     "platform": {

@@ -66,7 +66,7 @@
         "os2display/default-template-bundle": "~2.0",
         "os2display/media-bundle": "~2.0",
         "os2display/screen-bundle": "^1.1",
-        "os2display/sparkle-feed-bundle": "^0.1.0",
+        "os2display/sparkle-feed-bundle": "dev-develop",
         "os2display/template-extension-bundle": "^2.0",
         "os2display/vimeo-bundle": "~2.0",
         "paragonie/random_compat": "~2",
