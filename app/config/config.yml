@@ -169,3 +169,9 @@ os2_display_screen:
       fallback_image: '%fallback_image%'
     pull:
       fallback_image: '%fallback_image%'
+
+os2_display_sparkle_feed:
+    client_id: '%sparkle_feed_client_id%'
+    client_secret: '%sparkle_feed_client_secret%'
+    api_url: 'https://api.getsparkle.io/'
+    cron_interval: 1200

@@ -20,37 +20,9 @@
         ]
     },
     "repositories": {
-        "os2display/media-bundle": {
+        "os2display/sparkle-feed-bundle": {
             "type": "vcs",
-            "url": "https://github.com/os2display/media-bundle"
-        },
-        "os2display/core-bundle": {
-            "type": "vcs",
-            "url": "https://github.com/os2display/core-bundle"
-        },
-        "os2display/admin-bundle": {
-            "type": "vcs",
-            "url": "https://github.com/os2display/admin-bundle"
-        },
-        "os2display/default-template-bundle": {
-            "type": "vcs",
-            "url": "https://github.com/os2display/default-template-bundle"
-        },
-        "os2display/campaign-bundle": {
-            "type": "vcs",
-            "url": "https://github.com/os2display/campaign-bundle"
-        },
-        "os2display/screen-bundle": {
-            "type": "vcs",
-            "url": "https://github.com/os2display/screen-bundle"
-        },
-        "os2display/vimeo-bundle": {
-            "type": "vcs",
-            "url": "https://github.com/os2display/vimeo-bundle"
-        },
-        "os2display/template-extension-bundle": {
-            "type": "vcs",
-            "url": "https://github.com/os2display/template-extension-bundle"
+            "url": "https://github.com/itk-os2display/sparkle-feed-bundle"
         },
         "aakb/os2display-aarhus-templates": {
             "type": "vcs",
@@ -94,6 +66,7 @@
         "os2display/default-template-bundle": "~2.0",
         "os2display/media-bundle": "~2.0",
         "os2display/screen-bundle": "^1.1",
+        "os2display/sparkle-feed-bundle": "^0.1.0",
         "os2display/template-extension-bundle": "^2.0",
         "os2display/vimeo-bundle": "~2.0",
         "paragonie/random_compat": "~2",
