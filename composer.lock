@@ -3254,16 +3254,16 @@
         },
         {
             "name": "os2display/admin-bundle",
-            "version": "2.1.0",
+            "version": "2.1.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/os2display/admin-bundle.git",
-                "reference": "c377059fdecc0e0515270e2d7a9767a970fc6d7c"
+                "reference": "457c3c67269626055e6012217f3554047ab70a2f"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/os2display/admin-bundle/zipball/c377059fdecc0e0515270e2d7a9767a970fc6d7c",
-                "reference": "c377059fdecc0e0515270e2d7a9767a970fc6d7c",
+                "url": "https://api.github.com/repos/os2display/admin-bundle/zipball/457c3c67269626055e6012217f3554047ab70a2f",
+                "reference": "457c3c67269626055e6012217f3554047ab70a2f",
                 "shasum": ""
             },
             "require": {
@@ -3276,12 +3276,9 @@
                     "Os2Display\\AdminBundle\\": ""
                 }
             },
+            "notification-url": "https://packagist.org/downloads/",
             "description": "Os2Display admin",
-            "support": {
-                "source": "https://github.com/os2display/admin-bundle/tree/2.1.0",
-                "issues": "https://github.com/os2display/admin-bundle/issues"
-            },
-            "time": "2019-05-20T11:22:29+00:00"
+            "time": "2019-11-11T14:15:59+00:00"
         },
         {
             "name": "os2display/campaign-bundle",
@@ -3481,12 +3478,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/itk-os2display/sparkle-feed-bundle.git",
-                "reference": "55d82affa6d76e67d6029b13ed0adf05b996518d"
+                "reference": "24e4da6692ae488c72c6aa57392188b5cbdf0adf"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/itk-os2display/sparkle-feed-bundle/zipball/55d82affa6d76e67d6029b13ed0adf05b996518d",
-                "reference": "55d82affa6d76e67d6029b13ed0adf05b996518d",
+                "url": "https://api.github.com/repos/itk-os2display/sparkle-feed-bundle/zipball/24e4da6692ae488c72c6aa57392188b5cbdf0adf",
+                "reference": "24e4da6692ae488c72c6aa57392188b5cbdf0adf",
                 "shasum": ""
             },
             "require": {
@@ -3504,7 +3501,7 @@
                 "source": "https://github.com/itk-os2display/sparkle-feed-bundle/tree/develop",
                 "issues": "https://github.com/itk-os2display/sparkle-feed-bundle/issues"
             },
-            "time": "2019-11-11T13:41:48+00:00"
+            "time": "2019-11-11T14:08:37+00:00"
         },
         {
             "name": "os2display/template-extension-bundle",
