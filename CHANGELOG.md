@@ -1,5 +1,12 @@
 # Aroskanalen CHANGELOG
 
+## 6.0.6
+
+* Updated bundles:
+  - os2display/admin-bundle -> 2.1.2
+  - os2display/core-bundle -> 2.1.3
+  - os2display/screen-bundle -> 1.1.4
+
 ## 6.0.5
 
 * Fixed job queue issue.
