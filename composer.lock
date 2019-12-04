@@ -3254,16 +3254,16 @@
         },
         {
             "name": "os2display/admin-bundle",
-            "version": "2.1.2",
+            "version": "2.1.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/os2display/admin-bundle.git",
-                "reference": "e25cad258a24e087af834d55cd13adfb3aa2cfdc"
+                "reference": "5c7dbd35b7f3231ae30ddf7a065ab9ca328ac039"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/os2display/admin-bundle/zipball/e25cad258a24e087af834d55cd13adfb3aa2cfdc",
-                "reference": "e25cad258a24e087af834d55cd13adfb3aa2cfdc",
+                "url": "https://api.github.com/repos/os2display/admin-bundle/zipball/5c7dbd35b7f3231ae30ddf7a065ab9ca328ac039",
+                "reference": "5c7dbd35b7f3231ae30ddf7a065ab9ca328ac039",
                 "shasum": ""
             },
             "require": {
@@ -3278,7 +3278,7 @@
             },
             "notification-url": "https://packagist.org/downloads/",
             "description": "Os2Display admin",
-            "time": "2019-11-15T12:57:20+00:00"
+            "time": "2019-12-04T07:49:03+00:00"
         },
         {
             "name": "os2display/campaign-bundle",
