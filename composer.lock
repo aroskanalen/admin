@@ -2187,16 +2187,16 @@
         },
         {
             "name": "itk-os2display/os2display-koba-integration",
-            "version": "1.1.1",
+            "version": "1.1.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/itk-os2display/os2display-koba-integration.git",
-                "reference": "0ddf68ac49b256013af33eec768716a99c53188e"
+                "reference": "5f89aa137ac063d741c7f07d370799f7abd87cfd"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/itk-os2display/os2display-koba-integration/zipball/0ddf68ac49b256013af33eec768716a99c53188e",
-                "reference": "0ddf68ac49b256013af33eec768716a99c53188e",
+                "url": "https://api.github.com/repos/itk-os2display/os2display-koba-integration/zipball/5f89aa137ac063d741c7f07d370799f7abd87cfd",
+                "reference": "5f89aa137ac063d741c7f07d370799f7abd87cfd",
                 "shasum": ""
             },
             "type": "symfony-bundle",
@@ -2207,10 +2207,10 @@
             },
             "description": "Os2Display koba integration",
             "support": {
-                "source": "https://github.com/itk-os2display/os2display-koba-integration/tree/1.1.1",
+                "source": "https://github.com/itk-os2display/os2display-koba-integration/tree/1.1.2",
                 "issues": "https://github.com/itk-os2display/os2display-koba-integration/issues"
             },
-            "time": "2019-10-07T09:20:17+00:00"
+            "time": "2019-12-04T09:29:01+00:00"
         },
         {
             "name": "itk-os2display/poster-bundle",
