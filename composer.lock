@@ -3481,12 +3481,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/itk-os2display/sparkle-feed-bundle.git",
-                "reference": "7460440023b1f2bc1ab4ee0d781e7bd29d488ae8"
+                "reference": "6dc654a813ceea6a32aab0e444b42a83b8aedd6a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/itk-os2display/sparkle-feed-bundle/zipball/7460440023b1f2bc1ab4ee0d781e7bd29d488ae8",
-                "reference": "7460440023b1f2bc1ab4ee0d781e7bd29d488ae8",
+                "url": "https://api.github.com/repos/itk-os2display/sparkle-feed-bundle/zipball/6dc654a813ceea6a32aab0e444b42a83b8aedd6a",
+                "reference": "6dc654a813ceea6a32aab0e444b42a83b8aedd6a",
                 "shasum": ""
             },
             "require": {
@@ -3504,7 +3504,7 @@
                 "source": "https://github.com/itk-os2display/sparkle-feed-bundle/tree/develop",
                 "issues": "https://github.com/itk-os2display/sparkle-feed-bundle/issues"
             },
-            "time": "2019-12-04T08:04:53+00:00"
+            "time": "2019-12-04T08:25:14+00:00"
         },
         {
             "name": "os2display/template-extension-bundle",
