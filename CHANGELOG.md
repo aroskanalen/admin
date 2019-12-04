@@ -1,5 +1,11 @@
 # Aroskanalen CHANGELOG
 
+## 6.0.7
+
+* Updated bundles:
+  - itk-os2display/os2display-koba-integration -> 1.1.2
+  - os2display/admin-bundle -> 2.1.3
+
 ## 6.0.6
 
 * Updated bundles:
