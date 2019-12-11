@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "895e0daf432e898450a732251eb29f19",
+    "content-hash": "9418b5c2736a99ff36ffed5bd32bb585",
     "packages": [
         {
             "name": "aakb/os2display-aarhus-templates",
@@ -3474,6 +3474,37 @@
                 "issues": "https://github.com/os2display/screen-bundle/issues"
             },
             "time": "2019-11-11T11:44:53+00:00"
+        },
+        {
+            "name": "os2display/sparkle-feed-bundle",
+            "version": "1.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/itk-os2display/sparkle-feed-bundle.git",
+                "reference": "19e7c46cc5375c0490eb02828d2ecc94d3c218db"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/itk-os2display/sparkle-feed-bundle/zipball/19e7c46cc5375c0490eb02828d2ecc94d3c218db",
+                "reference": "19e7c46cc5375c0490eb02828d2ecc94d3c218db",
+                "shasum": ""
+            },
+            "require": {
+                "doctrine/cache": "^1.0",
+                "guzzlehttp/guzzle": "^6.2"
+            },
+            "type": "symfony-bundle",
+            "autoload": {
+                "psr-4": {
+                    "Os2Display\\SparkleFeedBundle\\": ""
+                }
+            },
+            "description": "Os2Display Sparkle feed bundle.",
+            "support": {
+                "source": "https://github.com/itk-os2display/sparkle-feed-bundle/tree/1.0.0",
+                "issues": "https://github.com/itk-os2display/sparkle-feed-bundle/issues"
+            },
+            "time": "2019-12-11T12:57:52+00:00"
         },
         {
             "name": "os2display/template-extension-bundle",
