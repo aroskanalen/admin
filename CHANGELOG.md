@@ -1,5 +1,9 @@
 # Aroskanalen CHANGELOG
 
+## 6.1.0
+
+* Added sparkle-feed-bundle.
+
 ## 6.0.7
 
 * Updated bundles:
