@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "9418b5c2736a99ff36ffed5bd32bb585",
+    "content-hash": "f34d09017160bdf91fc54026746abe05",
     "packages": [
         {
             "name": "aakb/os2display-aarhus-templates",
@@ -3321,16 +3321,16 @@
         },
         {
             "name": "os2display/core-bundle",
-            "version": "2.1.3",
+            "version": "dev-feature/configurable-video-formats",
             "source": {
                 "type": "git",
-                "url": "https://github.com/os2display/core-bundle.git",
-                "reference": "55c8e58ec7b8eee545d128a79634bb1f5f85ee61"
+                "url": "https://github.com/tuj/core-bundle.git",
+                "reference": "edaf724ba2ab2b89dae68c59edc5b7ef11698902"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/os2display/core-bundle/zipball/55c8e58ec7b8eee545d128a79634bb1f5f85ee61",
-                "reference": "55c8e58ec7b8eee545d128a79634bb1f5f85ee61",
+                "url": "https://api.github.com/repos/tuj/core-bundle/zipball/edaf724ba2ab2b89dae68c59edc5b7ef11698902",
+                "reference": "edaf724ba2ab2b89dae68c59edc5b7ef11698902",
                 "shasum": ""
             },
             "require": {
@@ -3382,10 +3382,9 @@
             },
             "description": "Os2Display core",
             "support": {
-                "source": "https://github.com/os2display/core-bundle/tree/2.1.3",
-                "issues": "https://github.com/os2display/core-bundle/issues"
+                "source": "https://github.com/tuj/core-bundle/tree/feature/configurable-video-formats"
             },
-            "time": "2019-11-15T10:29:50+00:00"
+            "time": "2020-01-23T13:45:39+00:00"
         },
         {
             "name": "os2display/default-template-bundle",
@@ -5839,6 +5838,7 @@
                 "code",
                 "zf2"
             ],
+            "abandoned": "laminas/laminas-code",
             "time": "2018-08-13T20:36:59+00:00"
         },
         {
@@ -5893,6 +5893,7 @@
                 "events",
                 "zf2"
             ],
+            "abandoned": "laminas/laminas-eventmanager",
             "time": "2018-04-25T15:33:34+00:00"
         }
     ],
@@ -5965,7 +5966,9 @@
     ],
     "aliases": [],
     "minimum-stability": "stable",
-    "stability-flags": [],
+    "stability-flags": {
+        "os2display/core-bundle": 20
+    },
     "prefer-stable": false,
     "prefer-lowest": false,
     "platform": {
