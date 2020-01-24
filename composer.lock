@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "f34d09017160bdf91fc54026746abe05",
+    "content-hash": "bbc4ec5f094b4358737e7a56a611488d",
     "packages": [
         {
             "name": "aakb/os2display-aarhus-templates",
@@ -3254,16 +3254,16 @@
         },
         {
             "name": "os2display/admin-bundle",
-            "version": "2.1.3",
+            "version": "dev-feature/configurable-video-formats",
             "source": {
                 "type": "git",
-                "url": "https://github.com/os2display/admin-bundle.git",
-                "reference": "5c7dbd35b7f3231ae30ddf7a065ab9ca328ac039"
+                "url": "https://github.com/aroskanalen/admin-bundle.git",
+                "reference": "fbfa977940d4412c696e63515307b75a7e14177d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/os2display/admin-bundle/zipball/5c7dbd35b7f3231ae30ddf7a065ab9ca328ac039",
-                "reference": "5c7dbd35b7f3231ae30ddf7a065ab9ca328ac039",
+                "url": "https://api.github.com/repos/aroskanalen/admin-bundle/zipball/fbfa977940d4412c696e63515307b75a7e14177d",
+                "reference": "fbfa977940d4412c696e63515307b75a7e14177d",
                 "shasum": ""
             },
             "require": {
@@ -3276,9 +3276,11 @@
                     "Os2Display\\AdminBundle\\": ""
                 }
             },
-            "notification-url": "https://packagist.org/downloads/",
             "description": "Os2Display admin",
-            "time": "2019-12-04T07:49:03+00:00"
+            "support": {
+                "source": "https://github.com/aroskanalen/admin-bundle/tree/feature/configurable-video-formats"
+            },
+            "time": "2020-01-24T12:09:20+00:00"
         },
         {
             "name": "os2display/campaign-bundle",
@@ -3388,16 +3390,16 @@
         },
         {
             "name": "os2display/default-template-bundle",
-            "version": "2.0.0",
+            "version": "dev-feature/configurable-video-formats",
             "source": {
                 "type": "git",
-                "url": "https://github.com/os2display/default-template-bundle.git",
-                "reference": "d2ca5602974df10fd23b56fa0155241cc427c5a4"
+                "url": "https://github.com/aroskanalen/default-template-bundle.git",
+                "reference": "7c5f201bc28c288e9857ebae6e02485b470cef01"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/os2display/default-template-bundle/zipball/d2ca5602974df10fd23b56fa0155241cc427c5a4",
-                "reference": "d2ca5602974df10fd23b56fa0155241cc427c5a4",
+                "url": "https://api.github.com/repos/aroskanalen/default-template-bundle/zipball/7c5f201bc28c288e9857ebae6e02485b470cef01",
+                "reference": "7c5f201bc28c288e9857ebae6e02485b470cef01",
                 "shasum": ""
             },
             "type": "symfony-bundle",
@@ -3408,10 +3410,9 @@
             },
             "description": "Os2Display default template",
             "support": {
-                "source": "https://github.com/os2display/default-template-bundle/tree/2.0.0",
-                "issues": "https://github.com/os2display/default-template-bundle/issues"
+                "source": "https://github.com/aroskanalen/default-template-bundle/tree/feature/configurable-video-formats"
             },
-            "time": "2019-10-24T11:49:15+00:00"
+            "time": "2020-01-24T12:10:31+00:00"
         },
         {
             "name": "os2display/media-bundle",
@@ -5967,7 +5968,9 @@
     "aliases": [],
     "minimum-stability": "stable",
     "stability-flags": {
-        "os2display/core-bundle": 20
+        "os2display/admin-bundle": 20,
+        "os2display/core-bundle": 20,
+        "os2display/default-template-bundle": 20
     },
     "prefer-stable": false,
     "prefer-lowest": false,
