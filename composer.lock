@@ -3258,12 +3258,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/aroskanalen/admin-bundle.git",
-                "reference": "fbfa977940d4412c696e63515307b75a7e14177d"
+                "reference": "0674342bd2f657dfcfc1dc24705d9292d762ee0e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/aroskanalen/admin-bundle/zipball/fbfa977940d4412c696e63515307b75a7e14177d",
-                "reference": "fbfa977940d4412c696e63515307b75a7e14177d",
+                "url": "https://api.github.com/repos/aroskanalen/admin-bundle/zipball/0674342bd2f657dfcfc1dc24705d9292d762ee0e",
+                "reference": "0674342bd2f657dfcfc1dc24705d9292d762ee0e",
                 "shasum": ""
             },
             "require": {
@@ -3280,7 +3280,7 @@
             "support": {
                 "source": "https://github.com/aroskanalen/admin-bundle/tree/feature/configurable-video-formats"
             },
-            "time": "2020-01-24T12:09:20+00:00"
+            "time": "2020-01-24T13:29:40+00:00"
         },
         {
             "name": "os2display/campaign-bundle",
@@ -3394,12 +3394,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/aroskanalen/default-template-bundle.git",
-                "reference": "7c5f201bc28c288e9857ebae6e02485b470cef01"
+                "reference": "113b52947a6c3e616dc1c1cf11dcca3baf9d827a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/aroskanalen/default-template-bundle/zipball/7c5f201bc28c288e9857ebae6e02485b470cef01",
-                "reference": "7c5f201bc28c288e9857ebae6e02485b470cef01",
+                "url": "https://api.github.com/repos/aroskanalen/default-template-bundle/zipball/113b52947a6c3e616dc1c1cf11dcca3baf9d827a",
+                "reference": "113b52947a6c3e616dc1c1cf11dcca3baf9d827a",
                 "shasum": ""
             },
             "type": "symfony-bundle",
@@ -3412,7 +3412,7 @@
             "support": {
                 "source": "https://github.com/aroskanalen/default-template-bundle/tree/feature/configurable-video-formats"
             },
-            "time": "2020-01-24T12:10:31+00:00"
+            "time": "2020-01-24T13:14:12+00:00"
         },
         {
             "name": "os2display/media-bundle",
