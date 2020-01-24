@@ -3327,12 +3327,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/tuj/core-bundle.git",
-                "reference": "77feeaa15e04feef673ac7c146f8830956153810"
+                "reference": "1b9d025c6820bb34a3af0654e19c726de16e4721"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/tuj/core-bundle/zipball/77feeaa15e04feef673ac7c146f8830956153810",
-                "reference": "77feeaa15e04feef673ac7c146f8830956153810",
+                "url": "https://api.github.com/repos/tuj/core-bundle/zipball/1b9d025c6820bb34a3af0654e19c726de16e4721",
+                "reference": "1b9d025c6820bb34a3af0654e19c726de16e4721",
                 "shasum": ""
             },
             "require": {
@@ -3386,7 +3386,7 @@
             "support": {
                 "source": "https://github.com/tuj/core-bundle/tree/feature/configurable-video-formats"
             },
-            "time": "2020-01-24T15:16:38+00:00"
+            "time": "2020-01-24T15:36:46+00:00"
         },
         {
             "name": "os2display/default-template-bundle",
