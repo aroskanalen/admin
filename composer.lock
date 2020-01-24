@@ -3258,12 +3258,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/aroskanalen/admin-bundle.git",
-                "reference": "c7e033655da57e483e0f04329f1e21576495a9fa"
+                "reference": "0dc435433889bf91f8776ca047027aa2766e82a9"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/aroskanalen/admin-bundle/zipball/c7e033655da57e483e0f04329f1e21576495a9fa",
-                "reference": "c7e033655da57e483e0f04329f1e21576495a9fa",
+                "url": "https://api.github.com/repos/aroskanalen/admin-bundle/zipball/0dc435433889bf91f8776ca047027aa2766e82a9",
+                "reference": "0dc435433889bf91f8776ca047027aa2766e82a9",
                 "shasum": ""
             },
             "require": {
@@ -3280,7 +3280,7 @@
             "support": {
                 "source": "https://github.com/aroskanalen/admin-bundle/tree/feature/configurable-video-formats"
             },
-            "time": "2020-01-24T13:39:53+00:00"
+            "time": "2020-01-24T13:51:56+00:00"
         },
         {
             "name": "os2display/campaign-bundle",
