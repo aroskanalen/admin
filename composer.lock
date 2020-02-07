@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "28e4d7af67b7b65d6c2be597120dd969",
+    "content-hash": "b69d1fa341c477f4295646d8e06fc678",
     "packages": [
         {
             "name": "aakb/os2display-aarhus-templates",
@@ -3254,16 +3254,16 @@
         },
         {
             "name": "os2display/admin-bundle",
-            "version": "dev-feature/configurable-video-formats",
+            "version": "dev-feature/retry-auth",
             "source": {
                 "type": "git",
                 "url": "https://github.com/aroskanalen/admin-bundle.git",
-                "reference": "0dc435433889bf91f8776ca047027aa2766e82a9"
+                "reference": "c0ee849ab4786d3ec8b5959d8370473b618e0d63"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/aroskanalen/admin-bundle/zipball/0dc435433889bf91f8776ca047027aa2766e82a9",
-                "reference": "0dc435433889bf91f8776ca047027aa2766e82a9",
+                "url": "https://api.github.com/repos/aroskanalen/admin-bundle/zipball/c0ee849ab4786d3ec8b5959d8370473b618e0d63",
+                "reference": "c0ee849ab4786d3ec8b5959d8370473b618e0d63",
                 "shasum": ""
             },
             "require": {
@@ -3278,9 +3278,9 @@
             },
             "description": "Os2Display admin",
             "support": {
-                "source": "https://github.com/aroskanalen/admin-bundle/tree/feature/configurable-video-formats"
+                "source": "https://github.com/aroskanalen/admin-bundle/tree/feature/retry-auth"
             },
-            "time": "2020-01-24T13:51:56+00:00"
+            "time": "2020-02-07T15:22:14+00:00"
         },
         {
             "name": "os2display/campaign-bundle",
