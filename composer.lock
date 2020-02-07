@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "bbc4ec5f094b4358737e7a56a611488d",
+    "content-hash": "28e4d7af67b7b65d6c2be597120dd969",
     "packages": [
         {
             "name": "aakb/os2display-aarhus-templates",
@@ -3477,16 +3477,16 @@
         },
         {
             "name": "os2display/sparkle-feed-bundle",
-            "version": "1.0.0",
+            "version": "dev-hotfix/dokkway-304-added-existence-check",
             "source": {
                 "type": "git",
                 "url": "https://github.com/itk-os2display/sparkle-feed-bundle.git",
-                "reference": "19e7c46cc5375c0490eb02828d2ecc94d3c218db"
+                "reference": "4a2aac2ed10fc18cf3c3bf3cd1f921a390866ce7"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/itk-os2display/sparkle-feed-bundle/zipball/19e7c46cc5375c0490eb02828d2ecc94d3c218db",
-                "reference": "19e7c46cc5375c0490eb02828d2ecc94d3c218db",
+                "url": "https://api.github.com/repos/itk-os2display/sparkle-feed-bundle/zipball/4a2aac2ed10fc18cf3c3bf3cd1f921a390866ce7",
+                "reference": "4a2aac2ed10fc18cf3c3bf3cd1f921a390866ce7",
                 "shasum": ""
             },
             "require": {
@@ -3501,10 +3501,10 @@
             },
             "description": "Os2Display Sparkle feed bundle.",
             "support": {
-                "source": "https://github.com/itk-os2display/sparkle-feed-bundle/tree/1.0.0",
+                "source": "https://github.com/itk-os2display/sparkle-feed-bundle/tree/hotfix/dokkway-304-added-existence-check",
                 "issues": "https://github.com/itk-os2display/sparkle-feed-bundle/issues"
             },
-            "time": "2019-12-11T12:57:52+00:00"
+            "time": "2020-02-07T10:54:34+00:00"
         },
         {
             "name": "os2display/template-extension-bundle",
@@ -4213,6 +4213,7 @@
                 }
             ],
             "description": "This bundle generates code for you",
+            "abandoned": true,
             "time": "2017-12-07T15:36:41+00:00"
         },
         {
@@ -5970,7 +5971,8 @@
     "stability-flags": {
         "os2display/admin-bundle": 20,
         "os2display/core-bundle": 20,
-        "os2display/default-template-bundle": 20
+        "os2display/default-template-bundle": 20,
+        "os2display/sparkle-feed-bundle": 20
     },
     "prefer-stable": false,
     "prefer-lowest": false,
