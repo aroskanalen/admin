@@ -86,8 +86,18 @@ services:
   search-node:
     build: .docker/search/
     command: node app.js
+    depends_on:
+      - elasticsearch
     networks:
       - app
       - frontend
     ports:
       - 8001:3010
+
+  elasticsearch:
+    build: .docker/elasticsearch/
+    networks:
+      - app
+      - frontend
+    ports:
+      - 9200:9200
