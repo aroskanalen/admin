@@ -19,3 +19,5 @@ composer-dev.*
 /web/uploads/*
 !/web/uploads/.gitkeep
 /web/assets/images/fallback_override.png
+/.docker/middleware/middleware/*
+/.docker/search/search_node/*
