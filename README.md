@@ -11,11 +11,6 @@ Getting started:
 
 # Boot docker containers
 itkdev-docker-compose up -d
-itkdev-docker-compose open
-
-# :9200 for elasticsearch
-# :8001 for search
-# :8002 for middleware
 
 # Setup admin
 itkdev-docker-compose composer install
@@ -29,10 +24,16 @@ itkdev-docker-compose bin/console doctrine:query:sql "UPDATE ik_screen_templates
 itkdev-docker-compose bin/console doctrine:query:sql "UPDATE ik_slide_templates SET enabled=1;"
 
 # Wait a bit until elasticsearch is ready.
-
-# Initialize the search indexes
+# Initialize the search indexes by accessing search-node container.
 itkdev-docker-compose exec search-node bash
 ./search_activate.sh
 ./search_initialize.sh
 exit
+
+# Open the site
+itkdev-docker-compose open
+
+# :8001 for search administration
+# :8002 for middleware adminstration
+# :9200 for elasticsearch
 ```
