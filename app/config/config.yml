@@ -42,6 +42,7 @@ twig:
     sharing_enabled: '%sharing_enabled%'
     search_host: '%search_host%'
     search_index: '%search_index%'
+    search_socket_js: '%search_socket_js%'
     site_title: '%site_title%'
     version: '%version%'
     itk_log_version: '%itk_log_version%'

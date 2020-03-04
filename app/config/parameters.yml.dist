@@ -35,6 +35,7 @@ parameters:
     search_path: /api
     search_apikey: 1234567890
     search_index: e7df7cd2ca07f4f1ab415d457a6e1c13
+    search_socket_js: ~
 
     middleware_host: http://127.0.0.1:3020
     middleware_path: /api

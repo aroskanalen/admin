@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "895e0daf432e898450a732251eb29f19",
+    "content-hash": "11d67bd2571700cedaf758139270600e",
     "packages": [
         {
             "name": "aakb/os2display-aarhus-templates",
@@ -3254,16 +3254,16 @@
         },
         {
             "name": "os2display/admin-bundle",
-            "version": "2.1.2",
+            "version": "dev-feature/docker",
             "source": {
                 "type": "git",
-                "url": "https://github.com/os2display/admin-bundle.git",
-                "reference": "e25cad258a24e087af834d55cd13adfb3aa2cfdc"
+                "url": "https://github.com/aroskanalen/admin-bundle.git",
+                "reference": "4255c91a0323055402ff814918d1b55723429532"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/os2display/admin-bundle/zipball/e25cad258a24e087af834d55cd13adfb3aa2cfdc",
-                "reference": "e25cad258a24e087af834d55cd13adfb3aa2cfdc",
+                "url": "https://api.github.com/repos/aroskanalen/admin-bundle/zipball/4255c91a0323055402ff814918d1b55723429532",
+                "reference": "4255c91a0323055402ff814918d1b55723429532",
                 "shasum": ""
             },
             "require": {
@@ -3276,9 +3276,11 @@
                     "Os2Display\\AdminBundle\\": ""
                 }
             },
-            "notification-url": "https://packagist.org/downloads/",
             "description": "Os2Display admin",
-            "time": "2019-11-15T12:57:20+00:00"
+            "support": {
+                "source": "https://github.com/aroskanalen/admin-bundle/tree/feature/docker"
+            },
+            "time": "2020-03-04T09:31:03+00:00"
         },
         {
             "name": "os2display/campaign-bundle",
@@ -4182,6 +4184,7 @@
                 }
             ],
             "description": "This bundle generates code for you",
+            "abandoned": "symfony/maker-bundle",
             "time": "2017-12-07T15:36:41+00:00"
         },
         {
@@ -5808,6 +5811,7 @@
                 "code",
                 "zf2"
             ],
+            "abandoned": "laminas/laminas-code",
             "time": "2018-08-13T20:36:59+00:00"
         },
         {
@@ -5862,6 +5866,7 @@
                 "events",
                 "zf2"
             ],
+            "abandoned": "laminas/laminas-eventmanager",
             "time": "2018-04-25T15:33:34+00:00"
         }
     ],
@@ -5934,7 +5939,9 @@
     ],
     "aliases": [],
     "minimum-stability": "stable",
-    "stability-flags": [],
+    "stability-flags": {
+        "os2display/admin-bundle": 20
+    },
     "prefer-stable": false,
     "prefer-lowest": false,
     "platform": {

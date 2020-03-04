@@ -27,6 +27,7 @@ parameters:
     search_path: /api
     search_apikey: 795359dd2c81fa41af67faa2f9adbd32
     search_index: e7df7cd2ca07f4f1ab415d457a6e1c13
+    search_socket_js: 'http://aroskanalen.local.itkdev.dk:8001/socket.io/socket.io.js'
     middleware_host: 'http://aroskanalen.local.itkdev.dk:8002'
     middleware_path: /api
     middleware_apikey: 059d9d9c50e0c45b529407b183b6a02f
