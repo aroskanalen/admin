@@ -17,7 +17,7 @@
 /web/bundles/
 composer-dev.*
 /web/uploads/*
-!/web/uploads/.gitkeep
+!/web/uploads/.gitignore
 /web/assets/images/fallback_override.png
 /.docker/middleware/middleware/
 /.docker/search/search_node/

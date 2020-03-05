@@ -167,6 +167,12 @@ os2_display_poster:
 os2_display_screen:
   strategies:
     push:
+      debug: false
+      log_to_console: false
+      log_level: error
       fallback_image: '%fallback_image%'
     pull:
+      debug: false
+      log_to_console: false
+      log_level: error
       fallback_image: '%fallback_image%'

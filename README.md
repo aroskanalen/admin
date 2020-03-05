@@ -23,11 +23,21 @@ itkdev-docker-compose bin/console os2display:core:templates:load
 itkdev-docker-compose bin/console doctrine:query:sql "UPDATE ik_screen_templates SET enabled=1;"
 itkdev-docker-compose bin/console doctrine:query:sql "UPDATE ik_slide_templates SET enabled=1;"
 
-# Wait a bit until elasticsearch is ready.
 # Initialize the search indexes by accessing search-node container.
 itkdev-docker-compose exec search-node bash
 ./search_activate.sh
 ./search_initialize.sh
+exit
+
+# Optional: If you want automatic cron calls to push content every minute.
+# Alternativ: manually call `itkdev-docker-compose bin/console os2display:core:cron` when content has been updated.
+itkdev-docker-compose exec phpfpm bash
+apt-get update
+apt-get install nano cron -y
+crontab -l > mycron
+echo "*/1 * * * * /usr/bin/php /app/bin/console os2display:core:cron" >> mycron
+crontab mycron
+rm mycron
 exit
 
 # Open the site

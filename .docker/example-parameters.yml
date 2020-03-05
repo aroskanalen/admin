@@ -17,8 +17,8 @@ parameters:
     use_assetic_controller: true
     absolute_path_to_server: 'http://aroskanalen.local.itkdev.dk'
     zencoder_api: 1234567890
-    mailer_from_email: webmaster@ik3.os2display.vm
-    mailer_from_name: 'Webmaster os2display.vm'
+    mailer_from_email: webmaster@aroskanalen.local.itkdev.dk
+    mailer_from_name: 'Webmaster os2display'
     sharing_host: 'http://aroskanalen.local.itkdev.dk:8001'
     sharing_path: /api
     sharing_apikey: 88cfd4b277f3f8b6c7c15d7a84784067
@@ -36,7 +36,7 @@ parameters:
     koba_path: 'http://127.0.0.1'
     version: dev1
     itk_log_version: 1
-    itk_log_error_callback: /api/error
+    itk_log_error_callback: ~
     itk_log_log_to_console: true
     itk_log_log_level: all
     database_server_version: 5.5
