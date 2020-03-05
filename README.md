@@ -7,13 +7,16 @@ For general information  see the https://github.com/os2display/docs in the docs 
 Getting started:
 ```
 # Clone middleware and search-node from github
-./install.sh
+./scripts/install.sh
 
 # Boot docker containers
 itkdev-docker-compose up -d
 
+# Optional: Install composer parallel download
+itkdev-docker-compose composer global require hirak/prestissimo
+
 # Setup admin
-itkdev-docker-compose composer install
+itkdev-docker-compose composer install -o
 itkdev-docker-compose bin/console cache:warmup
 itkdev-docker-compose bin/console doctrine:migrations:migrate
 itkdev-docker-compose bin/console fos:user:create --super-admin
@@ -44,4 +47,15 @@ itkdev-docker-compose open
 # :8001 for search administration
 # :8002 for middleware adminstration
 # :9200 for elasticsearch
+
+# Fix permission issues to var/
+itkdev-docker-compose exec phpfpm bash -c 'chmod -R 777 var'
 ```
+
+The `vendor/` and `var/` folders are not syncronized since this impacts performance a lot.
+
+If you need the vendor folder outside of the container, install it there as well.
+
+## Development
+
+To work on a repository, replace it in packages.

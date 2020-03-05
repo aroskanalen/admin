@@ -36,13 +36,20 @@ services:
       - PHP_IDE_CONFIG=serverName=localhost
     depends_on:
       - mariadb
+    # See https://github.com/dunglas/symfony-docker/blob/master/docker-compose.yml#L20-L23
     volumes:
       - ./:/app:rw,cached
       - /app/var/
       - /app/var/cache/
       - /app/var/logs/
       - /app/var/sessions/
-      - /app/vendor
+      - /app/vendor/
+      - /app/packages/
+      - /app/web/bundles/
+      - /app/web/uploads/
+      - ./packages/aakb:/app/vendor/aakb:rw,cached
+      - ./packages/os2display:/app/vendor/os2display:rw,cached
+      - ./packages/itk-os2display:/app/vendor/itk-os2display:rw,cached
 
   nginx:
     image: nginx:latest

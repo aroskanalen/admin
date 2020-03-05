@@ -21,3 +21,7 @@ composer-dev.*
 /web/assets/images/fallback_override.png
 /.docker/middleware/middleware/
 /.docker/search/search_node/
+/packages/
+!/packages/aakb/.gitignore
+!/packages/itk-os2display/.gitignore
+!/packages/os2display/.gitignore
