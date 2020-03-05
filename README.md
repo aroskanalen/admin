@@ -24,10 +24,8 @@ itkdev-docker-compose bin/console doctrine:query:sql "UPDATE ik_screen_templates
 itkdev-docker-compose bin/console doctrine:query:sql "UPDATE ik_slide_templates SET enabled=1;"
 
 # Initialize the search indexes by accessing search-node container.
-itkdev-docker-compose exec search-node bash
-./search_activate.sh
-./search_initialize.sh
-exit
+itkdev-docker-compose exec search-node bash -c './search_activate.sh'
+itkdev-docker-compose exec search-node bash -c './search_initialize.sh'
 
 # Optional: If you want automatic cron calls to push content every minute.
 # Alternativ: manually call `itkdev-docker-compose bin/console os2display:core:cron` when content has been updated.

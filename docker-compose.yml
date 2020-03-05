@@ -37,7 +37,12 @@ services:
     depends_on:
       - mariadb
     volumes:
-      - ./:/app:cached
+      - ./:/app:rw,cached
+      - /app/var/
+      - /app/var/cache/
+      - /app/var/logs/
+      - /app/var/sessions/
+      - /app/vendor
 
   nginx:
     image: nginx:latest
