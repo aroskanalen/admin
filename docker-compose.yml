@@ -61,10 +61,10 @@ services:
       - '80'
     volumes:
       - ${PWD}/.docker/vhost.conf:/etc/nginx/conf.d/default.conf:ro
-      - ./web:/app/web:cached,ro
-      - ./packages/aakb:/app/vendor/aakb:ro,cached
-      - ./packages/os2display:/app/vendor/os2display:ro,cached
-      - ./packages/itk-os2display:/app/vendor/itk-os2display:ro,cached
+      - ./web:/app/web:ro,consistent
+      - ./packages/aakb:/app/vendor/aakb:ro,consistent
+      - ./packages/os2display:/app/vendor/os2display:ro,consistent
+      - ./packages/itk-os2display:/app/vendor/itk-os2display:ro,consistent
       - ./vendor:/app/vendor:cached,ro
     labels:
       - "traefik.enable=true"
