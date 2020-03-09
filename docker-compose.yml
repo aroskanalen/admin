@@ -38,16 +38,13 @@ services:
       - mariadb
     # See https://github.com/dunglas/symfony-docker/blob/master/docker-compose.yml#L20-L23
     volumes:
-      - ./:/app:rw,cached
+      - ./:/app:rw,delegated
+      - ./packages/:/app/packages/:ro,delegated
       - /app/var/
       - /app/var/cache/
       - /app/var/logs/
       - /app/var/sessions/
       - /app/vendor/
-      - /app/packages/
-      - ./packages/aakb:/app/vendor/aakb:rw,cached
-      - ./packages/os2display:/app/vendor/os2display:rw,cached
-      - ./packages/itk-os2display:/app/vendor/itk-os2display:rw,cached
 
   nginx:
     image: nginx:latest
@@ -62,10 +59,8 @@ services:
     volumes:
       - ${PWD}/.docker/vhost.conf:/etc/nginx/conf.d/default.conf:ro
       - ./web:/app/web:ro,consistent
-      - ./packages/aakb:/app/vendor/aakb:ro,consistent
-      - ./packages/os2display:/app/vendor/os2display:ro,consistent
-      - ./packages/itk-os2display:/app/vendor/itk-os2display:ro,consistent
-      - ./vendor:/app/vendor:cached,ro
+      - ./packages/:/app/packages:ro,consistent
+      - ./vendor:/app/vendor:ro,consistent
     labels:
       - "traefik.enable=true"
       - "traefik.docker.network=frontend"

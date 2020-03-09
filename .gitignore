@@ -15,7 +15,6 @@
 !var/SymfonyRequirements.php
 /vendor/
 /web/bundles/
-composer-dev.*
 /web/uploads/*
 !/web/uploads/.gitignore
 /web/assets/images/fallback_override.png
@@ -25,3 +24,4 @@ composer-dev.*
 !/packages/aakb/.gitignore
 !/packages/itk-os2display/.gitignore
 !/packages/os2display/.gitignore
+composer-dev.lock

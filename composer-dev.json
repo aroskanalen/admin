@@ -32,17 +32,30 @@
             "type": "vcs",
             "url": "https://github.com/itk-os2display/lokalcenter-template-bundle"
         },
-        "itk-os2display/aarhus-second-template-bundle": {
-            "type": "vcs",
-            "url": "https://github.com/itk-os2display/aarhus-second-template-bundle"
-        },
         "itk-os2display/aarhus-data-bundle": {
             "type": "vcs",
             "url": "https://github.com/itk-os2display/aarhus-data-bundle"
         },
-        "itk-os2display/poster-bundle": {
-            "type": "vcs",
-            "url": "https://github.com/itk-os2display/poster-bundle"
+        "aakb/*": {
+            "type": "path",
+            "url": "./packages/aakb/*",
+            "options": {
+                "symlink": true
+            }
+        },
+        "itk-os2display/*": {
+            "type": "path",
+            "url": "./packages/itk-os2display/*",
+            "options": {
+                "symlink": true
+            }
+        },
+        "os2display/*": {
+            "type": "path",
+            "url": "./packages/os2display/*",
+            "options": {
+                "symlink": true
+            }
         }
     },
     "require": {
