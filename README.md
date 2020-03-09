@@ -12,6 +12,7 @@ Getting started:
 ./scripts/install.sh
 
 # Clone repositories that should be overridden into the relevant folders in packages/.
+./scripts/dev_install.sh
 
 # Boot docker containers.
 itkdev-docker-compose up -d
