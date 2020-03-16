@@ -67,3 +67,7 @@ os2_display_core:
 # Disable cache in dev.
 os2_display_campaign:
     cache_ttl: 0
+
+# Disable cron interval.
+os2_display_poster:
+    cron_interval: 0
