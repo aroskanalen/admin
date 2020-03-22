@@ -17,7 +17,7 @@
 /web/bundles/
 /web/uploads/*
 !/web/uploads/.gitignore
-/web/assets/images/fallback_override.png
+/web/assets/images/*
 /.docker/middleware/middleware/
 /.docker/search/search_node/
 /packages/

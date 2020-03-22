@@ -68,6 +68,10 @@ os2_display_core:
 os2_display_campaign:
     cache_ttl: 0
 
-# Disable cron interval.
+# Disable cron interval in dev.
 os2_display_poster:
+    cron_interval: 0
+
+# Disable cron interval in dev.
+os2_display_sparkle_feed:
     cron_interval: 0

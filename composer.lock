@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "2c1b3ba60cf53c658531675eb1d30682",
+    "content-hash": "328a020418b268d0924e7af0f4bc3fe3",
     "packages": [
         {
             "name": "aakb/os2display-aarhus-templates",
@@ -2187,16 +2187,16 @@
         },
         {
             "name": "itk-os2display/os2display-koba-integration",
-            "version": "1.1.1",
+            "version": "1.1.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/itk-os2display/os2display-koba-integration.git",
-                "reference": "0ddf68ac49b256013af33eec768716a99c53188e"
+                "reference": "5f89aa137ac063d741c7f07d370799f7abd87cfd"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/itk-os2display/os2display-koba-integration/zipball/0ddf68ac49b256013af33eec768716a99c53188e",
-                "reference": "0ddf68ac49b256013af33eec768716a99c53188e",
+                "url": "https://api.github.com/repos/itk-os2display/os2display-koba-integration/zipball/5f89aa137ac063d741c7f07d370799f7abd87cfd",
+                "reference": "5f89aa137ac063d741c7f07d370799f7abd87cfd",
                 "shasum": ""
             },
             "type": "symfony-bundle",
@@ -2207,10 +2207,10 @@
             },
             "description": "Os2Display koba integration",
             "support": {
-                "source": "https://github.com/itk-os2display/os2display-koba-integration/tree/1.1.1",
+                "source": "https://github.com/itk-os2display/os2display-koba-integration/tree/1.1.2",
                 "issues": "https://github.com/itk-os2display/os2display-koba-integration/issues"
             },
-            "time": "2019-10-07T09:20:17+00:00"
+            "time": "2019-12-04T09:29:01+00:00"
         },
         {
             "name": "itk-os2display/poster-bundle",
@@ -3254,16 +3254,16 @@
         },
         {
             "name": "os2display/admin-bundle",
-            "version": "dev-feature/docker",
+            "version": "2.2.0",
             "source": {
                 "type": "git",
-                "url": "https://github.com/aroskanalen/admin-bundle.git",
-                "reference": "4255c91a0323055402ff814918d1b55723429532"
+                "url": "https://github.com/os2display/admin-bundle.git",
+                "reference": "854ead6a0a332571638783d40a400ef5a34ad4e6"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/aroskanalen/admin-bundle/zipball/4255c91a0323055402ff814918d1b55723429532",
-                "reference": "4255c91a0323055402ff814918d1b55723429532",
+                "url": "https://api.github.com/repos/os2display/admin-bundle/zipball/854ead6a0a332571638783d40a400ef5a34ad4e6",
+                "reference": "854ead6a0a332571638783d40a400ef5a34ad4e6",
                 "shasum": ""
             },
             "require": {
@@ -3276,11 +3276,9 @@
                     "Os2Display\\AdminBundle\\": ""
                 }
             },
+            "notification-url": "https://packagist.org/downloads/",
             "description": "Os2Display admin",
-            "support": {
-                "source": "https://github.com/aroskanalen/admin-bundle/tree/feature/docker"
-            },
-            "time": "2020-03-04T09:31:03+00:00"
+            "time": "2020-03-22T14:33:34+00:00"
         },
         {
             "name": "os2display/campaign-bundle",
@@ -3314,25 +3312,22 @@
                     "Os2Display\\CampaignBundle\\": ""
                 }
             },
+            "notification-url": "https://packagist.org/downloads/",
             "description": "Os2Display campaigns",
-            "support": {
-                "source": "https://github.com/os2display/campaign-bundle/tree/2.1.0",
-                "issues": "https://github.com/os2display/campaign-bundle/issues"
-            },
             "time": "2019-05-20T11:27:35+00:00"
         },
         {
             "name": "os2display/core-bundle",
-            "version": "2.1.3",
+            "version": "2.2.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/os2display/core-bundle.git",
-                "reference": "55c8e58ec7b8eee545d128a79634bb1f5f85ee61"
+                "reference": "5caa838db2d0f1dbb1f6eb2bfcbed3f3d30b53f2"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/os2display/core-bundle/zipball/55c8e58ec7b8eee545d128a79634bb1f5f85ee61",
-                "reference": "55c8e58ec7b8eee545d128a79634bb1f5f85ee61",
+                "url": "https://api.github.com/repos/os2display/core-bundle/zipball/5caa838db2d0f1dbb1f6eb2bfcbed3f3d30b53f2",
+                "reference": "5caa838db2d0f1dbb1f6eb2bfcbed3f3d30b53f2",
                 "shasum": ""
             },
             "require": {
@@ -3382,25 +3377,22 @@
                     "Os2Display\\CoreBundle\\": ""
                 }
             },
+            "notification-url": "https://packagist.org/downloads/",
             "description": "Os2Display core",
-            "support": {
-                "source": "https://github.com/os2display/core-bundle/tree/2.1.3",
-                "issues": "https://github.com/os2display/core-bundle/issues"
-            },
-            "time": "2019-11-15T10:29:50+00:00"
+            "time": "2020-03-22T14:41:22+00:00"
         },
         {
             "name": "os2display/default-template-bundle",
-            "version": "2.0.0",
+            "version": "2.1.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/os2display/default-template-bundle.git",
-                "reference": "d2ca5602974df10fd23b56fa0155241cc427c5a4"
+                "reference": "0ad1c75720e8ec12f2e11f064143089352e49163"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/os2display/default-template-bundle/zipball/d2ca5602974df10fd23b56fa0155241cc427c5a4",
-                "reference": "d2ca5602974df10fd23b56fa0155241cc427c5a4",
+                "url": "https://api.github.com/repos/os2display/default-template-bundle/zipball/0ad1c75720e8ec12f2e11f064143089352e49163",
+                "reference": "0ad1c75720e8ec12f2e11f064143089352e49163",
                 "shasum": ""
             },
             "type": "symfony-bundle",
@@ -3409,12 +3401,9 @@
                     "Os2Display\\DefaultTemplateBundle\\": ""
                 }
             },
+            "notification-url": "https://packagist.org/downloads/",
             "description": "Os2Display default template",
-            "support": {
-                "source": "https://github.com/os2display/default-template-bundle/tree/2.0.0",
-                "issues": "https://github.com/os2display/default-template-bundle/issues"
-            },
-            "time": "2019-10-24T11:49:15+00:00"
+            "time": "2020-03-22T14:37:13+00:00"
         },
         {
             "name": "os2display/media-bundle",
@@ -3440,11 +3429,8 @@
                     "Os2Display\\MediaBundle\\": ""
                 }
             },
+            "notification-url": "https://packagist.org/downloads/",
             "description": "Os2Display media",
-            "support": {
-                "source": "https://github.com/os2display/media-bundle/tree/2.0.0",
-                "issues": "https://github.com/os2display/media-bundle/issues"
-            },
             "time": "2019-02-21T09:06:08+00:00"
         },
         {
@@ -3467,15 +3453,43 @@
                     "Os2Display\\ScreenBundle\\": ""
                 }
             },
+            "notification-url": "https://packagist.org/downloads/",
             "license": [
                 "MPL-2.0"
             ],
             "description": "Os2Display screen",
-            "support": {
-                "source": "https://github.com/os2display/screen-bundle/tree/1.1.4",
-                "issues": "https://github.com/os2display/screen-bundle/issues"
-            },
             "time": "2019-11-11T11:44:53+00:00"
+        },
+        {
+            "name": "os2display/sparkle-feed-bundle",
+            "version": "1.0.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/itk-os2display/sparkle-feed-bundle.git",
+                "reference": "2493f5f542f4a0c709a8a7b5df9d714a15d7ef61"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/itk-os2display/sparkle-feed-bundle/zipball/2493f5f542f4a0c709a8a7b5df9d714a15d7ef61",
+                "reference": "2493f5f542f4a0c709a8a7b5df9d714a15d7ef61",
+                "shasum": ""
+            },
+            "require": {
+                "doctrine/cache": "^1.0",
+                "guzzlehttp/guzzle": "^6.2"
+            },
+            "type": "symfony-bundle",
+            "autoload": {
+                "psr-4": {
+                    "Os2Display\\SparkleFeedBundle\\": ""
+                }
+            },
+            "description": "Os2Display Sparkle feed bundle.",
+            "support": {
+                "source": "https://github.com/itk-os2display/sparkle-feed-bundle/tree/1.0.1",
+                "issues": "https://github.com/itk-os2display/sparkle-feed-bundle/issues"
+            },
+            "time": "2020-03-22T06:35:41+00:00"
         },
         {
             "name": "os2display/template-extension-bundle",
@@ -3497,11 +3511,8 @@
                     "Os2Display\\TemplateExtensionBundle\\": ""
                 }
             },
+            "notification-url": "https://packagist.org/downloads/",
             "description": "Os2Display Template Extension Bundle contains tools for templates.",
-            "support": {
-                "source": "https://github.com/os2display/template-extension-bundle/tree/2.0.1",
-                "issues": "https://github.com/os2display/template-extension-bundle/issues"
-            },
             "time": "2019-05-15T12:38:02+00:00"
         },
         {
@@ -3524,11 +3535,8 @@
                     "Os2Display\\VimeoBundle\\": ""
                 }
             },
+            "notification-url": "https://packagist.org/downloads/",
             "description": "Os2Display vimeo template.",
-            "support": {
-                "source": "https://github.com/os2display/vimeo-bundle/tree/2.0.2",
-                "issues": "https://github.com/os2display/vimeo-bundle/issues"
-            },
             "time": "2019-05-15T13:16:30+00:00"
         },
         {
@@ -5989,9 +5997,7 @@
     ],
     "aliases": [],
     "minimum-stability": "stable",
-    "stability-flags": {
-        "os2display/admin-bundle": 20
-    },
+    "stability-flags": [],
     "prefer-stable": false,
     "prefer-lowest": false,
     "platform": {

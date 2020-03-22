@@ -56,3 +56,6 @@ parameters:
     koba_path: 'http://127.0.0.1'
 
     fallback_image: ~
+
+    sparkle_feed_client_id: ~
+    sparkle_feed_client_secret: ~

@@ -1,5 +1,22 @@
 # Aroskanalen CHANGELOG
 
+## 6.2.0
+
+* Upgraded bundles:
+  - os2display/admin-bundle -> 2.2.0
+  - os2display/core-bundle -> 2.2.0
+  - os2display/default-template-bundle -> 2.1.0
+
+## 6.1.0
+
+* Added sparkle-feed-bundle.
+
+## 6.0.7
+
+* Updated bundles:
+  - itk-os2display/os2display-koba-integration -> 1.1.2
+  - os2display/admin-bundle -> 2.1.3
+
 ## 6.0.6
 
 * Updated bundles:
