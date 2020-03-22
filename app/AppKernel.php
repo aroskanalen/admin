@@ -46,6 +46,8 @@ class AppKernel extends Kernel
             new Itk\AarhusTemplateBundle\ItkAarhusTemplateBundle(),
             new Itk\LokalcenterTemplateBundle\ItkLokalcenterTemplateBundle(),
             new Itk\AarhusSecondTemplateBundle\ItkAarhusSecondTemplateBundle(),
+
+            new Os2Display\SparkleFeedBundle\Os2DisplaySparkleFeedBundle(),
         ];
 
         if (in_array($this->getEnvironment(), ['dev', 'test'], true)) {
