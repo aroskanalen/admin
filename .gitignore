@@ -18,4 +18,4 @@
 composer-dev.*
 /web/uploads/*
 !/web/uploads/.gitkeep
-/web/assets/images/fallback_override.png
+/web/assets/images/*
