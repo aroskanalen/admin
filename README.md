@@ -1,52 +1,78 @@
 # os2display administrator interface
 
-For general information about installation see the https://github.com/os2display/docs/blob/development/Installation%20guide.md in the docs repository.
+For general information see `https://github.com/os2display/docs`.
 
-# Information
-When working with os2display together with the vagrant provided, you have to visit screen.os2display.vm, search.os2display.vm, middleware.os2display.vm, admin.os2display.vm and accept the self-sign certificates. If you don't open a tab for each in Chrome, if not it will not work.
+## Docker
 
-# Helpful commands
-We have defined a couple of commands for os2display.
+Before starting the install, decide which repositories to change and clone them into the relevant folders in `packages/`.
 
-To push content
-<pre>
-php app/console ik:push
-</pre>
-
-To reindex search
-<pre>
-php app/console ik:reindex
-</pre>
-This does not include delete of records that are removed from symfony but not search.
-
-To clear cache
-<pre>
-php app/console cache:clear
-</pre>
-
-To brute force clear cache
-<pre>
-rm -rf app/cache/*
-</pre>
-
-
-# API tests
-
-Clear out the acceptance test cache and set up the database:
-
+Getting started:
 ```
-app/console --env=acceptance cache:clear
-app/console --env=acceptance doctrine:database:create
+# Clone middleware and search-node from github.
+./scripts/install.sh
+
+# Clone repositories that should be overridden into the relevant folders in packages/.
+./scripts/dev_install.sh
+
+# Boot docker containers.
+itkdev-docker-compose up -d
+
+# Optional: Install composer parallel download, to speed up composer install.
+itkdev-docker-compose composer global require hirak/prestissimo
+
+# Setup admin.
+# Install vendors inside the container.
+itkdev-docker-compose exec phpfpm bash -c './scripts/dev_setup.sh'
+itkdev-docker-compose bin/console doctrine:migrations:migrate
+itkdev-docker-compose bin/console fos:user:create --super-admin
+
+# Install vendor and assets folders outside of container.
+COMPOSER=composer-dev.json composer install
+
+# Activate all templates.
+itkdev-docker-compose bin/console os2display:core:templates:load
+itkdev-docker-compose bin/console doctrine:query:sql "UPDATE ik_screen_templates SET enabled=1;"
+itkdev-docker-compose bin/console doctrine:query:sql "UPDATE ik_slide_templates SET enabled=1;"
+
+# Activate and initialize the search indexes by accessing search-node container.
+itkdev-docker-compose exec search-node bash -c './search_activate.sh'
+itkdev-docker-compose exec search-node bash -c './search_initialize.sh'
+
+# Warmup the cache.
+itkdev-docker-compose bin/console cache:warmup
+
+# Optional: Fix potential permission issues.
+itkdev-docker-compose exec phpfpm bash -c 'chmod -R 777 var'
+
+# Open the site.
+itkdev-docker-compose open
+
+# :8001 for search administration
+# :8002 for middleware adminstration
+# :9200 for elasticsearch
+
+# Optional: If you want automatic cron calls to push content every minute.
+# Alternativ: manually call `itkdev-docker-compose bin/console os2display:core:cron` when content has been updated.
+itkdev-docker-compose exec phpfpm bash
+apt-get update
+apt-get install nano cron -y
+crontab -l > mycron
+echo "*/1 * * * * /usr/bin/php /app/bin/console os2display:core:cron" >> mycron
+crontab mycron
+rm mycron
+exit
 ```
 
-Run API tests:
+The `vendor/` and `var/` folders are not syncronized since this impacts performance a lot.
 
-```
-./vendor/behat/behat/bin/behat --suite=api_features
-```
+If you need the vendor folder outside of the container, install it there as well.
 
-Run only tests with a specific tag:
+## Development
 
+To work on a repository, clone it into the correct folder of `packages/`. Then remove `composer-dev.lock` if it exists.
+
+Then run 
 ```
-./vendor/behat/behat/bin/behat --suite=api_features --tags=group
+itkdev-docker-compose exec phpfpm bash -c './scripts/dev_setup.sh'
+itkdev-docker-compose exec phpfpm bash -c 'chmod -R 777 var'
 ```

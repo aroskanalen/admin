@@ -23,6 +23,13 @@ monolog:
             path:   "%kernel.logs_dir%/%kernel.environment%.zencoder.log"
             level:  debug
             channels: [zencoder]
+        deprecation:
+            type: "null"
+        deprecation_filter:
+            type: filter
+            handler: deprecation
+            max_level: info
+            channels: ["php"]
         console:
             type:   console
             bubble: false
@@ -61,5 +68,10 @@ os2_display_core:
 os2_display_campaign:
     cache_ttl: 0
 
+# Disable cron interval in dev.
+os2_display_poster:
+    cron_interval: 0
+
+# Disable cron interval in dev.
 os2_display_sparkle_feed:
     cron_interval: 0

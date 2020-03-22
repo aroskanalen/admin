@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "9418b5c2736a99ff36ffed5bd32bb585",
+    "content-hash": "2fc5489fc3b411383d179686f0bc7dfc",
     "packages": [
         {
             "name": "aakb/os2display-aarhus-templates",

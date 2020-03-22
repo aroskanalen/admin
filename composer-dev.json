@@ -20,33 +20,26 @@
         ]
     },
     "repositories": {
-        "os2display/sparkle-feed-bundle": {
-            "type": "vcs",
-            "url": "https://github.com/itk-os2display/sparkle-feed-bundle"
+        "aakb/*": {
+            "type": "path",
+            "url": "./packages/aakb/*",
+            "options": {
+                "symlink": true
+            }
         },
-        "aakb/os2display-aarhus-templates": {
-            "type": "vcs",
-            "url": "https://github.com/aakb/os2display-aarhus-templates"
+        "itk-os2display/*": {
+            "type": "path",
+            "url": "./packages/itk-os2display/*",
+            "options": {
+                "symlink": true
+            }
         },
-        "itk-os2display/os2display-koba-integration": {
-            "type": "vcs",
-            "url": "https://github.com/itk-os2display/os2display-koba-integration"
-        },
-        "itk-os2display/lokalcenter-template-bundle": {
-            "type": "vcs",
-            "url": "https://github.com/itk-os2display/lokalcenter-template-bundle"
-        },
-        "itk-os2display/aarhus-second-template-bundle": {
-            "type": "vcs",
-            "url": "https://github.com/itk-os2display/aarhus-second-template-bundle"
-        },
-        "itk-os2display/aarhus-data-bundle": {
-            "type": "vcs",
-            "url": "https://github.com/itk-os2display/aarhus-data-bundle"
-        },
-        "itk-os2display/poster-bundle": {
-            "type": "vcs",
-            "url": "https://github.com/itk-os2display/poster-bundle"
+        "os2display/*": {
+            "type": "path",
+            "url": "./packages/os2display/*",
+            "options": {
+                "symlink": true
+            }
         }
     },
     "require": {
@@ -66,7 +59,6 @@
         "os2display/default-template-bundle": "~2.0",
         "os2display/media-bundle": "~2.0",
         "os2display/screen-bundle": "^1.1",
-        "os2display/sparkle-feed-bundle": "^1.0",
         "os2display/template-extension-bundle": "^2.0",
         "os2display/vimeo-bundle": "~2.0",
         "paragonie/random_compat": "~2",
@@ -79,6 +71,7 @@
         "twig/twig": "^1.0||^2.0"
     },
     "require-dev": {
+        "predis/predis": "^1.1",
         "sensio/generator-bundle": "^3.0",
         "symfony/phpunit-bridge": "^3.0"
     },

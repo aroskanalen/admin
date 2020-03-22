@@ -15,7 +15,13 @@
 !var/SymfonyRequirements.php
 /vendor/
 /web/bundles/
-composer-dev.*
 /web/uploads/*
-!/web/uploads/.gitkeep
+!/web/uploads/.gitignore
 /web/assets/images/*
+/.docker/middleware/middleware/
+/.docker/search/search_node/
+/packages/
+!/packages/aakb/.gitignore
+!/packages/itk-os2display/.gitignore
+!/packages/os2display/.gitignore
+composer-dev.lock
