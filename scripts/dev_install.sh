@@ -21,6 +21,41 @@ function clone_latest {
   cd ..
 }
 
+##### os2display     #####
+
+mkdir os2display
+cd os2display
+
+GIT_ORGANIZATION=os2display
+
+BUNDLES="admin-bundle
+campaign-bundle
+core-bundle
+default-template-bundle
+media-bundle
+screen-bundle
+template-extension-bundle
+vimeo-bundle"
+
+for BUNDLE in $BUNDLES
+do
+(
+    clone_latest $BUNDLE
+)
+done
+
+cd ..
+
+##### sparkle-feed-bundle #####
+
+GIT_ORGANIZATION=itk-os2display
+
+cd os2display
+
+clone_latest sparkle-feed-bundle
+
+cd ..
+
 ##### itk-os2display #####
 
 mkdir itk-os2display
@@ -54,5 +89,4 @@ GIT_ORGANIZATION=aakb
 clone_latest os2display-aarhus-templates
 
 cd ..
-
 cd ..
