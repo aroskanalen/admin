@@ -3322,12 +3322,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/aroskanalen/core-bundle.git",
-                "reference": "3862567a8ed54305e858ec1c8c0a98f055f3af27"
+                "reference": "c921adb2fb87e1ba0867ccb82b73143e67c9719c"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/aroskanalen/core-bundle/zipball/3862567a8ed54305e858ec1c8c0a98f055f3af27",
-                "reference": "3862567a8ed54305e858ec1c8c0a98f055f3af27",
+                "url": "https://api.github.com/repos/aroskanalen/core-bundle/zipball/c921adb2fb87e1ba0867ccb82b73143e67c9719c",
+                "reference": "c921adb2fb87e1ba0867ccb82b73143e67c9719c",
                 "shasum": ""
             },
             "require": {
@@ -3381,7 +3381,7 @@
             "support": {
                 "source": "https://github.com/aroskanalen/core-bundle/tree/feature/cleanup-media"
             },
-            "time": "2020-03-31T08:24:12+00:00"
+            "time": "2020-04-01T07:09:22+00:00"
         },
         {
             "name": "os2display/default-template-bundle",
