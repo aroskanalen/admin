@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "9418b5c2736a99ff36ffed5bd32bb585",
+    "content-hash": "e5c9e182eb423ad4576d9416707b3d45",
     "packages": [
         {
             "name": "aakb/os2display-aarhus-templates",
@@ -3318,16 +3318,16 @@
         },
         {
             "name": "os2display/core-bundle",
-            "version": "2.2.1",
+            "version": "dev-feature/cleanup-media",
             "source": {
                 "type": "git",
-                "url": "https://github.com/os2display/core-bundle.git",
-                "reference": "1d973950d018105d74e30cb9de22e331d56fdd7c"
+                "url": "https://github.com/aroskanalen/core-bundle.git",
+                "reference": "5124f13a2edb7a0fb6004ee8ab144c8986daad8c"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/os2display/core-bundle/zipball/1d973950d018105d74e30cb9de22e331d56fdd7c",
-                "reference": "1d973950d018105d74e30cb9de22e331d56fdd7c",
+                "url": "https://api.github.com/repos/aroskanalen/core-bundle/zipball/5124f13a2edb7a0fb6004ee8ab144c8986daad8c",
+                "reference": "5124f13a2edb7a0fb6004ee8ab144c8986daad8c",
                 "shasum": ""
             },
             "require": {
@@ -3377,9 +3377,11 @@
                     "Os2Display\\CoreBundle\\": ""
                 }
             },
-            "notification-url": "https://packagist.org/downloads/",
             "description": "Os2Display core",
-            "time": "2020-04-01T11:23:16+00:00"
+            "support": {
+                "source": "https://github.com/aroskanalen/core-bundle/tree/feature/cleanup-media"
+            },
+            "time": "2020-04-01T13:26:26+00:00"
         },
         {
             "name": "os2display/default-template-bundle",
@@ -5960,7 +5962,9 @@
     ],
     "aliases": [],
     "minimum-stability": "stable",
-    "stability-flags": [],
+    "stability-flags": {
+        "os2display/core-bundle": 20
+    },
     "prefer-stable": false,
     "prefer-lowest": false,
     "platform": {
