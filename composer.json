@@ -24,6 +24,10 @@
             "type": "vcs",
             "url": "https://github.com/aroskanalen/core-bundle"
         },
+        "os2display/screen-bundle": {
+            "type": "vcs",
+            "url": "https://github.com/aroskanalen/screen-bundle"
+        },
         "os2display/sparkle-feed-bundle": {
             "type": "vcs",
             "url": "https://github.com/itk-os2display/sparkle-feed-bundle"
@@ -69,7 +73,7 @@
         "os2display/core-bundle": "dev-feature/cleanup-media",
         "os2display/default-template-bundle": "~2.0",
         "os2display/media-bundle": "~2.0",
-        "os2display/screen-bundle": "^1.1",
+        "os2display/screen-bundle": "dev-hotfix-1.1.4-protect-public-channels",
         "os2display/sparkle-feed-bundle": "^1.0",
         "os2display/template-extension-bundle": "^2.0",
         "os2display/vimeo-bundle": "~2.0",

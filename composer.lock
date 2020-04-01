@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "e5c9e182eb423ad4576d9416707b3d45",
+    "content-hash": "5d5768780538cdee554a90029c853e55",
     "packages": [
         {
             "name": "aakb/os2display-aarhus-templates",
@@ -3437,16 +3437,16 @@
         },
         {
             "name": "os2display/screen-bundle",
-            "version": "1.1.4",
+            "version": "dev-hotfix-1.1.4-protect-public-channels",
             "source": {
                 "type": "git",
-                "url": "https://github.com/os2display/screen-bundle.git",
-                "reference": "a78dfe5a30860118d10c23cd5b7e172d0366f1d5"
+                "url": "https://github.com/aroskanalen/screen-bundle.git",
+                "reference": "ed6fe5c083dbb48da2849e717155e4ff8c144f35"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/os2display/screen-bundle/zipball/a78dfe5a30860118d10c23cd5b7e172d0366f1d5",
-                "reference": "a78dfe5a30860118d10c23cd5b7e172d0366f1d5",
+                "url": "https://api.github.com/repos/aroskanalen/screen-bundle/zipball/ed6fe5c083dbb48da2849e717155e4ff8c144f35",
+                "reference": "ed6fe5c083dbb48da2849e717155e4ff8c144f35",
                 "shasum": ""
             },
             "type": "symfony-bundle",
@@ -3455,12 +3455,14 @@
                     "Os2Display\\ScreenBundle\\": ""
                 }
             },
-            "notification-url": "https://packagist.org/downloads/",
             "license": [
                 "MPL-2.0"
             ],
             "description": "Os2Display screen",
-            "time": "2019-11-11T11:44:53+00:00"
+            "support": {
+                "source": "https://github.com/aroskanalen/screen-bundle/tree/hotfix-1.1.4-protect-public-channels"
+            },
+            "time": "2020-04-01T09:55:13+00:00"
         },
         {
             "name": "os2display/sparkle-feed-bundle",
@@ -5950,12 +5952,14 @@
     "aliases": [],
     "minimum-stability": "stable",
     "stability-flags": {
-        "os2display/core-bundle": 20
+        "os2display/core-bundle": 20,
+        "os2display/screen-bundle": 20
     },
     "prefer-stable": false,
     "prefer-lowest": false,
     "platform": {
         "php": ">=7.2.0"
     },
-    "platform-dev": []
+    "platform-dev": [],
+    "plugin-api-version": "1.1.0"
 }
