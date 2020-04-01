@@ -1,5 +1,10 @@
 # Aroskanalen CHANGELOG
 
+## 6.2.2
+
+* Upgraded bundles:
+  - os2display/core-bundle -> 2.2.2
+
 ## 6.2.1
 
 * Upgraded bundles:

@@ -3318,16 +3318,16 @@
         },
         {
             "name": "os2display/core-bundle",
-            "version": "2.2.1",
+            "version": "2.2.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/os2display/core-bundle.git",
-                "reference": "1d973950d018105d74e30cb9de22e331d56fdd7c"
+                "reference": "d83a5213022e5951ad95143f5d1159f40a7498ab"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/os2display/core-bundle/zipball/1d973950d018105d74e30cb9de22e331d56fdd7c",
-                "reference": "1d973950d018105d74e30cb9de22e331d56fdd7c",
+                "url": "https://api.github.com/repos/os2display/core-bundle/zipball/d83a5213022e5951ad95143f5d1159f40a7498ab",
+                "reference": "d83a5213022e5951ad95143f5d1159f40a7498ab",
                 "shasum": ""
             },
             "require": {
@@ -3379,7 +3379,7 @@
             },
             "notification-url": "https://packagist.org/downloads/",
             "description": "Os2Display core",
-            "time": "2020-04-01T11:23:16+00:00"
+            "time": "2020-04-01T14:06:33+00:00"
         },
         {
             "name": "os2display/default-template-bundle",
