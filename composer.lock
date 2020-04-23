@@ -2138,12 +2138,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/itk-os2display/aarhus-second-template-bundle.git",
-                "reference": "cfa2d370c09897313b770a2ae931e7f221abd124"
+                "reference": "c9421a2ac98574bb83f20e90a42c33dc9e6bbd9c"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/itk-os2display/aarhus-second-template-bundle/zipball/cfa2d370c09897313b770a2ae931e7f221abd124",
-                "reference": "cfa2d370c09897313b770a2ae931e7f221abd124",
+                "url": "https://api.github.com/repos/itk-os2display/aarhus-second-template-bundle/zipball/c9421a2ac98574bb83f20e90a42c33dc9e6bbd9c",
+                "reference": "c9421a2ac98574bb83f20e90a42c33dc9e6bbd9c",
                 "shasum": ""
             },
             "type": "symfony-bundle",
@@ -2157,7 +2157,7 @@
                 "source": "https://github.com/itk-os2display/aarhus-second-template-bundle/tree/feature/subscriber",
                 "issues": "https://github.com/itk-os2display/aarhus-second-template-bundle/issues"
             },
-            "time": "2020-04-21T10:22:22+00:00"
+            "time": "2020-04-23T09:10:53+00:00"
         },
         {
             "name": "itk-os2display/lokalcenter-template-bundle",
