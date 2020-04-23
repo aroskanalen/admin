@@ -2218,12 +2218,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/itk-os2display/poster-bundle.git",
-                "reference": "13b06d26cc676fcac65ebea092faeb86e50ec445"
+                "reference": "b718c2f5cc01fa532aefb91c83de5b9942b22cd0"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/itk-os2display/poster-bundle/zipball/13b06d26cc676fcac65ebea092faeb86e50ec445",
-                "reference": "13b06d26cc676fcac65ebea092faeb86e50ec445",
+                "url": "https://api.github.com/repos/itk-os2display/poster-bundle/zipball/b718c2f5cc01fa532aefb91c83de5b9942b22cd0",
+                "reference": "b718c2f5cc01fa532aefb91c83de5b9942b22cd0",
                 "shasum": ""
             },
             "require": {
@@ -2241,7 +2241,7 @@
                 "source": "https://github.com/itk-os2display/poster-bundle/tree/feature/subscriber",
                 "issues": "https://github.com/itk-os2display/poster-bundle/issues"
             },
-            "time": "2020-04-15T13:52:09+00:00"
+            "time": "2020-04-23T09:02:04+00:00"
         },
         {
             "name": "jdorn/sql-formatter",
