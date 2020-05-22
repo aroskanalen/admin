@@ -2138,12 +2138,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/itk-os2display/aarhus-second-template-bundle.git",
-                "reference": "3ade748b797173349ddc1267f1548d4ac3f28ff1"
+                "reference": "00c3b6b839f3760eca112ef51d570bd2420698a8"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/itk-os2display/aarhus-second-template-bundle/zipball/3ade748b797173349ddc1267f1548d4ac3f28ff1",
-                "reference": "3ade748b797173349ddc1267f1548d4ac3f28ff1",
+                "url": "https://api.github.com/repos/itk-os2display/aarhus-second-template-bundle/zipball/00c3b6b839f3760eca112ef51d570bd2420698a8",
+                "reference": "00c3b6b839f3760eca112ef51d570bd2420698a8",
                 "shasum": ""
             },
             "type": "symfony-bundle",
@@ -2157,7 +2157,7 @@
                 "source": "https://github.com/itk-os2display/aarhus-second-template-bundle/tree/feature/subscriber",
                 "issues": "https://github.com/itk-os2display/aarhus-second-template-bundle/issues"
             },
-            "time": "2020-05-07T07:24:44+00:00"
+            "time": "2020-05-22T07:34:24+00:00"
         },
         {
             "name": "itk-os2display/lokalcenter-template-bundle",
@@ -2187,16 +2187,16 @@
         },
         {
             "name": "itk-os2display/os2display-koba-integration",
-            "version": "1.1.2",
+            "version": "1.1.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/itk-os2display/os2display-koba-integration.git",
-                "reference": "5f89aa137ac063d741c7f07d370799f7abd87cfd"
+                "reference": "08a2b898d7bd8b9d3a1fe5a399acd1093a02ed4c"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/itk-os2display/os2display-koba-integration/zipball/5f89aa137ac063d741c7f07d370799f7abd87cfd",
-                "reference": "5f89aa137ac063d741c7f07d370799f7abd87cfd",
+                "url": "https://api.github.com/repos/itk-os2display/os2display-koba-integration/zipball/08a2b898d7bd8b9d3a1fe5a399acd1093a02ed4c",
+                "reference": "08a2b898d7bd8b9d3a1fe5a399acd1093a02ed4c",
                 "shasum": ""
             },
             "type": "symfony-bundle",
@@ -2207,10 +2207,10 @@
             },
             "description": "Os2Display koba integration",
             "support": {
-                "source": "https://github.com/itk-os2display/os2display-koba-integration/tree/1.1.2",
+                "source": "https://github.com/itk-os2display/os2display-koba-integration/tree/1.1.3",
                 "issues": "https://github.com/itk-os2display/os2display-koba-integration/issues"
             },
-            "time": "2019-12-04T09:29:01+00:00"
+            "time": "2020-05-22T07:43:22+00:00"
         },
         {
             "name": "itk-os2display/poster-bundle",
@@ -2218,12 +2218,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/itk-os2display/poster-bundle.git",
-                "reference": "b718c2f5cc01fa532aefb91c83de5b9942b22cd0"
+                "reference": "81c32d437a8a1b19724ce0146e5474c83fd08628"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/itk-os2display/poster-bundle/zipball/b718c2f5cc01fa532aefb91c83de5b9942b22cd0",
-                "reference": "b718c2f5cc01fa532aefb91c83de5b9942b22cd0",
+                "url": "https://api.github.com/repos/itk-os2display/poster-bundle/zipball/81c32d437a8a1b19724ce0146e5474c83fd08628",
+                "reference": "81c32d437a8a1b19724ce0146e5474c83fd08628",
                 "shasum": ""
             },
             "require": {
@@ -2241,7 +2241,7 @@
                 "source": "https://github.com/itk-os2display/poster-bundle/tree/feature/subscriber",
                 "issues": "https://github.com/itk-os2display/poster-bundle/issues"
             },
-            "time": "2020-04-23T09:02:04+00:00"
+            "time": "2020-05-22T07:40:09+00:00"
         },
         {
             "name": "jdorn/sql-formatter",
