@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "7feb5e7af2c6a5894e3d3e5480cae3ce",
+    "content-hash": "426c49e22c1e5b77304019d44f797735",
     "packages": [
         {
             "name": "aakb/os2display-aarhus-templates",
@@ -3254,16 +3254,16 @@
         },
         {
             "name": "os2display/admin-bundle",
-            "version": "2.2.0",
+            "version": "dev-feature-add-screen-admin",
             "source": {
                 "type": "git",
-                "url": "https://github.com/os2display/admin-bundle.git",
-                "reference": "854ead6a0a332571638783d40a400ef5a34ad4e6"
+                "url": "https://github.com/aroskanalen/admin-bundle.git",
+                "reference": "e3d4c8c900d3f0efb674ee936a66c43a500ab99e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/os2display/admin-bundle/zipball/854ead6a0a332571638783d40a400ef5a34ad4e6",
-                "reference": "854ead6a0a332571638783d40a400ef5a34ad4e6",
+                "url": "https://api.github.com/repos/aroskanalen/admin-bundle/zipball/e3d4c8c900d3f0efb674ee936a66c43a500ab99e",
+                "reference": "e3d4c8c900d3f0efb674ee936a66c43a500ab99e",
                 "shasum": ""
             },
             "require": {
@@ -3276,9 +3276,11 @@
                     "Os2Display\\AdminBundle\\": ""
                 }
             },
-            "notification-url": "https://packagist.org/downloads/",
             "description": "Os2Display admin",
-            "time": "2020-03-22T14:33:34+00:00"
+            "support": {
+                "source": "https://github.com/aroskanalen/admin-bundle/tree/feature-add-screen-admin"
+            },
+            "time": "2020-05-22T12:09:15+00:00"
         },
         {
             "name": "os2display/campaign-bundle",
@@ -3318,16 +3320,16 @@
         },
         {
             "name": "os2display/core-bundle",
-            "version": "dev-feature-cleanup-templates",
+            "version": "dev-feature-add-screen-admin",
             "source": {
                 "type": "git",
                 "url": "https://github.com/aroskanalen/core-bundle.git",
-                "reference": "0809abb7d8e751032b76cca38967606ced374339"
+                "reference": "ea5ca737c477d81a91b4234f2dde1a966a9f698a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/aroskanalen/core-bundle/zipball/0809abb7d8e751032b76cca38967606ced374339",
-                "reference": "0809abb7d8e751032b76cca38967606ced374339",
+                "url": "https://api.github.com/repos/aroskanalen/core-bundle/zipball/ea5ca737c477d81a91b4234f2dde1a966a9f698a",
+                "reference": "ea5ca737c477d81a91b4234f2dde1a966a9f698a",
                 "shasum": ""
             },
             "require": {
@@ -3379,9 +3381,9 @@
             },
             "description": "Os2Display core",
             "support": {
-                "source": "https://github.com/aroskanalen/core-bundle/tree/feature-cleanup-templates"
+                "source": "https://github.com/aroskanalen/core-bundle/tree/feature-add-screen-admin"
             },
-            "time": "2020-05-22T08:31:03+00:00"
+            "time": "2020-05-22T12:08:27+00:00"
         },
         {
             "name": "os2display/default-template-bundle",
@@ -5965,6 +5967,7 @@
     "stability-flags": {
         "itk-os2display/aarhus-second-template-bundle": 20,
         "itk-os2display/poster-bundle": 20,
+        "os2display/admin-bundle": 20,
         "os2display/core-bundle": 20
     },
     "prefer-stable": false,
