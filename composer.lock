@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "e637633ef782cfb87c23e539bd0b0820",
+    "content-hash": "7feb5e7af2c6a5894e3d3e5480cae3ce",
     "packages": [
         {
             "name": "aakb/os2display-aarhus-templates",
@@ -3318,16 +3318,16 @@
         },
         {
             "name": "os2display/core-bundle",
-            "version": "2.2.2",
+            "version": "dev-feature-cleanup-templates",
             "source": {
                 "type": "git",
-                "url": "https://github.com/os2display/core-bundle.git",
-                "reference": "d83a5213022e5951ad95143f5d1159f40a7498ab"
+                "url": "https://github.com/aroskanalen/core-bundle.git",
+                "reference": "0809abb7d8e751032b76cca38967606ced374339"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/os2display/core-bundle/zipball/d83a5213022e5951ad95143f5d1159f40a7498ab",
-                "reference": "d83a5213022e5951ad95143f5d1159f40a7498ab",
+                "url": "https://api.github.com/repos/aroskanalen/core-bundle/zipball/0809abb7d8e751032b76cca38967606ced374339",
+                "reference": "0809abb7d8e751032b76cca38967606ced374339",
                 "shasum": ""
             },
             "require": {
@@ -3377,9 +3377,11 @@
                     "Os2Display\\CoreBundle\\": ""
                 }
             },
-            "notification-url": "https://packagist.org/downloads/",
             "description": "Os2Display core",
-            "time": "2020-04-01T14:06:33+00:00"
+            "support": {
+                "source": "https://github.com/aroskanalen/core-bundle/tree/feature-cleanup-templates"
+            },
+            "time": "2020-05-22T08:31:03+00:00"
         },
         {
             "name": "os2display/default-template-bundle",
@@ -5962,7 +5964,8 @@
     "minimum-stability": "stable",
     "stability-flags": {
         "itk-os2display/aarhus-second-template-bundle": 20,
-        "itk-os2display/poster-bundle": 20
+        "itk-os2display/poster-bundle": 20,
+        "os2display/core-bundle": 20
     },
     "prefer-stable": false,
     "prefer-lowest": false,
