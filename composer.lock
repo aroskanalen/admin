@@ -3258,12 +3258,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/aroskanalen/admin-bundle.git",
-                "reference": "e3d4c8c900d3f0efb674ee936a66c43a500ab99e"
+                "reference": "50a891bac5c173805fb646d657844691d052c2fe"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/aroskanalen/admin-bundle/zipball/e3d4c8c900d3f0efb674ee936a66c43a500ab99e",
-                "reference": "e3d4c8c900d3f0efb674ee936a66c43a500ab99e",
+                "url": "https://api.github.com/repos/aroskanalen/admin-bundle/zipball/50a891bac5c173805fb646d657844691d052c2fe",
+                "reference": "50a891bac5c173805fb646d657844691d052c2fe",
                 "shasum": ""
             },
             "require": {
@@ -3280,7 +3280,7 @@
             "support": {
                 "source": "https://github.com/aroskanalen/admin-bundle/tree/feature-add-screen-admin"
             },
-            "time": "2020-05-22T12:09:15+00:00"
+            "time": "2020-05-22T12:22:20+00:00"
         },
         {
             "name": "os2display/campaign-bundle",
