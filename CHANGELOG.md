@@ -1,5 +1,25 @@
 # Aroskanalen CHANGELOG
 
+## 6.2.3
+
+* Upgraded bundles:
+  - aakb/os2display-aarhus-templates -> 1.1.1
+  - itk-os2display/os2display-koba-integration -> 1.1.3
+  - symfony/symfony -> v3.4.41
+
+## 6.2.2
+
+* Upgraded bundles:
+  - os2display/core-bundle -> 2.2.2
+
+## 6.2.1
+
+* Upgraded bundles:
+  - os2display/core-bundle -> 2.2.1
+  - os2diplsay/screen-bundle -> 1.1.5
+  - symfony/symfony -> 3.4.39
+  - twig/twig -> v2.12.5
+
 ## 6.2.0
 
 * Upgraded bundles:
