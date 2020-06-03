@@ -1,5 +1,12 @@
 # Aroskanalen CHANGELOG
 
+## 6.2.3
+
+* Upgraded bundles:
+  - aakb/os2display-aarhus-templates -> 1.1.1
+  - itk-os2display/os2display-koba-integration -> 1.1.3
+  - symfony/symfony -> v3.4.41
+
 ## 6.2.2
 
 * Upgraded bundles:
