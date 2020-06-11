@@ -31,10 +31,8 @@ GIT_ORGANIZATION=os2display
 BUNDLES="admin-bundle
 campaign-bundle
 core-bundle
-default-template-bundle
 media-bundle
 screen-bundle
-template-extension-bundle
 vimeo-bundle"
 
 for BUNDLE in $BUNDLES
@@ -76,6 +74,13 @@ do
 )
 done
 
+## Override
+
+cd aarhus-second-template-bundle
+echo checking out feature-darkmode
+git checkout feature-darkmode
+cd ..
+
 cd ..
 
 
@@ -89,4 +94,23 @@ GIT_ORGANIZATION=aakb
 clone_latest os2display-aarhus-templates
 
 cd ..
+
+##### aroskanalen overrides ######
+
+cd os2display
+
+git clone --branch=master git@github.com:aroskanalen/default-template-bundle.git
+
+cd default-template-bundle
+echo checking out feature-darkmode
+git checkout feature-darkmode
+cd ..
+
+git clone --branch=master git@github.com:aroskanalen/template-extension-bundle.git
+
+cd template-extension-bundle
+echo checking out feature-darkmode
+git checkout feature-darkmode
+cd ..
+
 cd ..
