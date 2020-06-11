@@ -8,16 +8,16 @@
     "packages": [
         {
             "name": "aakb/os2display-aarhus-templates",
-            "version": "1.1.0",
+            "version": "1.1.1",
             "source": {
                 "type": "git",
                 "url": "git@github.com:aakb/os2display-aarhus-templates.git",
-                "reference": "8cde23124b4b93b12657fc178e150ba664a53ae3"
+                "reference": "adcd5d745e8f9509a86850c803b9a3f977d9bedd"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/aakb/os2display-aarhus-templates/zipball/8cde23124b4b93b12657fc178e150ba664a53ae3",
-                "reference": "8cde23124b4b93b12657fc178e150ba664a53ae3",
+                "url": "https://api.github.com/repos/aakb/os2display-aarhus-templates/zipball/adcd5d745e8f9509a86850c803b9a3f977d9bedd",
+                "reference": "adcd5d745e8f9509a86850c803b9a3f977d9bedd",
                 "shasum": ""
             },
             "type": "symfony-bundle",
@@ -28,9 +28,9 @@
             },
             "description": "Os2Display aarhus templates",
             "support": {
-                "source": "https://github.com/aakb/os2display-aarhus-templates/tree/1.1.0"
+                "source": "https://github.com/aakb/os2display-aarhus-templates/tree/1.1.1"
             },
-            "time": "2019-10-07T09:29:48+00:00"
+            "time": "2020-06-03T07:35:11+00:00"
         },
         {
             "name": "behat/transliterator",
@@ -2218,12 +2218,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/itk-os2display/poster-bundle.git",
-                "reference": "95da84f3cfee07cf1ac036e8e50cf040af6e2d01"
+                "reference": "bafa18287fa0d2bce255e54a8000e9e37b5be7b3"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/itk-os2display/poster-bundle/zipball/95da84f3cfee07cf1ac036e8e50cf040af6e2d01",
-                "reference": "95da84f3cfee07cf1ac036e8e50cf040af6e2d01",
+                "url": "https://api.github.com/repos/itk-os2display/poster-bundle/zipball/bafa18287fa0d2bce255e54a8000e9e37b5be7b3",
+                "reference": "bafa18287fa0d2bce255e54a8000e9e37b5be7b3",
                 "shasum": ""
             },
             "require": {
@@ -2241,7 +2241,7 @@
                 "source": "https://github.com/itk-os2display/poster-bundle/tree/feature/subscriber",
                 "issues": "https://github.com/itk-os2display/poster-bundle/issues"
             },
-            "time": "2020-05-25T10:23:34+00:00"
+            "time": "2020-06-11T05:06:46+00:00"
         },
         {
             "name": "jdorn/sql-formatter",
@@ -3324,12 +3324,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/aroskanalen/core-bundle.git",
-                "reference": "ea5ca737c477d81a91b4234f2dde1a966a9f698a"
+                "reference": "9547715487ea114165b805b6943416950aac9e3f"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/aroskanalen/core-bundle/zipball/ea5ca737c477d81a91b4234f2dde1a966a9f698a",
-                "reference": "ea5ca737c477d81a91b4234f2dde1a966a9f698a",
+                "url": "https://api.github.com/repos/aroskanalen/core-bundle/zipball/9547715487ea114165b805b6943416950aac9e3f",
+                "reference": "9547715487ea114165b805b6943416950aac9e3f",
                 "shasum": ""
             },
             "require": {
@@ -3383,7 +3383,7 @@
             "support": {
                 "source": "https://github.com/aroskanalen/core-bundle/tree/feature-add-screen-admin"
             },
-            "time": "2020-05-22T12:08:27+00:00"
+            "time": "2020-06-10T11:04:50+00:00"
         },
         {
             "name": "os2display/default-template-bundle",
@@ -5405,16 +5405,16 @@
         },
         {
             "name": "symfony/symfony",
-            "version": "v3.4.40",
+            "version": "v3.4.41",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/symfony.git",
-                "reference": "ad6f8608e92b548e5695f9213a81d14c2ef274b5"
+                "reference": "a72c510fb3bc67d3ba67981178d78be80360ede2"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/symfony/zipball/ad6f8608e92b548e5695f9213a81d14c2ef274b5",
-                "reference": "ad6f8608e92b548e5695f9213a81d14c2ef274b5",
+                "url": "https://api.github.com/repos/symfony/symfony/zipball/a72c510fb3bc67d3ba67981178d78be80360ede2",
+                "reference": "a72c510fb3bc67d3ba67981178d78be80360ede2",
                 "shasum": ""
             },
             "require": {
@@ -5571,7 +5571,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2020-04-28T17:41:57+00:00"
+            "time": "2020-05-31T05:14:34+00:00"
         },
         {
             "name": "twig/extensions",
