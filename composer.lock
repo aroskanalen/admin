@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "2fc5489fc3b411383d179686f0bc7dfc",
+    "content-hash": "78e95e1fb36a60327e2f4e41d3ed606f",
     "packages": [
         {
             "name": "aakb/os2display-aarhus-templates",
@@ -2134,16 +2134,16 @@
         },
         {
             "name": "itk-os2display/aarhus-second-template-bundle",
-            "version": "1.2.0",
+            "version": "dev-feature-darkmode",
             "source": {
                 "type": "git",
                 "url": "https://github.com/itk-os2display/aarhus-second-template-bundle.git",
-                "reference": "ca80c493f287a781410485468dbd1ca829bb93e3"
+                "reference": "e1ec3926a0ce7095c8c6746987d7b09840e4fad9"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/itk-os2display/aarhus-second-template-bundle/zipball/ca80c493f287a781410485468dbd1ca829bb93e3",
-                "reference": "ca80c493f287a781410485468dbd1ca829bb93e3",
+                "url": "https://api.github.com/repos/itk-os2display/aarhus-second-template-bundle/zipball/e1ec3926a0ce7095c8c6746987d7b09840e4fad9",
+                "reference": "e1ec3926a0ce7095c8c6746987d7b09840e4fad9",
                 "shasum": ""
             },
             "type": "symfony-bundle",
@@ -2154,10 +2154,10 @@
             },
             "description": "Os2Display Aarhus templates",
             "support": {
-                "source": "https://github.com/itk-os2display/aarhus-second-template-bundle/tree/1.2.0",
+                "source": "https://github.com/itk-os2display/aarhus-second-template-bundle/tree/feature-darkmode",
                 "issues": "https://github.com/itk-os2display/aarhus-second-template-bundle/issues"
             },
-            "time": "2019-10-07T08:53:20+00:00"
+            "time": "2020-06-17T07:53:04+00:00"
         },
         {
             "name": "itk-os2display/lokalcenter-template-bundle",
@@ -3383,16 +3383,16 @@
         },
         {
             "name": "os2display/default-template-bundle",
-            "version": "2.1.0",
+            "version": "dev-feature-darkmode",
             "source": {
                 "type": "git",
-                "url": "https://github.com/os2display/default-template-bundle.git",
-                "reference": "0ad1c75720e8ec12f2e11f064143089352e49163"
+                "url": "https://github.com/aroskanalen/default-template-bundle.git",
+                "reference": "dbe3a2aded1f789602d30e577ebead6721756cce"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/os2display/default-template-bundle/zipball/0ad1c75720e8ec12f2e11f064143089352e49163",
-                "reference": "0ad1c75720e8ec12f2e11f064143089352e49163",
+                "url": "https://api.github.com/repos/aroskanalen/default-template-bundle/zipball/dbe3a2aded1f789602d30e577ebead6721756cce",
+                "reference": "dbe3a2aded1f789602d30e577ebead6721756cce",
                 "shasum": ""
             },
             "type": "symfony-bundle",
@@ -3401,9 +3401,11 @@
                     "Os2Display\\DefaultTemplateBundle\\": ""
                 }
             },
-            "notification-url": "https://packagist.org/downloads/",
             "description": "Os2Display default template",
-            "time": "2020-03-22T14:37:13+00:00"
+            "support": {
+                "source": "https://github.com/aroskanalen/default-template-bundle/tree/feature-darkmode"
+            },
+            "time": "2020-06-11T11:01:19+00:00"
         },
         {
             "name": "os2display/media-bundle",
@@ -3493,16 +3495,16 @@
         },
         {
             "name": "os2display/template-extension-bundle",
-            "version": "2.0.1",
+            "version": "dev-feature-darkmode",
             "source": {
                 "type": "git",
-                "url": "https://github.com/os2display/template-extension-bundle.git",
-                "reference": "22d40fe22a587ec56eb072071fd4914eee080e63"
+                "url": "https://github.com/aroskanalen/template-extension-bundle.git",
+                "reference": "16b67efdd8e868727dea81b05852b60fce31ab63"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/os2display/template-extension-bundle/zipball/22d40fe22a587ec56eb072071fd4914eee080e63",
-                "reference": "22d40fe22a587ec56eb072071fd4914eee080e63",
+                "url": "https://api.github.com/repos/aroskanalen/template-extension-bundle/zipball/16b67efdd8e868727dea81b05852b60fce31ab63",
+                "reference": "16b67efdd8e868727dea81b05852b60fce31ab63",
                 "shasum": ""
             },
             "type": "symfony-bundle",
@@ -3511,9 +3513,11 @@
                     "Os2Display\\TemplateExtensionBundle\\": ""
                 }
             },
-            "notification-url": "https://packagist.org/downloads/",
             "description": "Os2Display Template Extension Bundle contains tools for templates.",
-            "time": "2019-05-15T12:38:02+00:00"
+            "support": {
+                "source": "https://github.com/aroskanalen/template-extension-bundle/tree/feature-darkmode"
+            },
+            "time": "2020-06-11T11:11:49+00:00"
         },
         {
             "name": "os2display/vimeo-bundle",
@@ -5960,7 +5964,11 @@
     ],
     "aliases": [],
     "minimum-stability": "stable",
-    "stability-flags": [],
+    "stability-flags": {
+        "itk-os2display/aarhus-second-template-bundle": 20,
+        "os2display/default-template-bundle": 20,
+        "os2display/template-extension-bundle": 20
+    },
     "prefer-stable": false,
     "prefer-lowest": false,
     "platform": {
