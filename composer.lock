@@ -2138,12 +2138,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/itk-os2display/aarhus-second-template-bundle.git",
-                "reference": "2cae82414d98e0f88a2590b8b810df3f45fcc374"
+                "reference": "49963a51d3ee0c1eb6722a1ed0003672dff42a3d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/itk-os2display/aarhus-second-template-bundle/zipball/2cae82414d98e0f88a2590b8b810df3f45fcc374",
-                "reference": "2cae82414d98e0f88a2590b8b810df3f45fcc374",
+                "url": "https://api.github.com/repos/itk-os2display/aarhus-second-template-bundle/zipball/49963a51d3ee0c1eb6722a1ed0003672dff42a3d",
+                "reference": "49963a51d3ee0c1eb6722a1ed0003672dff42a3d",
                 "shasum": ""
             },
             "type": "symfony-bundle",
@@ -2157,7 +2157,7 @@
                 "source": "https://github.com/itk-os2display/aarhus-second-template-bundle/tree/feature/subscriber",
                 "issues": "https://github.com/itk-os2display/aarhus-second-template-bundle/issues"
             },
-            "time": "2020-06-22T07:51:20+00:00"
+            "time": "2020-06-22T11:16:57+00:00"
         },
         {
             "name": "itk-os2display/lokalcenter-template-bundle",
@@ -2218,12 +2218,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/itk-os2display/poster-bundle.git",
-                "reference": "596d3456465e4aa5c8009b117a33990b626f2f3c"
+                "reference": "c2f9178e40c625265afb274c577e75c7ff5cd3ef"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/itk-os2display/poster-bundle/zipball/596d3456465e4aa5c8009b117a33990b626f2f3c",
-                "reference": "596d3456465e4aa5c8009b117a33990b626f2f3c",
+                "url": "https://api.github.com/repos/itk-os2display/poster-bundle/zipball/c2f9178e40c625265afb274c577e75c7ff5cd3ef",
+                "reference": "c2f9178e40c625265afb274c577e75c7ff5cd3ef",
                 "shasum": ""
             },
             "require": {
@@ -2241,7 +2241,7 @@
                 "source": "https://github.com/itk-os2display/poster-bundle/tree/feature/subscriber",
                 "issues": "https://github.com/itk-os2display/poster-bundle/issues"
             },
-            "time": "2020-06-11T05:13:44+00:00"
+            "time": "2020-06-22T08:41:50+00:00"
         },
         {
             "name": "jdorn/sql-formatter",
