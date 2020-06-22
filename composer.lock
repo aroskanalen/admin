@@ -2138,12 +2138,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/itk-os2display/aarhus-second-template-bundle.git",
-                "reference": "6641cd560f326445ed177e580a252f120343fe57"
+                "reference": "2cae82414d98e0f88a2590b8b810df3f45fcc374"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/itk-os2display/aarhus-second-template-bundle/zipball/6641cd560f326445ed177e580a252f120343fe57",
-                "reference": "6641cd560f326445ed177e580a252f120343fe57",
+                "url": "https://api.github.com/repos/itk-os2display/aarhus-second-template-bundle/zipball/2cae82414d98e0f88a2590b8b810df3f45fcc374",
+                "reference": "2cae82414d98e0f88a2590b8b810df3f45fcc374",
                 "shasum": ""
             },
             "type": "symfony-bundle",
@@ -2157,7 +2157,7 @@
                 "source": "https://github.com/itk-os2display/aarhus-second-template-bundle/tree/feature/subscriber",
                 "issues": "https://github.com/itk-os2display/aarhus-second-template-bundle/issues"
             },
-            "time": "2020-05-25T07:29:20+00:00"
+            "time": "2020-06-22T07:51:20+00:00"
         },
         {
             "name": "itk-os2display/lokalcenter-template-bundle",
@@ -3387,16 +3387,16 @@
         },
         {
             "name": "os2display/default-template-bundle",
-            "version": "2.1.0",
+            "version": "2.2.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/os2display/default-template-bundle.git",
-                "reference": "0ad1c75720e8ec12f2e11f064143089352e49163"
+                "reference": "563e2164ab7976da7821d84b044868a27ab085b6"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/os2display/default-template-bundle/zipball/0ad1c75720e8ec12f2e11f064143089352e49163",
-                "reference": "0ad1c75720e8ec12f2e11f064143089352e49163",
+                "url": "https://api.github.com/repos/os2display/default-template-bundle/zipball/563e2164ab7976da7821d84b044868a27ab085b6",
+                "reference": "563e2164ab7976da7821d84b044868a27ab085b6",
                 "shasum": ""
             },
             "type": "symfony-bundle",
@@ -3407,7 +3407,7 @@
             },
             "notification-url": "https://packagist.org/downloads/",
             "description": "Os2Display default template",
-            "time": "2020-03-22T14:37:13+00:00"
+            "time": "2020-06-19T13:37:21+00:00"
         },
         {
             "name": "os2display/media-bundle",
@@ -3497,16 +3497,16 @@
         },
         {
             "name": "os2display/template-extension-bundle",
-            "version": "2.0.1",
+            "version": "2.1.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/os2display/template-extension-bundle.git",
-                "reference": "22d40fe22a587ec56eb072071fd4914eee080e63"
+                "reference": "010162fa346616d5c694e379bb3cb512b5f99d41"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/os2display/template-extension-bundle/zipball/22d40fe22a587ec56eb072071fd4914eee080e63",
-                "reference": "22d40fe22a587ec56eb072071fd4914eee080e63",
+                "url": "https://api.github.com/repos/os2display/template-extension-bundle/zipball/010162fa346616d5c694e379bb3cb512b5f99d41",
+                "reference": "010162fa346616d5c694e379bb3cb512b5f99d41",
                 "shasum": ""
             },
             "type": "symfony-bundle",
@@ -3517,7 +3517,7 @@
             },
             "notification-url": "https://packagist.org/downloads/",
             "description": "Os2Display Template Extension Bundle contains tools for templates.",
-            "time": "2019-05-15T12:38:02+00:00"
+            "time": "2020-06-19T13:34:50+00:00"
         },
         {
             "name": "os2display/vimeo-bundle",
@@ -5405,16 +5405,16 @@
         },
         {
             "name": "symfony/symfony",
-            "version": "v3.4.41",
+            "version": "v3.4.42",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/symfony.git",
-                "reference": "a72c510fb3bc67d3ba67981178d78be80360ede2"
+                "reference": "79b0cc53dfc1bc69509d91c4a967b659a9540910"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/symfony/zipball/a72c510fb3bc67d3ba67981178d78be80360ede2",
-                "reference": "a72c510fb3bc67d3ba67981178d78be80360ede2",
+                "url": "https://api.github.com/repos/symfony/symfony/zipball/79b0cc53dfc1bc69509d91c4a967b659a9540910",
+                "reference": "79b0cc53dfc1bc69509d91c4a967b659a9540910",
                 "shasum": ""
             },
             "require": {
@@ -5571,7 +5571,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2020-05-31T05:14:34+00:00"
+            "time": "2020-06-12T10:57:23+00:00"
         },
         {
             "name": "twig/extensions",
