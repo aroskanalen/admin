@@ -24,6 +24,10 @@
             "type": "vcs",
             "url": "https://github.com/aroskanalen/core-bundle"
         },
+        "os2display/screen-bundle": {
+            "type": "vcs",
+            "url": "https://github.com/aroskanalen/screen-bundle"
+        },
         "os2display/admin-bundle": {
             "type": "vcs",
             "url": "https://github.com/aroskanalen/admin-bundle"
@@ -73,7 +77,7 @@
         "os2display/core-bundle": "dev-feature-add-screen-admin",
         "os2display/default-template-bundle": "~2.0",
         "os2display/media-bundle": "~2.0",
-        "os2display/screen-bundle": "^1.1",
+        "os2display/screen-bundle": "dev-feature-preview-message",
         "os2display/sparkle-feed-bundle": "^1.0",
         "os2display/template-extension-bundle": "^2.0",
         "os2display/vimeo-bundle": "~2.0",
