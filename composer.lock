@@ -3443,12 +3443,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/aroskanalen/screen-bundle.git",
-                "reference": "bba0dbcc574fdca98aca7186da3446c46c62d153"
+                "reference": "4227b4c900a91e0f10409f58a92049c392d13f28"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/aroskanalen/screen-bundle/zipball/bba0dbcc574fdca98aca7186da3446c46c62d153",
-                "reference": "bba0dbcc574fdca98aca7186da3446c46c62d153",
+                "url": "https://api.github.com/repos/aroskanalen/screen-bundle/zipball/4227b4c900a91e0f10409f58a92049c392d13f28",
+                "reference": "4227b4c900a91e0f10409f58a92049c392d13f28",
                 "shasum": ""
             },
             "type": "symfony-bundle",
@@ -3464,7 +3464,7 @@
             "support": {
                 "source": "https://github.com/aroskanalen/screen-bundle/tree/feature-preview-message"
             },
-            "time": "2020-06-26T08:11:32+00:00"
+            "time": "2020-06-26T10:40:47+00:00"
         },
         {
             "name": "os2display/sparkle-feed-bundle",
