@@ -2214,16 +2214,16 @@
         },
         {
             "name": "itk-os2display/poster-bundle",
-            "version": "1.2.0",
+            "version": "1.2.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/itk-os2display/poster-bundle.git",
-                "reference": "9729536948cd8510253ffc810a1de3085b57cd59"
+                "reference": "13a000af32b7f65bd6343916dfc1ae6d328b02ab"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/itk-os2display/poster-bundle/zipball/9729536948cd8510253ffc810a1de3085b57cd59",
-                "reference": "9729536948cd8510253ffc810a1de3085b57cd59",
+                "url": "https://api.github.com/repos/itk-os2display/poster-bundle/zipball/13a000af32b7f65bd6343916dfc1ae6d328b02ab",
+                "reference": "13a000af32b7f65bd6343916dfc1ae6d328b02ab",
                 "shasum": ""
             },
             "require": {
@@ -2238,10 +2238,10 @@
             },
             "description": "Os2Display posters",
             "support": {
-                "source": "https://github.com/itk-os2display/poster-bundle/tree/1.2.0",
+                "source": "https://github.com/itk-os2display/poster-bundle/tree/1.2.1",
                 "issues": "https://github.com/itk-os2display/poster-bundle/issues"
             },
-            "time": "2020-06-29T08:28:10+00:00"
+            "time": "2020-06-29T09:02:28+00:00"
         },
         {
             "name": "jdorn/sql-formatter",
