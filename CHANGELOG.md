@@ -1,5 +1,15 @@
 # Aroskanalen CHANGELOG
 
+## 6.3.0
+
+* Upgraded bundles:
+  - aakb/os2display-aarhus-template -> 1.2.0
+  - itk-os2display/aarhus-second-template-bundle -> 1.4.1
+  - itk-os2display/poster-bundle -> 1.2.1
+  - os2display/admin-bundle -> 2.2.1
+  - os2display/core-bundle -> 2.2.3
+  - os2display/screen-bundle -> 1.1.6
+
 ## 6.2.4
 
 * Upgraded bundles:
