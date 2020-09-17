@@ -56,7 +56,7 @@
         "doctrine/orm": "^2.5",
         "incenteev/composer-parameter-handler": "^2.0",
         "itk-os2display/aarhus-data-bundle": "^1.2",
-        "itk-os2display/aarhus-second-template-bundle": "~1.2",
+        "itk-os2display/aarhus-second-template-bundle": "dev-feature/SALG-866-sensors-vertical-template",
         "itk-os2display/lokalcenter-template-bundle": "~1.1",
         "itk-os2display/os2display-koba-integration": "~1.1",
         "itk-os2display/poster-bundle": "~1.1",
