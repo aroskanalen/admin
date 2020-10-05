@@ -59,6 +59,12 @@ os2_display_screen:
             debug: true
             log_to_console: true
             log_level: all
+            resource:
+                server: '%absolute_path_to_server%/'
+#                port: '8002'
+                uri: 'middleware'
+            ws:
+                server: '%middleware_host%'
 
 # Disable cache in dev.
 os2_display_core:
