@@ -12,12 +12,12 @@
             "source": {
                 "type": "git",
                 "url": "git@github.com:aakb/os2display-aarhus-templates.git",
-                "reference": "2f372a7bd51c67fc1888b71a2069ebbce5b92b7e"
+                "reference": "3f52f952d562ed9c4d5aab66f8083bc1657a5c10"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/aakb/os2display-aarhus-templates/zipball/2f372a7bd51c67fc1888b71a2069ebbce5b92b7e",
-                "reference": "2f372a7bd51c67fc1888b71a2069ebbce5b92b7e",
+                "url": "https://api.github.com/repos/aakb/os2display-aarhus-templates/zipball/3f52f952d562ed9c4d5aab66f8083bc1657a5c10",
+                "reference": "3f52f952d562ed9c4d5aab66f8083bc1657a5c10",
                 "shasum": ""
             },
             "type": "symfony-bundle",
@@ -30,7 +30,7 @@
             "support": {
                 "source": "https://github.com/aakb/os2display-aarhus-templates/tree/feature/dokkway-310-portrait-mode"
             },
-            "time": "2020-10-09T08:22:56+00:00"
+            "time": "2020-10-09T09:30:31+00:00"
         },
         {
             "name": "behat/transliterator",
