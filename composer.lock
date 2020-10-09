@@ -4,20 +4,20 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "9418b5c2736a99ff36ffed5bd32bb585",
+    "content-hash": "38f1072e28e991e87ff2fdb705b06a6f",
     "packages": [
         {
             "name": "aakb/os2display-aarhus-templates",
-            "version": "1.2.0",
+            "version": "dev-feature/dokkway-310-portrait-mode",
             "source": {
                 "type": "git",
                 "url": "git@github.com:aakb/os2display-aarhus-templates.git",
-                "reference": "e3c11af0f188ff624fb526550264c836577d9965"
+                "reference": "2f372a7bd51c67fc1888b71a2069ebbce5b92b7e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/aakb/os2display-aarhus-templates/zipball/e3c11af0f188ff624fb526550264c836577d9965",
-                "reference": "e3c11af0f188ff624fb526550264c836577d9965",
+                "url": "https://api.github.com/repos/aakb/os2display-aarhus-templates/zipball/2f372a7bd51c67fc1888b71a2069ebbce5b92b7e",
+                "reference": "2f372a7bd51c67fc1888b71a2069ebbce5b92b7e",
                 "shasum": ""
             },
             "type": "symfony-bundle",
@@ -28,9 +28,9 @@
             },
             "description": "Os2Display aarhus templates",
             "support": {
-                "source": "https://github.com/aakb/os2display-aarhus-templates/tree/1.2.0"
+                "source": "https://github.com/aakb/os2display-aarhus-templates/tree/feature/dokkway-310-portrait-mode"
             },
-            "time": "2020-06-29T07:59:04+00:00"
+            "time": "2020-10-09T08:22:56+00:00"
         },
         {
             "name": "behat/transliterator",
@@ -5624,6 +5624,7 @@
                 "i18n",
                 "text"
             ],
+            "abandoned": true,
             "time": "2018-12-05T18:34:18+00:00"
         },
         {
@@ -5972,7 +5973,9 @@
     ],
     "aliases": [],
     "minimum-stability": "stable",
-    "stability-flags": [],
+    "stability-flags": {
+        "aakb/os2display-aarhus-templates": 20
+    },
     "prefer-stable": false,
     "prefer-lowest": false,
     "platform": {
