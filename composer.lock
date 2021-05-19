@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "2fc5489fc3b411383d179686f0bc7dfc",
+    "content-hash": "df24430f8f06257e8ded70cee6c27fd1",
     "packages": [
         {
             "name": "aakb/os2display-aarhus-templates",
@@ -868,6 +868,7 @@
                 "cache",
                 "caching"
             ],
+            "abandoned": true,
             "time": "2018-11-09T06:25:35+00:00"
         },
         {
@@ -1493,6 +1494,7 @@
             "keywords": [
                 "reflection"
             ],
+            "abandoned": "roave/better-reflection",
             "time": "2018-06-14T14:45:07+00:00"
         },
         {
@@ -3435,16 +3437,16 @@
         },
         {
             "name": "os2display/screen-bundle",
-            "version": "1.1.5",
+            "version": "dev-hotfix-scheduling-channel-issue",
             "source": {
                 "type": "git",
                 "url": "https://github.com/os2display/screen-bundle.git",
-                "reference": "6cbed2b85cd07ca5be2c2696a1eab94998f137a4"
+                "reference": "435252c89ce1f5885108f6a4bf9516f13f0c4385"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/os2display/screen-bundle/zipball/6cbed2b85cd07ca5be2c2696a1eab94998f137a4",
-                "reference": "6cbed2b85cd07ca5be2c2696a1eab94998f137a4",
+                "url": "https://api.github.com/repos/os2display/screen-bundle/zipball/435252c89ce1f5885108f6a4bf9516f13f0c4385",
+                "reference": "435252c89ce1f5885108f6a4bf9516f13f0c4385",
                 "shasum": ""
             },
             "type": "symfony-bundle",
@@ -3458,7 +3460,7 @@
                 "MPL-2.0"
             ],
             "description": "Os2Display screen",
-            "time": "2020-04-01T11:21:02+00:00"
+            "time": "2021-05-19T11:39:31+00:00"
         },
         {
             "name": "os2display/sparkle-feed-bundle",
@@ -4065,6 +4067,7 @@
                 "configuration",
                 "distribution"
             ],
+            "abandoned": true,
             "time": "2018-12-14T17:36:15+00:00"
         },
         {
@@ -4239,6 +4242,7 @@
                 }
             ],
             "description": "A security checker for your composer.lock",
+            "abandoned": "https://github.com/fabpot/local-php-security-checker",
             "time": "2018-12-19T17:14:59+00:00"
         },
         {
@@ -4323,6 +4327,7 @@
             "keywords": [
                 "sonata"
             ],
+            "abandoned": true,
             "time": "2019-04-24T18:55:18+00:00"
         },
         {
@@ -5622,6 +5627,7 @@
                 "i18n",
                 "text"
             ],
+            "abandoned": true,
             "time": "2018-12-05T18:34:18+00:00"
         },
         {
@@ -5960,7 +5966,9 @@
     ],
     "aliases": [],
     "minimum-stability": "stable",
-    "stability-flags": [],
+    "stability-flags": {
+        "os2display/screen-bundle": 20
+    },
     "prefer-stable": false,
     "prefer-lowest": false,
     "platform": {
