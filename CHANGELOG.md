@@ -1,5 +1,12 @@
 # Aroskanalen CHANGELOG
 
+## 6.4.1
+
+* Upgraded bundles:
+  - twig/twig -> v2.14.6
+  - symfony/symfony -> v3.4.49
+  - os2display/screen-bundle -> 1.1.7
+
 ## 6.4.0
 
 * Upgraded bundles:
